@@ -1,0 +1,70 @@
+
+<!--#include virtual = '/inc/header.asp'-->
+<script language="javascript">
+ function noticecloseWin() { 
+	document.all['notice'].style.display = "none";
+  }
+</script>
+</head>
+<!--#include virtual="/db/db.asp" -->
+<%
+	set rslist = server.CreateObject("ADODB.Recordset")
+	SQL = " select content,flag,hflag,wsize,hsize"
+	SQL = sql & " from tb_gongi where loginflag = '1' "
+	rslist.Open sql, db, 1
+	if not rslist.eof then
+		imsicontent = rslist(0)
+		imsiflag = rslist(1)
+		imsihflag = rslist(2)
+		imsiwsize = rslist(3)
+		imsihsize = rslist(4)
+
+		if imsiflag="y" then
+%>
+			<script language="JavaScript" type="text/JavaScript">
+			<!--
+				function imsiwinpopopen() {
+				window.open('/adminpage/incfile/popopen.asp' , '_blank','left=100, top=100, width=<%=imsiwsize%>, height=<%=imsihsize%>, scrollbars=no, toolbar=no');
+				}
+			//-->
+			</script>
+			<body class="mainLayout" topmargin="0" leftmargin="0" onLoad="return imsiwinpopopen();">
+<%
+		else
+%>
+			<body class="mainLayout" topmargin="0" leftmargin="0" onLoad="focus();">
+<%
+		end if
+	else
+%>
+		<body class="mainLayout" topmargin="0" leftmargin="0" onLoad="focus();">
+<%
+	end if
+	rslist.close
+	db.close
+%>
+
+<table width="980" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td align="left"><!--#include virtual = '/inc/main_top.asp'--></td>
+  </tr>
+  <tr> 
+    <td><!--#include virtual = '/inc/main_center.asp'--></td>
+  </tr>
+  <tr> 
+    <td><!--#include virtual = '/inc/foot.asp'--></td>
+  </tr></tr>
+</table>
+
+<div id="notice" style="position:absolute; left:100px; top:100px; z-index:0; width:620;height:180;background-color:white; border:2px solid hotpink; ">
+<table>
+	
+	<tr>
+		<td align=right>
+			<a href="javascript:noticecloseWin();"><span>[´Ý±â]</span>
+		</td>
+	</tr>
+</div>
+
+</body>
+</html>

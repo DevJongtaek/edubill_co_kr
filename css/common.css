@@ -1,0 +1,74 @@
+﻿/* 본문 전체  */
+@charset "utf-8";
+
+
+
+/*body{background: url("../images/common/sub_bg.gif") repeat-x left top;  text-align:center; margin:0;padding:0;}*/
+td {color:#000000; font-size:12px; font-family:돋움,arial,sans-serif;line-height:18px;}
+img,table {border:0px;}
+
+/* 기본 링크 */
+	a:link {text-decoration: none;color : #7E7E7E;}
+	a:visited {text-decoration: none;	color : #7E7E7E;	}
+	a:hover {text-decoration: none;	color : #2A2A2A;	}
+
+.ib {cursor: pointer;	}
+
+/* 레이아웃 */
+/*.mainLayout  { width:100%;  float:left; background: url("../images/common/main_bg.jpg") repeat-x; position:absolute; left:0px; top:0px; z-index:-1}*/
+
+
+/* 일반 링크포커스 감추기 */
+a {selector-dummy: expression(this.hideFocus=true);}
+
+/* 이미지맵 링크포커스 감추기 */
+a,img {selector-dummy: expression(this.hideFocus=true);}
+
+
+/* Page Title */
+
+
+/*.fla1		{width:980px; height:451px; overflow:hidden ; position:relative; float:left;}
+.fla2      {width:980px; height:85px; overflow:relative; position:absolute ; top:0px; left:0px; z-index:3;}
+.fla3   	{width:980px; height:358px; overflow:hidden ; position:relative; float:left;}*/
+	
+/* 기본 스타일 끝 */
+
+/*small  font*/
+.s_01{font-family: Dotum, 돋움; font-size: 11px; color:818181 ;}
+.s_02 ,  a.s_02 :link {font-family: Dotum, 돋움; font-size: 11px; letter-spacing: -1px; color:#787878; line-height:13px; text-decoration:none}
+a.s_02 :hover {font-family: Dotum, 돋움; color:#2A2A2A;}
+.s_03{font-family: Dotum, 돋움; font-size: 11px; color:24A224 ;}
+
+/* font*/
+.left_01{font-family:Dotum, 돋움,verdan,sans-serif; font-size: 13px; color:#333333; line-height:13px; font-weight: bold;}
+a.left_01:link {font-family:Dotum, 돋움,verdan,sans-serif; font-size: 13px; color:#333333; line-height:13px; font-weight: bold;}
+a.left_01:visited {font-family:Dotum, 돋움,돋움,verdan,sans-serif; font-size: 13px; color:#333333; line-height:13px; font-weight: bold;}
+a.left_01:hover {font-family:Dotum,돋움,verdan,sans-serif; color:#1AA41A;}
+
+.12GB2{ font-family:돋움,돋움체,arial ; color:298529 ; font-size :12px ; word-spacing : -1px ; line-heigh :18pt ;font-weight: bold;}
+a.12GB2:link { font-family:돋움,돋움체,arial; color:298529; font-size:12px;  }
+a.12GB2:visited {font-family:돋움,돋움체,arial; color:298529; font-size:12px;  }
+a.12GB2:hover { font-family:돋움,돋움체,arial; color:27AA28; font-size:12px;  }
+
+.tit_big{font-family:Dotum, 돋움,verdan,sans-serif;  color:2B2B2B ; word-spacing : -1px ; font-size: 20px;font-weight: bold;}
+.12Bold{font-family:Dotum, 돋움,verdan,sans-serif;  color:2B2B2B ; word-spacing : -1px ; font-size: 12px;font-weight: bold;}
+.12GBold{font-family:Dotum, 돋움,verdan,sans-serif;  color:298529 ; word-spacing : -1px ; font-size: 12px;font-weight: bold;}
+.14Bold{font-family:Dotum, 돋움,verdan,sans-serif;  color:298529 ; word-spacing : -1px ; font-size: 14px;font-weight: bold;}
+.16Bold{font-family:돋움,arial;  color:298529 ; word-spacing : -1px ; font-size: 16px;font-weight: bold;}
+
+.tap_01{font-family:Dotum, 돋움,verdan,sans-serif; font-size: 12px; color:#3881CE; line-height:18px; font-weight: bold;}
+a.tap_01:link {font-family:Dotum, 돋움,verdan,sans-serif; font-size: 12px; color:#949494; line-height:18px; font-weight: bold;}
+a.tap_01:visited {font-family:Dotum, 돋움,돋움,verdan,sans-serif; font-size: 12px; color:#949494; line-height:18px; font-weight: bold;}
+a.tap_01:hover {font-family:Dotum,돋움,verdan,sans-serif; color:#3881CE;}
+
+
+
+/*font*/
+.g_01{ font-family:돋움 ; color:24A224 ; word-spacing : -1px ;}
+
+
+/*인풋 */	
+.input01 {font-family:Dotum,돋움,verdan,sans-serif; font-size:12px; padding:0px; border-style:solid; border-width:1; border-color:#cccccc; height:18px; background-color:#FFFFFF; color:#333333;}
+
+

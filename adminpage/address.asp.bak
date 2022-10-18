@@ -1,0 +1,88 @@
+<%
+class browserLocaleObject
+ public ip
+ public countryCode
+ public countryName
+ public regionCode
+ public regionName
+ public city
+ public zipPostalCode
+ public latitude
+ public longitude
+ public timeZone
+ public GMTOffset
+ public DSTOffset
+ 
+
+Private sub Class_Initialize
+ Dim objXMLHTTP
+ Dim coordinates
+ Set objXMLHTTP = Server.CreateObject("Microsoft.XMLHTTP")
+ ip = Request.ServerVariables("REMOTE_ADDR")
+ ' objXMLHTTP.Open "GET", "http://api.hostip.info/?ip="&ip, False
+ objXMLHTTP.Open "GET", "http://ipinfodb.com/ip_query.php?ip="&ip, False
+ objXMLHTTP.Send
+ Set xmldoc = objXMLHTTP.responseXML
+ on error resume next
+ ' countryCode = xmldoc.selectSingleNode("HostipLookupResultSet/gml:featureMember/Hostip/gml:name").text
+ countryCode = xmlDoc.documentElement.selectSingleNode("CountryCode").text
+ countryName = xmlDoc.documentElement.selectSingleNode("CountryName").text
+ regionCode = xmlDoc.documentElement.selectSingleNode("RegionCode").text
+ regionName = xmlDoc.documentElement.selectSingleNode("RegionName").text
+ city = xmlDoc.documentElement.selectSingleNode("City").text
+ zipPostalCode = xmlDoc.documentElement.selectSingleNode("ZipPostalCode").text
+ latitude = xmlDoc.documentElement.selectSingleNode("Latitude").text
+ longitude = xmlDoc.documentElement.selectSingleNode("Longitude").text
+ timeZone = xmlDoc.documentElement.selectSingleNode("Timezone").text
+ GMTOffset = xmlDoc.documentElement.selectSingleNode("Gmtoffset").text
+ DSTOffset = xmlDoc.documentElement.selectSingleNode("Dstoffset").text
+ set objXMLHTTP=nothing
+ End sub
+ 
+Public Sub Spill
+ Dim out
+ out = "<table id=""tSpill"">"
+ out = out & "<colgroup><col id=""cLeft""><col id=""cRight""></colgroup>"
+ out = out & "<tr><td>IP</td><td>" & ip & "</td></tr>"
+ out = out & "<tr><td>Country Code</td><td>" & countryCode & "</td></tr>"
+ out = out & "<tr><td>Country Name</td><td>" & countryName & "</td></tr>"
+ out = out & "<tr><td>Region Code</td><td>" & regionCode & "</td></tr>"
+ out = out & "<tr><td>Region Name</td><td>" & regionName & "</td></tr>"
+ out = out & "<tr><td>City</td><td>" & city & "</td></tr>"
+ out = out & "<tr><td>ZipPostalCode</td><td>" & zipPostalCode & "</td></tr>"
+ out = out & "<tr><td>Latitude</td><td>" & latitude & "</td></tr>"
+ out = out & "<tr><td>Longitude</td><td>" & longitude & "</td></tr>"
+ out = out & "<tr><td>Timezone</td><td>" & timeZone & "</td></tr>"
+ out = out & "<tr><td>GMT Offset</td><td>" & GMTOffset & "</td></tr>"
+ out = out & "<tr><td>DST Offset</td><td>" & DSTOffset & "</td></tr>"
+ out = out & "</table>"
+ Response.Write out 
+End Sub
+End class
+
+Dim browserLocale
+Set browserLocale = new browserLocaleObject
+%>
+
+<!--#include virtual="getBrowserLocale"-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="content-language" content="en">
+<meta name="author" content="Roderick Divilbiss">
+<meta name="copyright" content="© 2010 Roderick Divilbiss">
+<style type="text/css">
+table { border-style: solid; border-width: 1px }
+td { border-style: outset; border-width: 2px; background-color: #E2DEC6; }
+#cLeft { width:50%; }
+#cRight { width:50%; }
+p { align:center; }
+</style>
+<title>Display Browser Locale By IP Address</title>
+</head>
+<body>
+<% browserLocale.spill %>
+</body>
+</html>

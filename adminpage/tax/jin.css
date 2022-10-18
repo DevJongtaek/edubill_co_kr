@@ -1,0 +1,433 @@
+TD
+{
+    FONT-SIZE: 9pt;line-height:14pt;
+    COLOR: #000000;
+    FONT-FAMILY: "±¼¸²", "Verdana", "sans-serif"
+	TEXT-ALIGN: justify
+}
+
+BODY
+{
+    FONT-SIZE: 9pt;
+    FONT-FAMILY: "±¼¸²", "Verdana", "sans-serif"
+}
+
+A:link
+{
+    FONT-SIZE: 9pt;
+    COLOR: #484848;
+	FONT-FAMILY: "±¼¸²", "Arial", "sans-serif";
+    TEXT-DECORATION: none
+}
+
+A:visited
+{
+    FONT-SIZE: 9pt;
+    COLOR: #484848;
+    TEXT-DECORATION: none
+}
+
+A:unknown
+{
+    FONT-SIZE: 9pt;
+    COLOR: #484848;
+    TEXT-DECORATION: none
+}
+
+A:hover
+{
+    FONT-SIZE: 9pt;
+    COLOR: #2E64B4;
+    TEXT-DECORATION: none
+}
+
+A.b_link:link
+{
+    FONT-SIZE: 9pt;
+    COLOR: #d5d5d5;
+    TEXT-DECORATION: none
+}
+
+A.b_link:visited
+{
+    FONT-SIZE: 9pt;
+    COLOR: #d5d5d5;
+    TEXT-DECORATION: none
+}
+
+A.b_link:unknown
+{
+    FONT-SIZE: 9pt;
+    COLOR: #d5d5d5;
+    TEXT-DECORATION: none
+}
+
+A.b_link:hover
+{
+    FONT-SIZE: 9pt;
+    COLOR: #fefacd;
+    TEXT-DECORATION: none
+}
+
+A.violet:link
+{
+    FONT-SIZE: 9pt;
+    COLOR: #AF006E;
+	FONT-FAMILY: "±¼¸²", "Arial", "sans-serif";
+    TEXT-DECORATION: none;
+	line-height : 16pt;
+}
+
+A.violet:visited
+{
+    FONT-SIZE: 9pt;
+    COLOR: #AF006E;
+	FONT-FAMILY: "±¼¸²", "Arial", "sans-serif";
+    TEXT-DECORATION: none;
+	line-height : 16pt;
+}
+
+A.violet:unknown
+{
+    FONT-SIZE: 9pt;
+    COLOR: #AF006E;
+	FONT-FAMILY: "±¼¸²", "Arial", "sans-serif";
+    TEXT-DECORATION: none;
+	line-height : 16pt;
+}
+textfield
+{
+    BORDER-RIGHT: #666666 1pt solid;
+    BORDER-TOP: #666666 1pt solid;
+    BORDER-LEFT: #666666 1pt solid;
+    BORDER-BOTTOM: #666666 1pt solid
+    FONT-size: 1pt solid;
+    COLOR: #00000;
+    BACKGROUND-COLOR: #ffffff
+}
+A.violet:hover
+{
+    FONT-SIZE: 9pt;
+    COLOR: #4B4B4B;
+	FONT-FAMILY: "±¼¸²", "Arial", "sans-serif";
+    TEXT-DECORATION: underline;
+	
+}
+
+.main_ln1
+{
+    BORDER-TOP: #8a8a8a 1px solid;
+    BORDER-LEFT: #8a8a8a 1px solid;
+    BORDER-BOTTOM: #8a8a8a 1px solid
+}
+
+.main_ln2
+{
+    BORDER-RIGHT: #8a8a8a 1px solid;
+    BORDER-LEFT: #8a8a8a 1px solid;
+    BORDER-BOTTOM: #8a8a8a 1px solid
+}
+
+.main_ln1_1
+{
+    BORDER-TOP: #8a8a8a 1px solid
+}
+
+.main_ln1_L_R
+{
+    BORDER-RIGHT: #8a8a8a 1px solid;
+    BORDER-TOP: #8a8a8a 1px solid;
+    BORDER-LEFT: #8a8a8a 1px solid
+}
+
+.main_bottom
+{
+    BORDER-BOTTOM: #8a8a8a 1px solid
+}
+
+.sub_ln1
+{
+    BORDER-BOTTOM: #595959 1px solid
+}
+
+.sub_ln2
+{
+    BORDER-RIGHT: #595959 1px solid;
+    BORDER-LEFT: #595959 1px solid;
+    BORDER-BOTTOM: #595959 1px solid
+}
+
+.gray
+{
+    BORDER-TOP: #0099FF 1px solid;
+    BORDER-LEFT: #339966 1px solid;
+	BORDER-RIGHT: #339966 1px solid;
+    BORDER-BOTTOM: #339966 1px solid
+}
+.nomal
+{
+    BORDER-TOP: #cccccc 1px solid;
+    BORDER-LEFT: #cccccc 1px solid;
+	BORDER-RIGHT: #cccccc 1px solid;
+    BORDER-BOTTOM: #cccccc 1px solid
+}
+.sub_ln1_1
+{
+    BORDER-TOP: #595959 1px solid;
+    BORDER-LEFT: #595959 1px solid
+}
+
+.sub_ln1_top_L_R
+{
+    BORDER-RIGHT: #595959 1px solid;
+
+    BORDER-LEFT: #595959 1px solid
+}
+
+.sub_ln1_bottom_L_R
+{
+    BORDER-RIGHT: #595959 1px solid;
+    BORDER-LEFT: #595959 1px solid;
+    BORDER-BOTTOM: #595959 1px solid
+}
+
+.sub_1_R
+{
+    BORDER-RIGHT: #595959 1px solid;
+    BORDER-LEFT: #595959 1px solid
+}
+
+.b_menu
+{
+    FONT-SIZE: 9pt;
+    COLOR: #d5d5d5;
+    FONT-FAMILY: "±¼¸²Ã¼";
+    BACKGROUND-COLOR: #595959
+}
+
+.copyright
+{
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 8pt;line-height:11pt;
+    PADDING-BOTTOM: 15px;
+    FONT-FAMILY: "±¼¸²Ã¼"
+}
+
+.m_border
+{
+    BORDER-RIGHT: #d9d9d9 1px solid;
+    BORDER-TOP: #d9d9d9 1px solid;
+    BORDER-LEFT: #d9d9d9 1px solid;
+    BORDER-BOTTOM: #d9d9d9 1px solid
+}
+
+.m_lnbtb
+{
+    BORDER-RIGHT: #d9d9d9 1px solid;
+    BORDER-TOP: #d9d9d9 1px solid;
+    BORDER-LEFT: #d9d9d9 1px solid;
+    BORDER-BOTTOM: #d9d9d9 1px solid
+}
+
+.m_lnbr
+{
+    BORDER-RIGHT: #d9d9d9 1px solid;
+    BORDER-BOTTOM: #d9d9d9 1px solid
+}
+
+.m_lnb
+{
+    BORDER-BOTTOM: #d9d9d9 1px solid
+}
+
+.m_lnr
+{
+    BORDER-RIGHT: #d9d9d9 1px solid
+}
+
+.item_warn
+{
+    FONT-WEIGHT: bold;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #818181
+}
+
+.item_info
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #818181
+}
+
+.black_bottom
+{
+    BORDER-BOTTOM: #000000 1px solid
+}
+
+.box
+{
+    BORDER-RIGHT: #666666 40pt solid;
+    BORDER-TOP: #dddddd 1pt solid;
+    BORDER-LEFT: #666666 2pt solid;
+    BORDER-BOTTOM: #cccccc 1pt solid
+    FONT-size: 1pt solid;
+    COLOR: #00000;
+    BACKGROUND-COLOR: #dddddd
+}
+.login
+{
+    BORDER-RIGHT: #666666 1pt solid;
+    BORDER-TOP: #666666 1pt solid;
+    BORDER-LEFT: #666666 1pt solid;
+    BORDER-BOTTOM: #666666 1pt solid
+    FONT-size: 1pt solid;
+    COLOR: #00000;
+    BACKGROUND-COLOR: #F6F6F6
+}
+.form
+{
+    BORDER-RIGHT: #666666 1pt solid;
+    BORDER-TOP: #666666 1pt solid;
+    BORDER-LEFT: #666666 1pt solid;
+    BORDER-BOTTOM: #666666 1pt solid
+    FONT-size: 1pt solid;
+    COLOR: #00000;
+    BACKGROUND-COLOR: #ffffff
+}
+.search
+{
+    BORDER-RIGHT: #666666 1pt solid;
+    BORDER-TOP: #666666 1pt solid;
+    BORDER-LEFT: #666666 1pt solid;
+    BORDER-BOTTOM: #666666 1pt solid
+    FONT-size: 1pt solid;
+    COLOR: #00000;
+    BACKGROUND-COLOR: #ffffff
+}
+.check
+{
+    BORDER-RIGHT: #666666 40pt solid;
+    BORDER-TOP: #dddddd 1pt solid;
+    BORDER-LEFT: #666666 2pt solid;
+    BORDER-BOTTOM: #cccccc 1pt solid
+    FONT-size: 1pt solid;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #4A5377
+}
+.box2
+{
+    BORDER-RIGHT: #dddddd 1pt solid;
+    BORDER-TOP: #dddddd 1pt solid;
+    BORDER-LEFT: #666666 2pt solid;
+    BORDER-BOTTOM: #cccccc 1pt solid
+    FONT-size: 1pt solid;
+    COLOR: #00000;
+    BACKGROUND-COLOR: #dddddd
+}
+.box3
+{
+    BORDER-RIGHT: #666666 1pt solid;
+    BORDER-TOP: #666666 1pt solid;
+    BORDER-LEFT: #666666 1pt solid;
+    BORDER-BOTTOM: #666666 1pt solid
+    FONT-size: 1pt solid;
+    COLOR: #00000;
+    BACKGROUND-COLOR: #dddddd
+}
+.box_write
+{
+    BORDER-RIGHT: #666666 1pt solid;
+    BORDER-TOP: #666666 1pt solid;
+    BORDER-LEFT: #666666 1pt solid;
+    BORDER-BOTTOM: #666666 1pt solid
+    FONT-size: 1pt solid;
+    COLOR: #00000;
+    BACKGROUND-COLOR: #ffffff
+}
+.box4
+{
+    BORDER-RIGHT: #dddddd 1pt solid;
+    BORDER-TOP: #dddddd 1pt solid;
+    BORDER-LEFT: #666666 2pt solid;
+    BORDER-BOTTOM: #cccccc 1pt solid
+    FONT-size: 1pt solid;
+    COLOR: #00000;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.rbox
+{
+    BORDER-RIGHT: gray 1pt solid;
+    BORDER-TOP: gray 1pt solid;
+    BORDER-LEFT: gray 1pt solid;
+    BORDER-BOTTOM: gray 1pt solid;
+    TEXT-ALIGN: right
+}
+.input
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+
+.input_consigment
+{
+    BORDER: #727272 1px solid;
+	BACKGROUND-COLOR: #F5F5F5;
+}
+
+
+.reg_input
+{
+    BORDER-RIGHT: #727272 1px solid;
+    BORDER-TOP: #727272 1px solid;
+    BORDER-LEFT: #727272 1px solid;
+    BORDER-BOTTOM: #727272 1px solid
+}
+.input1
+{
+    BORDER-RIGHT: #6f6f6f 1px solid;
+    BORDER-TOP: #6f6f6f 1px solid;
+    BORDER-LEFT: #6f6f6f 1px solid;
+    BORDER-BOTTOM: #6f6f6f 1px solid;
+    BACKGROUND-COLOR: #f5f5f5
+}
+.rbox2
+{
+    BORDER-RIGHT: #f6f6f6;
+    BORDER-TOP: #f6f6f6;
+    BORDER-LEFT: #f6f6f6;
+    BORDER-BOTTOM: #f6f6f6;
+    BACKGROUND-COLOR: #f6f6f6;
+    TEXT-ALIGN: right
+}
+
+.clbold
+{ 
+	font-family: "±¼¸²", "Verdana", "sans-serif"; 
+	font-size: 10pt; 
+	line-height:13pt; 
+	color:#031DB4;
+	text-align:left 
+}
+
+.black
+{ 
+	font-family: "±¼¸²", "Verdana", "sans-serif"; 
+	font-size: 9pt; 
+	line-height:13pt; 
+	color:#000000;
+}
+
+.log_input
+{
+    BORDER-RIGHT: #7F7F7F 1px solid;
+    BORDER-TOP: #7F7F7F 1px solid;
+    BORDER-LEFT: #7F7F7F 1px solid;
+    BORDER-BOTTOM: #7F7F7F 1px solid;
+
+}
+.regtextform { font-size:9pt; font-family:±¼¸²; color:#000000; line-height:16px; border-width:1px; border-style:solid; border-color: #545454; background-color:F3F3F3}
+.bese {  font-family: "µ¸¿ò"; font-size: 20px}
+.bese2 {  font-family: "µ¸¿ò"; font-size: 17px}
+.bese3 {  font-family: "µ¸¿ò"; font-size: 11px; line-height: 13px}

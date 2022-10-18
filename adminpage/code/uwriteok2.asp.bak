@@ -1,0 +1,4 @@
+<!--#include virtual="/fileup2.asp"-->
+<!--#include virtual="/adminpage/incfile/sessionend.asp"-->
+<!--#include virtual="/db/db.asp"-->
+

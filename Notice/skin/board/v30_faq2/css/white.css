@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+body {margin:0; background:#fff; color:#707070; word-wrap:break-word}
+body, input, textarea, select, button, table {font-family:Tahoma, Geneva, sans-serif}
+
+A {color:#707070;text-decoration:none;}
+A:link {color:#707070;}
+A:visited {color:#707070;}
+A:hover {color:#707070;text-decoration:underline;}
+
+/* Button Common */
+#boardModule .button,
+#boardModule .button *{ position:relative; margin:0; padding:0; display:inline-block; text-decoration:none !important; border:0; font-size:12px; font-family:dotum, Tahoma, Sans-serif; white-space:nowrap; background:url('images/white/btn_bg.gif') no-repeat; vertical-align:top; overflow:visible; color:#333;}
+#boardModule .button { margin-right:4px;}
+#boardModule .button *{ left:4px; cursor:pointer; _cursor:hand;}
+
+#boardModule .button.small, .button.small *{ height:22px; line-height:23px;}
+#boardModule .button.medium, .button.medium *{ height:24px; line-height:24px;}
+#boardModule .button.large, .button.large *{ height:28px; line-height:28px;}
+#boardModule .button.xLarge, .button.xLarge *{ height:36px; line-height:36px;}
+
+#boardModule .button.small { background-position:left 0;}
+#boardModule .button.medium { background-position:left -30px;}
+#boardModule .button.large { background-position:left -65px;}
+#boardModule .button.xLarge { background-position:left -106px;}
+
+#boardModule .button.small *{ padding:0 6px 0 2px; font-size:12px; background-position:right top;}
+#boardModule .button.medium *{ padding:0 10px 0 6px; font-size:12px; background-position:right -30px;}
+#boardModule .button.large *{ padding:0 10px 0 6px; font-size:12px; background-position:right -65px;}
+#boardModule .button.xLarge *{ padding:0 10px 0 6px; font-size:12px; background-position:right -106px;}
+
+#boardModule .button.strong *{ font-weight:bold !important;}
+
+
+#boardModule {margin-bottom:20px;}
+
+#boardModule .best_faq {background:#a6a6a6; padding:9px;}
+#boardModule .best_faq .box {border:1px solid #979797; background:#FFF; padding:15px;}
+#boardModule .best_faq .search_area {width:600px; margin:0 auto; padding:3px 0 20px 0; clear:both; height:20px;}
+#boardModule .best_faq ul {list-style:none; margin:0; padding:0;}
+#boardModule .best_faq li {float:left; margin-right:5px; height:22px; line-height:22px;}
+#boardModule .best_faq li.icon {background:url('images/white/icon_zoom.gif') 0 7px no-repeat; padding-left:13px;}
+#boardModule .best_faq .input_search {border:1px solid #b7b7b7; background:#e9e9e9; width:230px; font-size:12px; padding:3px;}
+
+#boardModule .best_faq table {border-collapse:collapse; width:100%;}
+#boardModule .best_faq table caption {display:none;}
+
+
+#boardModule .best_faq td {width:50%; background:url('images/white/best_line.gif') 0 top repeat-x; height:26px;}
+
+#boardModule .best_faq .allow {background:url('images/white/allow_01.gif') no-repeat; width:2px; height:3px; margin-right:7px; vertical-align:middle;}
+
+#boardModule .category_area {margin-top:20px; border-bottom:1px solid #d2d2d2; height:24px;}
+#boardModule .category_area ul {list-style:none; margin:0; padding:0;}
+#boardModule .category_area li {float:left; font-size:11px; text-align:center; }
+#boardModule .category_area li.first {height:24px; width:10px; border-bottom:1px solid #d2d2d2;}
+#boardModule .category_area li.space {height:24px; width:1px; border-bottom:1px solid #d2d2d2;}
+#boardModule .category_area li.on {height:24px; padding:0 13px 0 13px; border-left:1px solid #d2d2d2; border-top:1px solid #d2d2d2; border-right:1px solid #d2d2d2; line-height:24px; background:#f4f4f4; font-weight:bold;}
+#boardModule .category_area li.off {height:23px; padding:0 13px 0 13px; text-align:center; border-left:1px solid #dededf; border-top:1px solid #dededf; border-right:1px solid #dededf; border-bottom:1px solid #d2d2d2; line-height:23px; background:#ffffff;}
+#boardModule .category_area li.total {padding:0; width:70px;}
+
+#boardModule .bbsList {clear: both; width: 100%; border-collapse: collapse;}
+#boardModule .bbsList caption {display:none;}
+#boardModule .bbsList th {height:32px; background:#f4f4f4; border-bottom:1px solid #c1c1c1; font-size:11px; white-space:nowrap;}
+#boardModule .bbsList th.check {padding:0 4px 0 4px;}
+#boardModule .bbsList th.title {width:100%;}
+#boardModule .bbsList td {border-width: 1px; border-bottom:1px solid #dddddd;}
+#boardModule .bbsList td.check {padding: 0 4px 0 4px;}
+#boardModule .bbsList span.category {color:#FF8500;}
+#boardModule .bbsList td.title {width:100%; height:28px; white-space:normal; text-align:left; word-break:break-all; word-wrap:break-word; padding-left:6px;}
+#boardModule .bbsList td.content {width:100%; white-space:normal; text-align:left; word-break:break-all; word-wrap:break-word; padding:8px 0 10px 6px; line-height:normal; vertical-align:top;}
+#boardModule .bbsList td.icon {vertical-align:top; padding:8px 4px 0 4px;}
+#boardModule .bbsList .icon_q {background:url('images/white/icon_q.gif') no-repeat; width:15px; height:15px;}
+#boardModule .bbsList .icon_a {background:url('images/white/icon_a.gif') no-repeat; width:15px; height:15px;}
+
+#boardModule .pagingArea {margin:0 auto; padding-top:20px; margin-top:20px;}
+#boardModule .pagingArea {clear: both; border-collapse: collapse;}
+#boardModule .pagingArea caption {display:none;}
+#boardModule .pagingArea .page_fist,
+#boardModule .pagingArea .page_fist_disabled {background:url('images/white/page_first.gif') no-repeat; width:21px; height:22px; text-indent:-1000em; float:left; border:1px solid #E8E8E8;}
+#boardModule .pagingArea .page_before,
+#boardModule .pagingArea .page_before_disabled {background:url('images/white/page_before.gif') no-repeat; width:21px; height:22px; text-indent:-1000em; float:left; border:1px solid #E8E8E8;}
+#boardModule .pagingArea .page_next,
+#boardModule .pagingArea .page_next_disabled {background:url('images/white/page_next.gif') no-repeat; width:21px; height:22px; text-indent:-1000em; float:left; border:1px solid #E8E8E8;}
+#boardModule .pagingArea .page_end,
+#boardModule .pagingArea .page_end_disabled {background:url('images/white/page_end.gif') no-repeat; width:21px; height:22px; text-indent:-1000em; float:left; border:1px solid #E8E8E8;}
+#boardModule .pagingArea .page_fist:hover,
+#boardModule .pagingArea .page_before:hover,
+#boardModule .pagingArea .page_next:hover,
+#boardModule .pagingArea .page_end:hover {border:1px solid #FF9406;}
+#boardModule .pagingArea span {padding:0 3px 0 7px;}
+#boardModule .pagingArea span a {border:1px solid #e8e8e8; padding:4px 6px 4px 6px; margin:0 1px 0 1px; font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight:bold;}
+#boardModule .pagingArea span a.current_page,
+#boardModule .pagingArea span a:hover {border-color:#ff9406; color:#ff9406; text-decoration:none;}
+
+#boardModule .writeForm {padding:1px 0; border-top:2px solid #D8D8D8; margin:5px 0;}
+#boardModule .writeForm h4 {display:none;}
+#boardModule .writeForm table {border-collapse:collapse; width:100%;}
+#boardModule .writeForm table caption {display:none;}
+#boardModule .writeForm .input_table {margin-bottom:10px; width:100%; border:0;}
+#boardModule .writeForm .input_table th,
+#boardModule .writeForm .input_table td {border-top:1px solid #FFF; padding:5px 0 6px 0;}
+#boardModule .writeForm .input_table th {padding-left:10px; width:100px; text-align:left; background:#f8f8f8 url('images/white/write_table_line.gif') repeat-x bottom;}
+#boardModule .writeForm .input_table td {background:#f8f8f8 url('images/white/write_table_line.gif') repeat-x bottom;}
+#boardModule .writeForm .input_table #write_captcha ul {list-style:none; margin:0; padding:0;}
+#boardModule .writeForm .input_table #write_captcha li {float:left; margin-right:5px;}
+#boardModule .writeForm .input_table #write_captcha li.text {height:24px; line-height:24px;}
+#boardModule .writeForm .input_table .checkbox,
+#boardModule .writeForm .input_table .radio {list-style:none; margin:0; padding:0;}
+#boardModule .writeForm .input_table .checkbox li,
+#boardModule .writeForm .input_table .radio li {float:left; margin-right:5px;}
+#boardModule .writeForm .title_table {margin:5px 0 5px 0;}
+#boardModule .writeForm .title_table td {white-space:nowrap; border:1px solid #D5D5D5; background:#FFF; padding:2px 2px 2px 0; height:20px;}
+#boardModule .writeForm .title_table td.btn_area {width:124px; padding-left:5px;}
+#boardModule .writeForm table input {font-size:12px;}
+#boardModule .writeForm .input_text {border:1px solid #bdbdbd; height:16px; padding:2px;}
+#boardModule .writeForm .nick_name,
+#boardModule .writeForm .password {width:150px;}
+#boardModule .writeForm .email,
+#boardModule .writeForm .homepage,
+#boardModule .writeForm .tag {width:300px;}
+#boardModule .writeForm .post {width:200px;}
+#boardModule .writeForm .addr {width:400px;}
+#boardModule .writeForm textarea {width:90%; border:1px solid #bdbdbd;}
+#boardModule .writeForm .btn_calendar {background:url(images/white/btn_calendar.gif) no-repeat; width:20px; height:21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; cursor: hand; vertical-align:bottom;}
+
+#boardModule .writeForm .title_table ul.title_editor_menu {float: left;}
+#boardModule * html .writeForm .title_table ul.title_editor_menu {padding: 3px 0 3px 0;}
+#boardModule .writeForm .title_table ul {list-style:none; margin:0; padding:0;}
+#boardModule .writeForm .title_table li {float:left; position: relative; z-index: 100; list-style:none;}
+#boardModule .writeForm .title_table li a {display: block; font-family: 돋움,dotum; font-size: 12px; text-decoration: none; color: #333; list-style:none;}
+#boardModule .writeForm .title_table .title {width:99%; border:none;}
+#boardModule .writeForm .title_table .title_style {float:left;}
+#boardModule .writeForm .title_table .font_size,
+#boardModule .writeForm .title_table .font_bold,
+#boardModule .writeForm .title_table .font_color,
+#boardModule .writeForm .title_table .font_reset {background:url(images/white/icon_title_style.gif); background-repeat:no-repeat; line-height:23px; height:23px;}
+#boardModule .writeForm .title_table .font_size {width:42px; background-position:left 0; padding-top:0;}
+#boardModule .writeForm .title_table .font_size span {padding-left:4px;}
+#boardModule .writeForm .title_table .font_bold {width:21px; background-position:left -60px; margin-left:3px; text-indent:-1000em;}
+#boardModule .writeForm .title_table .font_color {width:31px; background-position:-21px -60px; text-indent:-1000em;}
+#boardModule .writeForm .title_table .font_reset {width:21px; background-position:left -120px; margin-left:3px; text-indent:-1000em;}
+#boardModule .writeForm .title_table .font_size_on {width:42px; background-position:left -30px;}
+#boardModule .writeForm .title_table .font_bold_on {width:21px; background-position:left -90px; margin-left:3px; text-indent:-1000em;}
+#boardModule .writeForm .title_table .font_color_on {width:31px; background-position:-21px -90px; text-indent:-1000em;}
+#boardModule .writeForm .title_table .font_reset_on {width:21px; background-position:left -150px; margin-left:3px; text-indent:-1000em;}
+#boardModule .writeForm .title_table #tx_titleFontSize_menu {left:-210px;width:250px; position:absolute; top:29px; border:1px solid #CCC; display:none; background-color:#FFF;}
+#boardModule .writeForm .title_table #tx_titleFontSize_menu li {float:none; padding:0; display:block; overflow:hidden; z-index:1;}
+#boardModule .writeForm .title_table #tx_titleFontSize_menu a {display:block; width:100%; padding:5px;}
+#boardModule .writeForm .title_table #tx_titleFontSize_menu a:hover {background-color:#EEE;}
+#boardModule .writeForm .title_table #tx_titleFontSize_menu a.tx-8pt {font-size:8pt;}
+#boardModule .writeForm .title_table #tx_titleFontSize_menu a.tx-9pt {font-size:9pt;}
+#boardModule .writeForm .title_table #tx_titleFontSize_menu a.tx-10pt {font-size:10pt;}
+#boardModule .writeForm .title_table #tx_titleFontSize_menu a.tx-12pt {font-size:12pt;}
+#boardModule .writeForm .title_table #tx_titleFontSize_menu a.tx-18pt {font-size:18pt;}
+#boardModule .writeForm .title_table #tx_titleFontColor_menu {left:-140px;width:160px; position:absolute; top:29px; border:1px solid #bababa; display:none; background-color:#FFF; padding:5px; *padding:2px;}
+#boardModule .writeForm .title_table #tx_titleFontColor_menu li {cursor:pointer; padding:6px; *padding:0 6px 0 6px; margin:1px;}
+#boardModule .writeForm table label {cursor:pointer;}
+#boardModule .writeForm select {font-size:12px; padding:1px;}
+#boardModule .writeForm .buttonArea {border-top:1px solid #ddd; text-align:center; padding:20px; clear:both; }
+
+#boardModule .writeForm .krZip .zipLabel {display:block; position:static; left:4px; top:4px; white-space:nowrap; color:#666;}
+#boardModule .writeForm .krZip .item {position:relative; margin:0 0 5px 0}
+
+#boardModule .messageForm {width:300px; margin:0 auto;}
+#boardModule .messageForm h3 {padding:5px 0; margin:5px 0 20px 0; border-bottom:2px solid #7E7E7E; font-size:16px;}
+#boardModule .messageForm .message {padding:30px; clear:both;}
+#boardModule .messageForm .buttonArea {border-top:1px solid #ddd; text-align:center; padding:10px; clear:both;}
+#boardModule .messageForm input.password {border:1px solid #AEAEAE; color:#7E7E7E; padding:3px; height:15px; vertical-align:top;}

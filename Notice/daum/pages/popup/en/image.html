@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>사진 첨부</title> 
+<link rel="stylesheet" href="../../../css/upload_ko.css" type="text/css"  charset="utf-8"/>
+<script type="text/javascript" src="../../../js/popup.js"></script>
+<script type="text/javascript" src="../../../../js/jquery.js"></script>
+<script type="text/javascript" src="../../../../js/swfupload/swfupload.js"></script>
+<script type="text/javascript" src="../../../../js/swfupload/swfupload.queue.js"></script>
+<script type="text/javascript" src="../../../../js/swfupload/swfupload.speed.js"></script>
+<script type="text/javascript" src="../../../../js/swfupload/handlers_2.js"></script>
+<script type="text/javascript">
+
+	var swfu;
+	var isUploadCheck = false;
+
+	$(document).ready(function() {
+
+		$(window).bind("beforeunload", function(){
+			if (isUploadCheck == false){
+				var tmpFile = "";
+				$("#list li").each(function(){
+					if (tmpFile != "")
+						tmpFile += ",";
+					tmpFile += $(this).attr("id").split(",")[0];
+				});
+				if (tmpFile != "")
+					opener.uploadFileImageRemove("images", tmpFile, "", opener.set_editor.config.imagepath);
+				isUploadCheck = true;
+			}
+		});
+
+		initUploader();
+
+		$("#delete_all a").click(function(){
+			$("#list li").each(function(){
+				PopupUploadFileRemove($(this).attr("id"));
+			});
+		});
+
+			var settings = {
+				flash_url : "../../../../js/swfupload/swfupload.swf",
+				flash9_url : "../../../../js/swfupload/swfupload_fp9.swf",
+				post_params: {"userpath" : opener.set_editor.config.imagepath, "boardsrl" : opener.set_editor.config.boardsrl},
+				upload_url: "../../../../action/?Act=imageupload",
+				file_size_limit : 0,
+				file_types : "*.*",
+				file_types : "*.jpg;*.gif;*.bmp;*.jpeg;*.png",
+				file_types_description : "All Files",
+				file_upload_limit : 0,
+				file_queue_limit : 0,
+
+				debug: false,
+
+				// Button settings
+				button_image_url: "../../../images/btn/btn_upload.gif",
+				button_width: "60",
+				button_height: "20",
+				button_placeholder_id: "spanButtonPlaceHolder",
+				button_text: "<span class='theFont'>업로드</span>",
+				button_text_style: ".theFont {text-align:center; color:#666666;}",
+				button_cursor: SWFUpload.CURSOR.HAND,
+
+				moving_average_history_size: 40,
+				
+				swfupload_preload_handler : preLoad,
+				swfupload_load_failed_handler : loadFailed,
+				file_queued_handler : fileQueued,
+				file_dialog_complete_handler: fileDialogComplete,
+				file_queue_error_handler : fileQueueError,
+				upload_start_handler : uploadStart,
+				upload_progress_handler : uploadProgress,
+				upload_success_handler : uploadSuccess,
+				upload_complete_handler : uploadComplete,
+				
+				custom_settings : {
+					tx_upload_progress_grp : document.getElementById("tx_upload_progress_grp")
+				}
+			};
+
+			swfu = new SWFUpload(settings);
+
+	});
+
+	function done() {
+
+//		var path = "http://" + document.location.host + "/" + opener.set_editor.config.path + opener.set_editor.config.pdspath + "/" + opener.set_editor.config.imagepath;
+		
+		var path = "http://" + document.location.host + "/" + opener.set_editor.config.path + opener.set_editor.config.pdspath + "/" + opener.set_editor.config.imagepath;
+
+		if (typeof(execAttach) == 'undefined') {
+	        return;
+	    }
+
+		$("#list li").each(function(){
+
+			if ($("#writeForm #strTempImages", window.opener.document).val() != ""){
+				$("#writeForm #strTempImages", window.opener.document).val($("#writeForm #strTempImages", window.opener.document).val() + ",");
+			}
+
+			$("#writeForm #strTempImages", window.opener.document).val($("#writeForm #strTempImages", window.opener.document).val() + $(this).attr("id").split(",")[0]);
+
+			if (opener.set_editor.config.imageWidth == '0' && opener.set_editor.config.imageHeight == '0'){
+
+				var _width = '';
+				var _height = '';
+
+			} else {
+
+
+				var _width = $(this).attr("id").split(",")[2];
+				var _height = $(this).attr("id").split(",")[3];
+
+				if (_width > opener.set_editor.config.imageWidth){
+					_width = parseInt(opener.set_editor.config.imageWidth);
+					_height = parseInt(_height * _width / $(this).attr("id").split(",")[2]);
+				}
+	
+				if (_height > opener.set_editor.config.imageHeight){
+					_height = opener.set_editor.config.imageHeight;
+					_width = _width * opener.set_editor.config.imageHeight / _height;
+				}
+			}
+
+			var _mockdata = {
+				'imageurl': path + $(this).attr("id").split(",")[0],
+				'filename': $(this).attr("id").split(",")[0],
+				'filesize': $(this).attr("id").split(",")[1],
+				'imagealign': 'L',
+				'originalurl': path + $(this).attr("id").split(",")[0],
+				'thumburl': path + $(this).attr("id").split(",")[0],
+				'width' : _width,
+				'height' : _height
+			};
+			execAttach(_mockdata);
+		});
+
+		isUploadCheck = true;
+		closeWindow();
+	}
+
+	function initUploader(){
+
+	    var _opener = PopupUtil.getOpener();
+	    if (!_opener) {
+	        alert('잘못된 경로로 접근하셨습니다.');
+	        return;
+	    }
+
+	    var _attacher = getAttacher('image', _opener);
+	    registerAction(_attacher);
+	}
+
+	function PopupUploadFileRemove(file) {
+
+		$.ajax({ 
+			type: "post", url: "../../../../action/?Act=uploadfileremove", data : "filetype=image&filename=" + file.split(",")[0] + "&userpath=" + opener.set_editor.config.imagepath + "&editorMode=" + opener.set_editor.config.editorMode, 
+			success:function(responseText){
+				$("#list li[id=" + file + "]").remove();
+				$("#up_size").text($("#list li").length);
+			}, error:function(response){alert('error\n\n' + response.responseText);}
+		});
+
+	}
+
+	function cancelUpload() {
+		self.close();
+	}
+
+</script>
+</head>
+<body>
+<div id="wrap">
+  <h1>사진 첨부</h1>
+  <div id="attach-header" class="attach-header">
+    <div id="browse"><div id="spanButtonPlaceHolder"></div></div>
+    <p><strong id="max_top_size" class="point nospacing">사진 업로드</strong>의 용량은 제한이 없습니다.</p>
+  </div>
+  <div id="attach-box" class="attach-box box-empty">
+    <div id="delete_all" class="imgbtn"><a title="전체삭제" href="javascript:;" class="btnlink" style="cursor:pointer;">전체삭제</a></div>
+    <div id="size">파일: <strong id="up_size">0</strong></div>
+	<div class="progress" id="progress">
+		<div id="progress-bar" class="progress-bar">
+			<div><img src="http://icon.daum-img.net/editor/file/ico_warning.gif?rv=1.0.1" alt="음악 파일의 저작권 여부를 판단중"/></div>
+			<p id="tx_upload_progress_grp" class="percent">0%</p>
+		</div>
+		<p class="copy uploading-copy">파일을 업로드하는 중입니다.</p></div>
+    <div class="list" id="describe" style="display:none;">
+      <p id="empty_header">첨부하실 파일을 추가해 주세요!</p>
+      <p id="empty_desc">최대 <span id="max_list_size"></span>까지 첨부할 수 있습니다.</p>
+    </div>
+    <ul class="list" id="list" style="display:block;">
+		</ul>
+  </div>
+  <dl id="attach-alert" class="attach-alert">
+    <dt>사진 파일 업로드 안내</dt>
+    <dd>사진 파일은 <strong class="point">jpg, gif, bmp, jpeg, png</strong>의 확장자의 파일만 업로드가 가능합니다.</dd>
+  </dl>
+  <ul id="attach-footer" class="attach-footer">
+    <li id="submit" class="imgbtn"><a href="#" onclick="done();" title="등록" class="btnlink">등록</a> </li>
+    <li id="cancel" class="imgbtn"><a href="#" onclick="cancelUpload();" title="취소" class="btnlink">취소</a></li>
+    <li id="close" class="imgbtn"><a href="#" onclick="cancelUpload();" title="닫기" class="btnlink">닫기</a></li>
+  </ul>
+</div>
+</body>
+</html>

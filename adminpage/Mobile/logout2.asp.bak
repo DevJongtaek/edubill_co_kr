@@ -1,0 +1,18 @@
+<!--#include virtual="/db/db.asp"-->
+<%
+	SQL = "delete tb_product_cart where usercode = '"& session("AAusercode") &"' "
+	db.Execute SQL
+
+	session("AAcomname") = ""
+	session("AAusercode") = ""
+	session("AAfilename") = ""
+	session("AAtel") = ""
+	session("Aordertimeout")=""
+	session("ymflag") = ""
+	session("AAproflag") = ""
+	session("AAtcode") = ""
+%>
+
+<Script language=javascript>
+	window.open("/adminpage/", "_top")
+</Script>

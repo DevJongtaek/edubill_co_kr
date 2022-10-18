@@ -1,0 +1,40 @@
+﻿@charset "utf-8";
+
+.ml5 {margin-left:5px;}
+.mr5 {margin-right:5px;}
+.mb5 {margin-bottom:5px;}
+.mt5 {margin-top:5px;}
+
+.ml10 {margin-left:10px;}
+.mr10 {margin-right:10px;}
+.mb10 {margin-bottom:10px;}
+.mt10 {margin-top:10px;}
+
+.pa5 {padding:5px;}
+
+
+.inputText, 
+.inputTextarea {padding:3px 3px; font:12px Tahoma, Geneva, sans-serif; border:1px solid #b7b7b7; background:transparent; color:#666;}
+.inputSelect {font-size:12px;}
+.inputText.keyword {width:200px; background-color:#FFF;}
+.inputText.nickname, .inputText.password {width:100px;}
+.inputText.email, .inputText.homepage {width:250px;}
+.inputText.tag {width:90%;}
+.inputText.captcha {width:100px;}
+.inputTextCalendar {height:15px; padding:2px; border:1px solid #dcdde3; letter-spacing:0; font:12px Tahoma, Geneva, sans-serif; color:#666;}
+textarea {width:90%;}
+.inputText.post {width:200px;}
+.inputText.addr {width:400px;}
+
+.txt_point, .txt_point a:link, .txt_point a:visited, .txt_point a:hover, .txt_point a:active, a.txt_point:link, a.txt_point:visited, a.txt_point:hover, a.txt_point:active, a.num_box:hover {color: #f8571e;}
+
+.p11    {font-size: 11px; font-family:dotum,sans-serif;}
+.p11 a {font-size: 11px; font-family:dotum,sans-serif;}
+.p11 a:link {font-size: 11px; font-family:dotum,sans-serif;}
+.p11 a:hover, .p11 a:active {font-size: 11px; font-family:dotum,sans-serif;}
+a.p11:link  {font-size: 11px; font-family:dotum,sans-serif; text-decoration: none;}
+a.p11:visited   {font-size: 11px; font-family:dotum,sans-serif; text-decoration: none;}
+a.p11:hover, a.p11:active   {font-size: 11px; font-family:dotum,sans-serif; text-decoration: underline;}
+
+.krZip .zipLabel {display:block; position:static; left:4px; top:2px; white-space:nowrap; color:#666;}
+.krZip .item {position:relative; margin:0 0 5px 0}

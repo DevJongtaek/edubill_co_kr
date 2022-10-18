@@ -1,0 +1,103 @@
+
+<!--#include virtual = '/inc/header.asp'-->
+<script language="javascript">
+    function noticecloseWin() {
+        alert('qqq');
+	document.all['notice'].style.display = "none";
+  }
+</script>
+</head>
+<!--#include virtual="/db/db.asp" -->
+<%
+	set rslist = server.CreateObject("ADODB.Recordset")
+	SQL = " select content,flag,hflag,wsize,hsize"
+	SQL = sql & " from tb_gongi where loginflag = '1' "
+	rslist.Open sql, db, 1
+	if not rslist.eof then
+		imsicontent = rslist(0)
+		imsiflag = rslist(1)
+		imsihflag = rslist(2)
+		imsiwsize = rslist(3)
+		imsihsize = rslist(4)
+
+		if imsiflag="y" then
+%>
+			<script language="JavaScript" type="text/JavaScript">
+			<!--
+				//function imsiwinpopopen() {
+				//    window.open('/adminpage/incfile/popopen.asp', '_blank', 'left=100, top=100, width=<%=imsiwsize%>, height=<%=imsihsize%>, scrollbars=yes, toolbar=no');
+				//}
+
+				if (!checkPoupCookie("close20150406")) {
+
+				    window.open('/adminpage/incfile/popopen.asp', '_blank', 'left=100, top=100, width=<%=imsiwsize%>, height=<%=imsihsize%>, scrollbars=yes, toolbar=no');
+				}
+				function checkPoupCookie(cookieName){
+
+				    var cookie = document.cookie;
+
+				    // 현재 쿠키가 존재할 경우
+
+				    if(cookie.length > 0){
+
+				        // 자식창에서 set해준 쿠키명이 존재하는지 검색
+
+				        startIndex = cookie.indexOf(cookieName);
+
+				        // 존재한다면
+
+				        if(startIndex != -1){
+
+				            return true;
+
+				        }else{
+
+				            // 쿠키 내에 해당 쿠키가 존재하지 않을 경우
+
+				            return false;
+
+				        };
+
+				    }else{
+
+				        // 쿠키 자체가 없을 경우
+
+				        return false;
+
+				    };
+
+				}
+
+			//-->
+			</script>
+			<body class="mainLayout" topmargin="0" leftmargin="0" onLoad="return imsiwinpopopen();">
+<%
+		else
+%>
+			<body class="mainLayout" topmargin="0" leftmargin="0" onLoad="focus();">
+<%
+		end if
+	else
+%>
+		<body class="mainLayout" topmargin="0" leftmargin="0" onLoad="focus();">
+<%
+	end if
+	rslist.close
+	db.close
+%>
+
+<table width="980" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td align="left"><!--#include virtual = '/inc/main_top.asp'--></td>
+  </tr>
+  <tr> 
+    <td><!--#include virtual = '/inc/main_center.asp'--></td>
+  </tr>
+  <tr> 
+    <td><!--#include virtual = '/inc/foot.asp'--></td>
+  </tr>
+</table>
+
+
+</body>
+</html>

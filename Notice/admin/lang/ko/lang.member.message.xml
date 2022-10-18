@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">일괄쪽지발송</item>
+		<item name="page_description"><![CDATA[회원에게 일괄적으로 쪽지를 발송 할 수 있으며, 그룹별로 선택해서 발송이 가능합니다.<br>일괄적으로 발송된 쪽지는 보낸 쪽지함에 저장되지 않습니다.]]></item>
+		<item name="page_sub_title">쪽지발송정보</item>
+	</title>
+
+	<alert>
+
+		<item name="is_null_title">제목을 입력하세요.</item>
+		<item name="is_null_content">내용을 입력하세요.</item>
+		<item name="is_null_group">그룹을 선택하세요.</item>
+		<item name="confirm_send">선택한 그룹에 해당되는 회원에게 쪽지를 발송하시겠습니까?</item>
+		<item name="success_send">발송되었습니다.</item>
+	</alert>
+
+	<contents>
+
+		<item name="title_subject">제목</item>
+		<item name="title_group">회원그룹</item>
+
+		<item name="about_group">쪽지를 발송할 그룹을 선택합니다.</item>
+
+	</contents>
+
+	<options>
+
+	</options>
+
+</root>

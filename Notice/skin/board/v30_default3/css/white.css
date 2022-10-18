@@ -1,0 +1,279 @@
+@charset "utf-8";
+
+body,th,td, a {font-size:12px; font-family:dotum,sans-serif; color:#444;}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover,a:active {text-decoration: underline;}
+a {cursor:pointer;}
+
+.boardModule .button,
+.boardModule .button * {position:relative; margin:0; padding:0; display:inline-block; text-decoration:none !important; border:0; font-size:12px; font-family:dotum, Tahoma, Sans-serif; white-space:nowrap; background:url('images/white/btn_bg.gif') no-repeat; vertical-align:top; overflow:visible; color:#333;}
+.boardModule .button {margin-right:4px;}
+.boardModule .button * {left:4px; cursor:pointer; _cursor:hand;}
+.boardModule .button.btn01, .boardModule .button.btn01 * {height:20px; line-height:20px;}
+.boardModule .button.btn02, .boardModule .button.btn02 * {height:20px; line-height:20px;}
+.boardModule .button.btn03, .boardModule .button.btn03 * {height:25px; line-height:25px;}
+.boardModule .button.btn04, .boardModule .button.btn04 * {height:25px; line-height:25px;}
+.boardModule .button.btn01 {background-position:left 0;}
+.boardModule .button.btn02 {background-position:left -25px;}
+.boardModule .button.btn03 {background-position:left -50px;}
+.boardModule .button.btn04 {background-position:left -80px;}
+.boardModule .button.btn01 * {padding:0 6px 0 2px; font-size:11px; background-position:right top;}
+.boardModule .button.btn02 * {padding:0 6px 0 2px; font-size:11px; color:#D7E3E9; background-position:right -25px;}
+.boardModule .button.btn03 * {padding:0 10px 0 6px; font-size:12px; background-position:right -50px;}
+.boardModule .button.btn04 * {padding:0 10px 0 6px; font-size:12px; background-position:right -80px;}
+.boardModule .button.strong *{ font-weight:bold !important;}
+
+.boardModule {padding:5px;}
+.boardModule h3.board_header {background:url('images/white/bull01.gif') 0 2px no-repeat; padding-left:10px; font-size:14px;}
+.boardModule h3.board_header div {float:right; padding-right:5px; font-weight:normal; margin-top:5px;}
+.boardModule h3.board_header div a {font-size:11px;}
+.boardModule h3.board_header div ul {list-style:none; margin:0; padding:0;}
+.boardModule h3.board_header div li {position:relative; display:inline; padding:3px 7px 0 3px; background-repeat:no-repeat; background-position:right center; background-image:url(images/white/bar01.gif);}
+
+.boardModule .board_category {margin:10px 0 20px 0; border-top:2px solid #626F76;}
+.boardModule .board_category_list {margin-top:1px; background:#F6F6F6; border-bottom:1px solid #E0E3E4; padding:10px;}
+.boardModule .board_category_list ul {list-style:none; margin:0; padding:0;}
+.boardModule .board_category_list li {display:inline;}
+.boardModule .board_category_list li a {background:url('images/white/icon_arrow02.gif') no-repeat; padding:0 5px 0 16px;}
+.boardModule .board_category_list li a.on {background:url('images/white/icon_arrow01.gif') no-repeat; padding:0 5px 0 16px; font-weight:bold;}
+.boardModule .board_category_list li a.first {background-position:-1px 0;}
+.boardModule .board_category_list li a span {color:#346F8D; margin-left:3px;}
+
+.boardModule .list_header {height:32px;}
+.boardModule .list_header .left {float:left; height:32px; line-height:32px;}
+.boardModule .list_header .left span {font-weight:bold;}
+.boardModule .list_header .right {float:right; padding-top:5px;}
+.boardModule .list_header .right ul {list-style:none; margin:0; padding:0;}
+.boardModule .list_header .right li {display:inline;}
+.boardModule .list_header .right .inputSearch {padding:3px 3px; font:12px Tahoma, Geneva, sans-serif; border:1px solid #b7b7b7; background:transparent; color:#666; height:13px; margin-left:5px; width:160px;}
+
+.boardModule .board_list {clear:both; width:100%; border-collapse:collapse; background:url('images/white/boa_shadow.gif') 0 30px repeat-x;}
+.boardModule .board_list th {padding: 5px 5px 5px 5px; text-align: center; font-weight: normal; letter-spacing: -1px; white-space:nowrap; border-top:1px solid #d1d1d1; border-bottom:1px solid #bdbbbb; height:18px; background:url('images/white/boa_bg.gif'); white-space:nowrap;}
+.boardModule .board_list th.lineL {border-left:1px solid #cecfcf; background:url('images/white/boa_left_bg.gif') repeat-x;}
+.boardModule .board_list th.lineR {border-right:1px solid #d0cfd0;}
+.boardModule .board_list th.bar {background:url('images/white/boa_line.gif') repeat-x;}
+.boardModule .board_list th.check {text-align:left;}
+.boardModule .board_list th a {font-size:12px;}
+.boardModule .board_list tr.notice {background:#F6F6F6;}
+.boardModule .board_list tr.over {background:#F8F8F8;}
+.boardModule .board_list td {padding: 7px 5px 3px 5px; border-width: 1px; border-bottom-style: solid; border-color: #ebebeb; white-space:nowrap; height:15px;}
+.boardModule .board_list td.num,
+.boardModule .board_list td.date,
+.boardModule .board_list td.count {font-size: 10px; font-family: tahoma; text-align: center; color:#999;}
+.boardModule .board_list td.title {white-space:normal; text-align:left; word-break:break-all; word-wrap:break-word;}
+.boardModule .board_list td.title .tx{display:inline-block;width:360px;overflow:hidden}
+.boardModule .board_list td.title .hx{display:inline-block;max-width:280px;overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;vertical-align:middle}
+.boardModule .board_list span.comment {font-size:11px; font-family: tahoma; font-weight:bold; color:#416E85;}
+.boardModule .board_list td image.vam {vertical-align:middle;}
+.boardModule .board_list .icon_new {background:url(images/white/icon_new.gif) no-repeat; width:11px; height:11px; vertical-align:middle; margin-left:3px;}
+.boardModule .board_list .icon_file {background:url(images/white/icon_file.gif) no-repeat; width:11px; height:11px; vertical-align:middle; margin-left:3px;}
+.boardModule .board_list .icon_image {background:url(images/white/icon_image.gif) no-repeat; width:12px; height:11px; vertical-align:middle; margin-left:3px;}
+.boardModule .board_list .icon_secret {background:url(images/white/icon_secret.gif) no-repeat; width:9px; height:11px; vertical-align:middle; margin-left:3px;}
+.boardModule .board_list .icon_pri {background:url(images/white/icon_pri_right.gif) no-repeat; width:13px; height:13px; vertical-align:middle;}
+.boardModule .board_list .order_up {background:url('images/white/allow_up.gif'); width:5px; height:3px; margin-left:5px; vertical-align:middle;}
+.boardModule .board_list .order_down {background:url('images/white/allow_down.gif'); width:5px; height:3px; margin-left:5px; vertical-align:middle;}
+
+.boardModule .paging {height:21px; background:#F8F8F8; border-bottom:1px solid #DBDBDB; padding:5px 10px 0 10px; *padding:2px 10px 0 10px;}
+.boardModule .paging img {vertical-align:middle;}
+.boardModule .paging ul {list-style:none; margin:0; padding:0;}
+.boardModule .paging li {display:inline; font-size:10px; font-family: tahoma; letter-spacing:1px;}
+.boardModule .paging .first {background:url('images/white/icon_page.gif'); width:16px; height:16px; background-position:0 0;}
+.boardModule .paging .prev {background:url('images/white/icon_page.gif'); width:16px; height:16px; background-position:-16px 0;}
+.boardModule .paging .next {background:url('images/white/icon_page.gif'); width:16px; height:16px; background-position:-32px 0;}
+.boardModule .paging .last {background:url('images/white/icon_page.gif'); width:16px; height:16px; background-position:-48px 0;}
+.boardModule .paging .first_disabled {background:url('images/white/icon_page.gif'); width:16px; height:16px; background-position:-64px 0;}
+.boardModule .paging .prev_disabled {background:url('images/white/icon_page.gif'); width:16px; height:16px; background-position:-80px 0;}
+.boardModule .paging .next_disabled {background:url('images/white/icon_page.gif'); width:16px; height:16px; background-position:-96px 0;}
+.boardModule .paging .last_disabled {background:url('images/white/icon_page.gif'); width:16px; height:16px; background-position:-112px 0;}
+.boardModule .paging .bar {background:url('images/white/bar02.gif'); width:1px; height:10px; margin:0 5px 0 5px;}
+.boardModule .paging .move_page {border:1px solid #b8b8b8; width:17px; height:14px; font-weight:bold; font-family:tahoma; font-size:10px; padding:0 3px 0 3px;}
+.boardModule .paging .list_btn_area {float:right; margin-top:-20px; padding:2px 0 0 0; *padding:0;}
+
+.boardModule .read_header {}
+.boardModule .read_header h4 {border:1px solid #ddd; height:34px; line-height:34px; background:url('images/white/title_bg.gif'); padding:0 10px;}
+.boardModule .read_header h4 span {float:right; padding-right:10px; font-weight:normal; color:#999;}
+.boardModule .read_header .title_line {height:3px; background:url('images/white/title_shadow.gif') repeat-x; line-height:1px; font-size:1px;}
+.boardModule .read_header p.meta {margin:0; padding:8px 12px 8px 10px; border-bottom:1px solid #ddd;}
+.boardModule .read_header p span {font-size:11px;}
+.boardModule .read_header p .read_vote {float:right; color:#666;}
+.boardModule .read_header p .read_vote .vote {border-left:1px solid #ccc; padding:0 0 0 10px; margin:0 0 0 6px;}
+
+.boardModule .read_body {padding:15px; background:#fff}
+.boardModule .read_body .content {color:#333}
+
+.boardModule .read_footer .file_list {margin:15px 0; display:inline; float:left}
+.boardModule .read_footer .toggle_file {background:url('images/white/icon_file02.gif') no-repeat; padding:0 0 0 15px; margin-left:5px;}
+.boardModule .read_footer .toggle_file span {font-weight:bold;}
+.boardModule .read_footer .files {display:none; list-style:none; margin:15px 0; padding:0; line-height:16px; margin-left:5px;}
+.boardModule .read_footer .files li {background:url('images/white/icon_file03.gif') 0 2px no-repeat; padding:0 0 0 15px;}
+.boardModule .read_footer .files li span {font-size:11px; color:#999;}
+.boardModule .read_footer .tns{ float:right; margin:15px 0;}
+.boardModule .read_footer .tns a:hover,
+.boardModule .read_footer .tns a:active,
+.boardModule .read_footer .tns a:focus{text-decoration:underline}
+.boardModule .read_footer .action{display:inline-block;line-height:16px;font-size:11px;margin:0 15px 0 0}
+.boardModule .read_footer .sns {display:inline; margin:0; padding:0; list-style:none; vertical-align:top;}
+.boardModule .read_footer .sns li {display:inline; vertical-align:top;}
+.boardModule .read_footer .sns a {display:inline-block; height:16px; line-height:16px;}
+.boardModule .read_footer .sns .link a {width:16px; height:0; padding:16px 0 0 0; overflow:hidden; background:url('images/white/icon_sns.gif') no-repeat;}
+.boardModule .read_footer .sns .twitter a {background-position:0 0;}
+.boardModule .read_footer .sns .me2day a {background-position:-20px 0;}
+.boardModule .read_footer .sns .facebook a {background-position:-40px 0;}
+.boardModule .read_footer .sns .delicious a {background-position:-60px 0;}
+
+.boardModule .read_footer .sign {clear:both; border:1px solid #ddd; margin:0 0 -1px 0; padding:10px 15px; overflow:hidden; zoom:1;}
+.boardModule .read_footer .sign .member_profile {float:left; margin:0 15px 0 0; width:80px; height:80px;}
+.boardModule .read_footer .sign .tx {overflow:hidden; line-height:1.3; font-size:11px; border-left:1px dotted #ddd;padding:0 0 0 15px; color:#333;}
+.boardModule .read_footer .sign .tx * {margin:0}
+.boardModule .read_footer .read_btn_area {clear:both; padding:10px 0; border-top:1px solid #ddd; height:30px;}
+.boardModule .read_footer .prev_next_document {position:relative; border:1px solid #ddd; color:#4b4b4b;m argin:0 0 20px 0;}
+.boardModule .read_footer .prev_next_document ul {list-style:none; margin:0; padding:5px 10px 5px 10px;}
+.boardModule .read_footer .prev_next_document .prev {background:url('images/white/allow_up02.gif') 0 13px no-repeat; border-bottom:1px dashed #e6e6e6; padding:10px 0 7px 10px;}
+.boardModule .read_footer .prev_next_document .next {background:url('images/white/allow_down02.gif') 0 13px no-repeat; padding:9px 0 5px 10px;}
+.boardModule .read_footer .prev_next_document span {margin:0 10px 0 20px; color: #e9e9e9; font-size:11px;}
+
+.boardModule .comments {margin:20px 0 0 0; border:1px solid #DDDDDD;}
+.boardModule .comments .header {position:relative; height:30px; padding:0 0 0 25px; line-height:30px; background:#f5f5f5 url('images/white/icon_comments.gif') 5px 7px no-repeat; margin:3px;}
+.boardModule .comments .header h2 {margin:0; font-size:14px;}
+.boardModule .comments .header h2 em {font-style:normal; color:#4736ac; text-decoration:underline;}
+.boardModule .comments .cmtList {margin:0 7px;padding:0}
+.boardModule .comments .cmtItem {padding:18px 0 16px 0;border-bottom:1px dashed #e6e6e6;margin:0 0 -1px 0;zoom:1;list-style:none}
+.boardModule .comments .cmtItem:after{content:"";display:block;clear:both}
+.boardModule .comments .cmtMeta {float:left;width:184px;padding:0 0 0 6px}
+.boardModule .comments .cmtMeta .profile,
+.boardModule .comments .cmtMeta .member_profile {float:left;width:38px;height:38px;margin:0 6px 5px 0;border:1px solid #ddd;background:url('images/white/profile.gif') no-repeat}
+.boardModule .comments .cmtMeta .author {margin:0; font-size:12px}
+.boardModule .comments .cmtMeta .author a {text-decoration:none;color:#666}
+.boardModule .comments .cmtMeta .author a img {margin:0 6px 0 0 !important;vertical-align:top !important}
+.boardModule .comments .cmtMeta .time{margin:0;font:11px Tahoma, Geneva, sans-serif;color:#8e8e8e}
+.boardModule .comments .indent {background:url('images/white/icon_cmt_reply.gif') no-repeat}
+.boardModule .comments .indent1 {padding-left:20px;background-position:6px 15px}
+.boardModule .comments .indent2 {padding-left:40px;background-position:26px 15px}
+.boardModule .comments .indent3 {padding-left:60px;background-position:46px 15px}
+.boardModule .comments .indent4 {padding-left:80px;background-position:66px 15px}
+.boardModule .comments .indent5 {padding-left:100px;background-position:86px 15px}
+.boardModule .comments .indent6 {padding-left:120px;background-position:106px 15px}
+.boardModule .comments .indent7 {padding-left:140px;background-position:126px 15px}
+.boardModule .comments .indent8 {padding-left:160px;background-position:146px 15px}
+.boardModule .comments .indent9 {padding-left:180px;background-position:166px 15px}
+.boardModule .comments .indent10 {padding-left:200px;background-position:186px 15px}
+.boardModule .comments .indent11 {padding-left:220px;background-position:206px 15px}
+.boardModule .comments .indent12 {padding-left:240px;background-position:226px 15px}
+.boardModule .comments .content{margin:0;color:#666;line-height:1.5}
+.boardModule .comments .content *:first-child{margin-top:0}
+.boardModule .comments .secret {color:#FF6600;}
+.boardModule .comments .secret_form {margin-top:10px;}
+.boardModule .comments .input_secret {border:1px solid #b8b8b8; width:150px; height:18px; padding:0 3px 0 3px;}
+.boardModule .comments .file_list {margin:0 0 0 190px;padding:8px 0 0 0;display:inline;float:left;clear:both}
+.boardModule .comments .toggle_file {background:url('images/white/icon_file02.gif') no-repeat; padding:0 0 0 15px; margin-left:5px;}
+.boardModule .comments .toggle_file span {font-weight:bold;}
+.boardModule .comments .files {display:none; list-style:none; margin:15px 0; padding:0; line-height:16px; margin-left:5px;}
+.boardModule .comments .files li {background:url('images/white/icon_file03.gif') 0 2px no-repeat; padding:0 0 0 15px;}
+.boardModule .comments .files li span {font-size:11px; color:#999;}
+.boardModule .comments .action {margin:0; padding:10px 10px 0 0; white-space:nowrap; float:right;}
+.boardModule .comments .action .vote {margin:0 10px 0 0; color:#767676;}
+.boardModule .comments .action a {padding:1px 0 1px 16px; color:#767676; text-decoration:none; margin-right:3px;}
+.boardModule .comments .action a.reply {background:url('images/white/icon_reply.gif') no-repeat;}
+.boardModule .comments .action a.modify {background:url('images/white/icon_pencil.gif') no-repeat;}
+.boardModule .comments .action a.delete {background:url('images/white/icon_delete.gif') no-repeat;}
+.boardModule .comments .action a.this {background:none; padding:0; margin:0 0 0 10px; text-decoration:underline;}
+.boardModule .comments .pagination {padding:10px 0}
+.boardModule .comments .fbFooter{margin:-10px 0 10px 0}
+.boardModule .comments .write {padding:20px 10px 10px 10px; position:relative;}
+.boardModule .comments .write:after {content:""; display:block; clear:both;}
+.boardModule .comments .write_author {float:left;margin:0 4px 0 0; height:30px;}
+.boardModule .comments .write_author ul {list-style:none; margin:0; padding:0;}
+.boardModule .comments .write_author li {float:left; margin-right:5px;}
+.boardModule .comments span.comment_message,
+.boardModule .comments span.comment_secret {margin-top:4px; float:left;}
+.boardModule .comments .btnArea{float:right; height:30px;}
+.boardModule .comments .pagination {margin:10px 0 0 0;padding:4px 0 10px 0;text-align:center;line-height:normal;}
+.boardModule .comments .pagination a,
+.boardModule .comments .pagination strong {position:relative; color:#767676; font:bold 12px/16px Tahoma, Sans-serif; vertical-align:top; display:inline-block; text-decoration:none; padding:1px 8px; margin:0 -3px; border-left:1px solid #ccc;border-right:1px solid #ccc; background-color:#fff; z-index:2;}
+.boardModule .comments .pagination a:hover,
+.boardModule .comments .pagination a:active,
+.boardModule .comments .pagination a:focus {background-color:#f8f8f8;}
+.boardModule .comments .pagination strong {color:#f60; font-size:18px;}
+.boardModule .comments .pagination .direction {font-weight:normal; color:#767676; text-decoration:none !important; border:0; z-index:1;}
+.boardModule .comments .pagination .direction:hover,
+.boardModule .comments .pagination .direction:active,
+.boardModule .comments .pagination .direction:focus {color:#333; background-color:#fff;}
+.boardModule .comments .pagination .direction_disabled {font-weight:normal; color:#999; text-decoration:none !important; border:0; z-index:1;}
+.boardModule .comments .pagination .direction_disabled:hover,
+.boardModule .comments .pagination .direction_disabled:active,
+.boardModule .comments .pagination .direction_disabled:focus {color:#999; background-color:#fff;}
+.boardModule .comments .pagination .prev {border-left:0;}
+.boardModule .comments .pagination .next {border-right:0;}
+.boardModule .comments .pagination .direction span,
+.boardModule .comments .pagination .direction_disabled span {position:relative; display:inline-block; width:0; height:0; font-size:0; line-height:0; vertical-align:top; top:4px;}
+.boardModule .comments .pagination .prev span {border:3px solid; border-top:solid #fff; border-bottom:solid #fff; border-left:0; margin-right:1px;*left:-4px;}
+.boardModule .comments .pagination .next span {border:3px solid; border-top:solid #fff; border-bottom:solid #fff; border-right:0; margin-left:1px;}
+
+.boardModule .write_table {clear:both; width:100%; border-collapse:collapse;}
+.boardModule .write_table td {border:1px solid #c3c3c3; padding:0; border-bottom:none;}
+.boardModule .write_table .title_bg {border:1px solid #FFF; border-bottom:none; background:url('images/white/write_title_bg.gif');padding:3px 10px 2px 10px; height:24px;}
+.boardModule .write_table ul {list-style:none; margin:0; padding:0;}
+.boardModule .write_table li {float:left; margin-right:5px;}
+.boardModule .write_table li.category {margin-right:5px;}
+
+.boardModule .write_footer {border:1px solid #b5b5b5; background:#FFF; padding:1px;}
+.boardModule .write_footer .box {background:#f3f3f3; padding:15px;}
+.boardModule .write_footer table {clear:both; width:100%; border-collapse:collapse;}
+.boardModule .write_footer table th {width:120px; text-align:left; vertical-align:top; padding-top:8px;}
+.boardModule .write_footer table td {padding:3px 0 3px 0;}
+.boardModule .write_footer ul {list-style:none; margin:0; padding:0;}
+.boardModule .write_footer li {margin-right:5px; float:left;}
+.boardModule .write_footer .addr li {clear:both;}
+.boardModule .write_footer .addr p {height:26px;}
+.boardModule .write_btn_area {text-align:center; padding:20px 0 10px 0;}
+
+.boardModule .tagList{margin:0;padding:25px;border:1px solid #cdcdcd;line-height:1.2;text-align:justify}
+.boardModule .tagList a{color:#fff;text-decoration:none;white-space:nowrap;margin:0 2px}
+.boardModule .tagList a.rank1{font-size:24px;background:#000}
+.boardModule .tagList a.rank2{font-size:18px;background:#333}
+.boardModule .tagList a.rank3{font-size:14px;background:#666}
+.boardModule .tagList a.rank4{font-size:12px;background:#999}
+.boardModule .tagList a.rank5{font-size:12px;color:#666;text-decoration:underline}
+.boardModule .tagFooter{text-align:center;padding:20px 0}
+
+.boardModule .inputText, 
+.boardModule .inputTextarea {padding:2px 2px; font:12px Tahoma, Geneva, sans-serif; border:1px solid #b7b7b7; background:#FFF; color:#666;}
+.boardModulr .inputText {height:15px;}
+
+.boardModule .inputText.title {width:500px;}
+.boardModule .inputText.nickname,
+.boardModule .inputText.password {width:100px;}
+.boardModule .inputText.email,
+.boardModule .inputText.url {width:180px;}
+.boardModule .inputText.tag,
+.boardModule .inputText.text {width:500px;}
+.boardModule .inputText.captcha {width:100px;}
+.boardModule .inputTextarea.textarea {width:500px;}
+.boardModule .inputText.post {width:200px;}
+.boardModule .inputText.addr {width:400px;}
+.boardModule .inputSelect {font-size:12px; padding:1px;}
+
+.boardModule .inputCalendar {height:15px; padding:2px; border:1px solid #b7b7b7; letter-spacing:0; font:12px Tahoma, Geneva, sans-serif; color:#666;}
+.boardModule .btn_calendar {background:url('images/white/btn_calendar.gif') no-repeat; width:20px; height:21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; cursor: hand; vertical-align:bottom;}
+
+#imgCaptcha {border:1px solid #666;}
+
+.boardModule .message .sForm {margin:0 auto; padding:100px 0 200px 0; width:465px; color:#666;}
+.boardModule .message .sForm h1 {display:none;}
+.boardModule .message .sForm form {position:relative; margin:0;}
+.boardModule .message .sForm p.msg {margin:0; padding:30px 120px 50px 47px; zoom:1;}
+.boardModule .message .sForm dl {margin:0; padding:30px 120px 50px 47px; zoom:1;}
+.boardModule .message .sForm dl:after {content:""; display:block; clear:both;}
+.boardModule .message .sForm dt {background:url('images/white/dot01.gif') 0 10px no-repeat; margin:0 0 6px 0; padding:0 0 0 10px; height:24px; line-height:24px;}
+.boardModule .message .sForm dd {margin:0 0 6px 0; padding:0; height:24px; line-height:24px;}
+.boardModule .message .sForm dt {float:left; width:90px; font-weight:bold; color:#333;}
+.boardModule .message .sForm dd {float:right; width:190px;}
+.boardModule .message .sForm .iText {width:173px; height:16px; _margin:-1px 0; margin:-1px 0; border:1px solid #b7b7b7; background:#FFF; color:#666; padding:2px 2px;}
+.boardModule .message .mBody form{ padding:37px 0 0 0; background:url('images/white/messge_box.gif') no-repeat;}
+.boardModule .message .mBody .help {width:100%; text-align:center; height:36px; padding-top:8px; margin:0; color:#b7b7b7; background:url('images/white/messge_box.gif') no-repeat 0 bottom;}
+.boardModule .message .mBody .btn_submit {position:absolute; top:64px; left:340px;padding:0; overflow:visible; cursor:pointer; border:0;}
+
+.boardModule .krZip .zipLabel {display:block; position:static; left:4px; top:4px; white-space:nowrap; color:#666;}
+.boardModule .krZip .item {position:relative; margin:0 0 5px 0}

@@ -1,0 +1,13 @@
+/* Dialog
+----------------------------------*/
+.ui-dialog { position: relative; padding: 1px; width: 300px; position:absolute; overflow:visible; filter:progid:DXImageTransform.Microsoft.Shadow(color=#999999,direction=135,strength=3);}
+
+.ui-dialog .ui-dialog-titlebar {position: relative; }
+.ui-dialog .ui-dialog-title { float: left;} 
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
+.ui-dialog .ui-dialog-titlebar-close span { display: block;}
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0; }
+.ui-dialog .ui-dialog-content { border: 0; padding: .5em 1em; background: none; overflow: auto; zoom: 1; }
+.ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0; border-color: #E8E8E8; background-image: none; margin: .5em 0 0 0; padding: .3em 1em .5em .4em; }
+.ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; }

@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>사진 첨부</title> 
+<link rel="stylesheet" href="../../../css/image_ko.css" type="text/css"  charset="utf-8"/>
+<script type="text/javascript" src="../../../js/popup.js"></script>
+<script type="text/javascript" src="../../../../js/jquery.js"></script>
+<script type="text/javascript" src="../../../../js/swfupload/swfupload.js"></script>
+<script type="text/javascript" src="../../../../js/swfupload/swfupload.queue.js"></script>
+<script type="text/javascript" src="../../../../js/swfupload/swfupload.speed.js"></script>
+<script type="text/javascript" src="../../../../js/swfupload/handlers_3.js"></script>
+<script type="text/javascript">
+
+	var swfu;
+	var isUploadCheck = false;
+	var selectNum;
+	var totalUpCount = 0;
+	var uploadArr = new Array();
+	var msgArr = new Array();
+
+	$(document).ready(function() {
+		$(window).bind("beforeunload", function(){
+			var tmpFile = "";
+			if (isUploadCheck == false){
+				if (totalUpCount > 0){
+					for (var i=1; i <= totalUpCount; i++) {
+						if (tmpFile != "")
+							tmpFile += ",";
+						tmpFile += uploadArr[i].split(",")[0];
+					}
+				}
+				if (tmpFile != ""){
+					opener.uploadFileImageRemove("images", tmpFile, "", opener.set_editor.config.imagepath);
+					alert("업로드된 이미지는 삭제됩니다.");
+				}
+				isUploadCheck = true;
+			}
+		});
+
+		initUploader();
+
+		$(".upload_image").click(function(){
+			if (uploadArr[$(this)[0].id.split("_")[2]] != "" && uploadArr[$(this)[0].id.split("_")[2]] != "undefined" && uploadArr[$(this)[0].id.split("_")[2]] != null){
+				$(".upload_image img").removeClass("select");
+				$("#" + $(this)[0].id + " img").addClass("select");
+				selectNum = $(this)[0].id.split("_")[2];
+				imageInfo(selectNum);
+			}
+		});
+
+		$("a[name=btn_prev]").click(function(){
+
+			if (selectNum > 1 && totalUpCount != 0 && selectNum != "" && selectNum != "undefined" && selectNum != null){
+
+				selectNum = Number(selectNum)
+				
+				var preNum = selectNum - 1;
+				var preimg = $("#upload_image_" + preNum).html();
+				var nextimg = $("#upload_image_" + selectNum).html();
+
+				var swpobj = uploadArr[selectNum - 1];
+				uploadArr[selectNum - 1] = uploadArr[selectNum];
+				uploadArr[selectNum] = swpobj;
+
+				$("#upload_image_" + selectNum).html(preimg);
+				$("#upload_image_" + preNum).html(nextimg);
+
+				selectNum = preNum;
+				imageInfo(selectNum);
+
+			}
+			
+		});
+
+		$("a[name=btn_next]").click(function(){
+
+			if (totalUpCount != selectNum && totalUpCount != 0 && selectNum != "" && selectNum != "undefined" && selectNum != null){
+				
+				selectNum = Number(selectNum)
+				
+				var nextNum = selectNum + 1;
+				var preimg = $("#upload_image_" + nextNum).html();
+				var nextimg = $("#upload_image_" + selectNum).html();
+
+				var swpobj = uploadArr[selectNum + 1];
+				uploadArr[selectNum + 1] = uploadArr[selectNum];
+				uploadArr[selectNum] = swpobj;
+
+				$("#upload_image_" + selectNum).html(preimg);
+				$("#upload_image_" + nextNum).html(nextimg);
+
+				selectNum = nextNum;
+				imageInfo(selectNum);
+
+			}
+
+		});
+
+		$("a[name=btn_remove]").click(function(){
+			if (selectNum != "" && selectNum != "undefined" && selectNum != null){
+				PopupUploadFileRemove(uploadArr[selectNum].split(",")[0]);
+				uploadArr.splice(selectNum, 1);
+				totalUpCount--;
+				for (var i = Number(selectNum) + 1; i <= totalUpCount + 1; i++) {
+					var changeimg = $('#upload_image_' + i).html();
+					var j = Number(i) - 1;
+					$("#upload_image_" + j).html(changeimg);
+				}
+				$("#upload_image_" + (totalUpCount + 1)).html(totalUpCount + 1);
+				selectNum = totalUpCount;
+				$(".upload_image img").removeClass("select");
+				$("#upload_image_" + selectNum + " img").addClass("select");
+				if (totalUpCount  == 0)
+					imageInfo('');
+				else
+					imageInfo(selectNum);
+			}
+		});
+
+			var settings = {
+				flash_url : "../../../../js/swfupload/swfupload.swf",
+				flash9_url : "../../../../js/swfupload/swfupload_fp9.swf",
+				post_params: {"userpath" : opener.set_editor.config.imagepath, "boardsrl" : opener.set_editor.config.boardsrl},
+				upload_url: "../../../../action/?Act=imageupload",
+				file_size_limit : "4MB",
+				file_types : "*.*",
+				file_types : "*.jpg;*.gif;*.bmp;*.jpeg;*.png",
+				file_types_description : "All Files",
+				file_upload_limit : 12,
+				file_queue_limit : 12,
+
+				debug: false,
+
+				// Button settings
+				button_image_url: "../../../images/btn/btn_upload.gif",
+				button_width: "60",
+				button_height: "20",
+				button_placeholder_id: "spanButtonPlaceHolder",
+				button_text: "<span class='theFont'>사진추가</span>",
+				button_text_style: ".theFont {text-align:center; color:#000;}",
+				button_cursor: SWFUpload.CURSOR.HAND,
+
+				moving_average_history_size: 40,
+				
+				swfupload_preload_handler : preLoad,
+				swfupload_load_failed_handler : loadFailed,
+				file_queued_handler : fileQueued,
+				file_dialog_complete_handler: fileDialogComplete,
+				file_queue_error_handler : fileQueueError,
+				upload_start_handler : uploadStart,
+				upload_progress_handler : uploadProgress,
+				upload_success_handler : uploadSuccess,
+				upload_complete_handler : uploadComplete,
+				
+				custom_settings : {
+					tx_upload_progress_grp : document.getElementById("tx_upload_progress_grp")
+				}
+			};
+
+			swfu = new SWFUpload(settings);
+
+	});
+
+	function done() {
+
+		var path = "http://" + document.location.host + "/" + opener.set_editor.config.path + opener.set_editor.config.pdspath + "/" + opener.set_editor.config.imagepath;
+
+		if (typeof(execAttach) == 'undefined') {
+	        return;
+	    }
+
+		if (totalUpCount > 0){
+			for (var i=1; i <= totalUpCount; i++) {
+
+				if ($("#writeForm #strTempImages", window.opener.document).val() != ""){
+					$("#writeForm #strTempImages", window.opener.document).val($("#writeForm #strTempImages", window.opener.document).val() + ",");
+				}
+	
+				$("#writeForm #strTempImages", window.opener.document).val($("#writeForm #strTempImages", window.opener.document).val() + uploadArr[i].split(",")[0]);
+	
+				if (opener.set_editor.config.imageWidth == '0' && opener.set_editor.config.imageHeight == '0'){
+	
+					var _width = '';
+					var _height = '';
+	
+				} else {
+	
+					var _width = uploadArr[i].split(",")[2];
+					var _height = uploadArr[i].split(",")[3];
+	
+					if (opener.set_editor.config.imageWidth != '0'){
+						if (_width > opener.set_editor.config.imageWidth){
+							_width = parseInt(opener.set_editor.config.imageWidth);
+							_height = parseInt(_height * _width / uploadArr[i].split(",")[2]);
+						}
+					}
+	
+					if (opener.set_editor.config.imageHeight != '0'){
+						if (_height > opener.set_editor.config.imageHeight){
+							_height = opener.set_editor.config.imageHeight;
+							_width = _width * opener.set_editor.config.imageHeight / _height;
+						}
+					}
+				}
+	
+				var _mockdata = {
+					'imageurl': path + uploadArr[i].split(",")[0],
+					'filename': uploadArr[i].split(",")[0],
+					'filesize': uploadArr[i].split(",")[1],
+					'imagealign': 'L',
+					'originalurl': path + uploadArr[i].split(",")[0],
+					'thumburl': path + uploadArr[i].split(",")[0],
+					'width' : _width,
+					'height' : _height
+				};
+				execAttach(_mockdata);
+
+			}
+		}
+
+		isUploadCheck = true;
+		closeWindow();
+	}
+
+	function imageInfo(selectNum){
+
+		if (selectNum == ""){
+			$("#img_width").text('0');
+			$("#img_height").text('0');
+			$("#img_name").text('');
+		}else{
+			$("#img_width").text(uploadArr[selectNum].split(",")[2]);
+			$("#img_height").text(uploadArr[selectNum].split(",")[3]);
+			$("#img_name").text(uploadArr[selectNum].split(",")[0]);
+		}
+
+	}
+
+	function initUploader(){
+
+	    var _opener = PopupUtil.getOpener();
+	    if (!_opener) {
+	        alert('잘못된 경로로 접근하셨습니다.');
+	        return;
+	    }
+
+	    var _attacher = getAttacher('image', _opener);
+	    registerAction(_attacher);
+	}
+
+	function PopupUploadFileRemove(file) {
+
+		$.ajax({ 
+			type: "post", url: "../../../../action/?Act=uploadfileremove", data : "filetype=image&filename=" + file + "&userpath=" + opener.set_editor.config.imagepath + "&editorMode=" + opener.set_editor.config.editorMode, 
+			success:function(responseText){
+				$("#list li[id=" + file + "]").remove();
+				$("#up_size").text($("#list li").length);
+			}, error:function(response){alert('error\n\n' + response.responseText);}
+		});
+
+	}
+
+	function cancelUpload() {
+		self.close();
+	}
+
+</script>
+</head>
+<body>
+<div id="wrap">
+  <h1>
+		사진 첨부
+			<a href="#" name="btn_remove" onclick="return false;" class="btn_image_remove"><img src="../../../../images/etc/blank.gif" class="btn_remove" /></a>
+			<div id="browse">
+				<div id="spanButtonPlaceHolder" class="fl"></div>
+			</div>
+	</h1>
+	<div class="attach_box">
+		<div class="content">
+			<div class="image_list">
+				<div class="progress" id="progress">
+					<div id="progress-bar" class="progress-bar">
+						<div>&nbsp;</div>
+						<p id="tx_upload_progress_grp" class="percent">0%</p>
+					</div>
+					<p class="copy uploading-copy">파일을 업로드하는 중입니다.</p>
+				</div>
+				<ul>
+					<li><div id="upload_image_1" class="upload_image">1</div></li>
+					<li><div id="upload_image_2" class="upload_image">2</div></li>
+					<li><div id="upload_image_3" class="upload_image">3</div></li>
+					<li><div id="upload_image_4" class="upload_image">4</div></li>
+					<li><div id="upload_image_5" class="upload_image">5</div></li>
+					<li><div id="upload_image_6" class="upload_image">6</div></li>
+					<li><div id="upload_image_7" class="upload_image">7</div></li>
+					<li><div id="upload_image_8" class="upload_image">8</div></li>
+					<li><div id="upload_image_9" class="upload_image">9</div></li>
+					<li><div id="upload_image_10" class="upload_image">10</div></li>
+					<li><div id="upload_image_11" class="upload_image">11</div></li>
+					<li><div id="upload_image_12" class="upload_image">12</div></li>
+				</ul>
+			</div>
+			<div class="image_right">
+				<div class="info">
+					<ul>
+						<li class="title">사진정보</li>
+						<li class="memo">파일명 : <span id="img_name" style="color:#333;"></span></li>
+						<li class="memo">가로 : <span id="img_width">0</span>&nbsp;픽셀</li>
+						<li class="memo">세로 : <span id="img_height">0</span>&nbsp;픽셀</li>
+					</ul>
+				</div>
+				<div class="step">
+					<ul>
+						<li class="title">순서변경</li>
+						<li class="btn"><a href="#" name="btn_prev" onclick="return false;"><img src="../../../../images/etc/blank.gif" class="btn_prev" />&nbsp;이전</a></li>
+						<li class="btn"><a href="#" name="btn_next" onclick="return false;"><img src="../../../../images/etc/blank.gif" class="btn_next" />&nbsp;다음</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="about">
+			<ul>
+				<li>- 4MB 미만의 파일만 등록이 가능하며, 1회 최대 12장의 사진 업로드가 가능합니다.</li>
+				<li>- 파일명이 영문, 숫자가 아닐 경우 사진이 안보일 수 있으나, 파일명을 확인해 주세요.</li>
+				<li>- 저작권 등 문제가 있는 파일의 등록은 삼가해 주시기 바랍니다.</li>
+			</ul>
+		</div>
+	</div>
+  <ul class="attach_footer">
+    <li id="submit" class="imgbtn"><a href="#" onclick="done();" title="등록" class="btnlink">등록</a> </li>
+    <li id="cancel" class="imgbtn"><a href="#" onclick="cancelUpload();" title="취소" class="btnlink">취소</a></li>
+    <li id="close" class="imgbtn"><a href="#" onclick="cancelUpload();" title="닫기" class="btnlink">닫기</a></li>
+  </ul>
+</div>
+</body>
+</html>

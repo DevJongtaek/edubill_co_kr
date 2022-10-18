@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<item name="popmenu_memo_list">Messages</item>
+	<item name="popmenu_memo_send">Send message</item>
+	<item name="popmenu_friend_add">Add friend</item>
+	<item name="popmenu_friend_list">View friends</item>
+	<item name="popmenu_email">Send email</item>
+	<item name="popmenu_homepage">Homepage</item>
+	<item name="popmenu_document">Article</item>
+	<item name="popmenu_vote">Like</item>
+	<item name="popmenu_blamed">Dislike</item>
+	<item name="popmenu_declare">Report</item>
+	<item name="popmenu_scrap">Scrap</item>
+	<item name="popmenu_print">Print</item>
+
+	<item name="popmenu_confirm_friend">Do you want to add him as a friend?</item>
+	<item name="popmenu_already_friend">Alrealy on your friends list.</item>
+	<item name="popmenu_success_friend">it has been completed.</item>
+	<item name="popmenu_fail_vote">Unable to use this fuction</item>
+	<item name="popmenu_fail_blamed">Unable to use this fuction</item>
+	<item name="popmenu_success_vote">It has been completed.</item>
+	<item name="popmenu_fail_declare">Unable to use this fuction</item>
+	<item name="popmenu_success_declare">It has been reported</item>
+	<item name="popmenu_already_scrap">This article was alreday scraped.</item>
+	<item name="popmenu_success_scrap">It has been completed.</item>
+	<item name="popmenu_error">Error!</item>
+
+</root>

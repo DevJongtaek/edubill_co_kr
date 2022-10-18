@@ -1,0 +1,31 @@
+﻿@charset "utf-8";
+
+html {overflow: scroll;	overflow-x: auto; margin: 0 auto; height:100%;}
+body {margin:0;padding:0;background-color:#fff;text-align:left;}
+
+div, ul, li, dl, dd, dt, p, span, table, th, td	{font-family: dotum, gulim, tahoma, sans-serif; font-size: 12px;}
+h1, h2, h3, h4, h5, h6, form { margin:0; padding:0; }
+p {margin:0; padding: 0; line-height: 1.6;}
+hr	{display: none;}
+img	{border: none;}
+.b	{font-weight: bold; letter-spacing: -1px;}
+b, strong	{letter-spacing: -1px;}
+.u	{text-decoration: underline;}
+.hand	{cursor: pointer; cursor: pointer;}
+.ls	{letter-spacing: -1px;}
+
+.nospacing {letter-spacing:0;}
+.separator {color:#ddd; margin:0 4px;}
+
+.fr	{float: right;}
+.fl	{float: left;}
+.cl {clear: both; line-height: 100%; font-size: 1px; height: 0; overflow: hidden;}
+
+.none	{display: none !important;}
+.block	{display: block !important;}
+.hide {visibility: hidden !important;}
+.show {visibility: visible !important;}
+.both {clear:both;}
+.ime_mode {ime-mode:disabled;}
+.lsn {list-style:none; margin:0;}
+.itemContent{ line-height: 150%; }

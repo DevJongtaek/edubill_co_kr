@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<item name="popmenu_memo_list">쪽지함 보기</item>
+	<item name="popmenu_memo_send">쪽지 보내기</item>
+	<item name="popmenu_friend_add">친구등록</item>
+	<item name="popmenu_friend_list">친구보기</item>
+	<item name="popmenu_email">메일 보내기</item>
+	<item name="popmenu_homepage">홈페이지</item>
+	<item name="popmenu_document">작성글 보기</item>
+	<item name="popmenu_vote">추천</item>
+	<item name="popmenu_blamed">비추천</item>
+	<item name="popmenu_declare">신고</item>
+	<item name="popmenu_scrap">스크랩</item>
+	<item name="popmenu_print">인쇄</item>
+
+	<item name="popmenu_confirm_friend">친구 등록을 하시겠습니까?</item>
+	<item name="popmenu_already_friend">이미 친구로 등록되어 있습니다.</item>
+	<item name="popmenu_success_friend">친구 등록이 완료되었습니다.</item>
+	<item name="popmenu_fail_vote">추천 하실 수 없습니다.</item>
+	<item name="popmenu_fail_blamed">비추천 하실 수 없습니다.</item>
+	<item name="popmenu_success_vote">추천되었습니다.</item>
+	<item name="popmenu_fail_declare">신고 하실 수 없습니다.</item>
+	<item name="popmenu_success_declare">신고 접수 되었습니다.</item>
+	<item name="popmenu_already_scrap">이미 스크랩을 하셨습니다.</item>
+	<item name="popmenu_success_scrap">스크랩 되었습니다.</item>
+	<item name="popmenu_error">오류가 발생되었습니다.</item>
+
+</root>

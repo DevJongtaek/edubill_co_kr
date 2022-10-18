@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<item name="document_write">글등록</item>
+	<item name="document_modify">글수정</item>
+	<item name="cmd_document_print">인쇄하기</item>
+	<item name="cmd_document_modify">수정하기</item>
+	<item name="cmd_document_delete">삭제하기</item>
+
+</root>

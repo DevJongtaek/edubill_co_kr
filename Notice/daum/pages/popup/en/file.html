@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>파일 첨부</title> 
+<link rel="stylesheet" href="../../../css/upload_ko.css" type="text/css"  charset="utf-8"/>
+<script type="text/javascript" src="../../../js/popup.js"></script>
+<script type="text/javascript" src="../../../../js/jquery.js"></script>
+<script type="text/javascript" src="../../../../js/swfupload/swfupload.js"></script>
+<script type="text/javascript" src="../../../../js/swfupload/swfupload.queue.js"></script>
+<script type="text/javascript" src="../../../../js/swfupload/swfupload.speed.js"></script>
+<script type="text/javascript" src="../../../../js/swfupload/handlers_2.js"></script>
+<script type="text/javascript">
+
+	var swfu;
+	var isUploadCheck = false;
+
+	$(document).ready(function() {
+
+		$(window).bind("beforeunload", function(){
+			if (isUploadCheck == false){
+				var tmpFile = "";
+				$("#list li").each(function(){
+					if (tmpFile != "")
+						tmpFile += ",";
+					tmpFile += $(this).prop("className").split(",")[0];
+					opener.set_fileupload.file_size_uploaded = parseInt(opener.set_fileupload.file_size_uploaded) - parseInt($(this).prop("className").split(",")[1]);
+				});
+				if (tmpFile!= "")
+					opener.uploadFileImageRemove("files", tmpFile, "", opener.set_editor.config.filepath);
+				isUploadCheck = true;
+			}
+		});
+
+		if ($("#writeForm #intSrl", opener.document).val() == ""){
+			alert("올바른 접근방식이 아닙니다.");self.close();return false;
+		}
+
+		$("#delete_all a").click(function(){
+			$("#list li").each(function(){
+				PopupUploadFileRemove($(this).prop("className"), $(this).attr("id"));
+			});
+		});
+
+			initUploader();
+
+			$("#max_top_size").text(getFileSize(parseInt(opener.set_fileupload.file_size_total) - parseInt(opener.set_fileupload.file_size_uploaded)));
+
+			var settings = {
+				flash_url : "../../../../js/swfupload/swfupload.swf",
+				flash9_url : "../../../../js/swfupload/swfupload_fp9.swf",
+				post_params: {"userpath" : opener.set_editor.config.filepath},
+				upload_url: "../../../../action/?Act=fileupload",
+				// 파일당 업로드 사이즈 용량
+				file_size_limit : opener.set_fileupload.file_size_limit + " B",
+				file_types : opener.set_fileupload.file_types,
+				file_types_description : "All Files",
+				// 업로드 최대 개수
+				file_upload_limit : 0,
+				// 한번에 업로드 할 수 있는 개수
+				file_queue_limit : 0,
+
+				debug: false,
+
+				// Button settings
+				button_image_url: "../../../images/btn/btn_upload.gif",
+				button_width: "60",
+				button_height: "20",
+				button_placeholder_id: "spanButtonPlaceHolder",
+				button_text: "<span class='theFont'>업로드</span>",
+				button_text_style: ".theFont {text-align:center; color:#666666;}",
+				button_cursor: SWFUpload.CURSOR.HAND,
+
+				moving_average_history_size: 40,
+				
+				// The event handler functions are defined in handlers.js
+				swfupload_preload_handler : preLoad,
+				swfupload_load_failed_handler : loadFailed,
+				file_queued_handler : fileQueued,
+				file_dialog_complete_handler: fileDialogComplete,
+				file_queue_error_handler : fileQueueError,
+				upload_start_handler : uploadStart,
+				upload_progress_handler : uploadProgress,
+				upload_success_handler : uploadSuccessUser,
+				upload_complete_handler : uploadCompleteUser,
+				
+				custom_settings : {
+					tdFilesQueued : document.getElementById("tdFilesQueued"),
+					tdFilesUploaded : document.getElementById("tdFilesUploaded"),
+					tdErrors : document.getElementById("tdErrors"),
+					tdCurrentSpeed : document.getElementById("tdCurrentSpeed"),
+					tdAverageSpeed : document.getElementById("tdAverageSpeed"),
+					tdMovingAverageSpeed : document.getElementById("tdMovingAverageSpeed"),
+					tdTimeRemaining : document.getElementById("tdTimeRemaining"),
+					tdTimeElapsed : document.getElementById("tdTimeElapsed"),
+					tdPercentUploaded : document.getElementById("tdPercentUploaded"),
+					tdSizeUploaded : document.getElementById("tdSizeUploaded"),
+					tdProgressEventCount : document.getElementById("tdProgressEventCount"),
+					tx_upload_progress_grp : document.getElementById("tx_upload_progress_grp")
+				}
+			};
+
+			swfu = new SWFUpload(settings);
+
+	});
+
+	function uploadCompleteUser(file) {
+
+		if (file.sizeUploaded > Number(opener.set_fileupload.file_size_total) - Number(opener.set_fileupload.file_size_uploaded)){
+			alert("업로드 용량이 초과되었습니다.");
+			PopupUploadFileRemoveExt($("#" + $("#list li[id=" + $("#list li")[$("#list li").length-1].id + "]").attr("id")).prop("className").split(",")[1]);
+			$("#" + $("#list li[id=" + $("#list li")[$("#list li").length-1].id + "]").attr("id")).remove();
+		}else{
+			opener.set_fileupload.file_size_uploaded = parseInt(opener.set_fileupload.file_size_uploaded) + parseInt(file.sizeUploaded);
+		}
+		
+		$("#up_size").text($("#list li").length);
+		uploadedFilesizeTotal();
+
+	}
+
+	function uploadSuccessUser(file, serverData) {
+		try {
+	
+			updateDisplay.call(this, file);
+
+			var sData = serverData.split(",");
+
+			$("#list").append("<li id=\"file_" + (parseInt($("#list li").length) + 1) + "\" class=\"" + sData[0] + ',' + sData[1] + ',' + file.name + "\"><dl><dt>" + file.name + " (" + getFileSize(sData[1]) + ") </dt><dd><a href=\"#\" onclick=\"PopupUploadFileRemove('" + sData[0] + "," + sData[1] + "','file_" + (parseInt($("#list li").length) + 1) + "');return false;\" class=\"btnlink\">DELETE</a></dd></dl></li>");
+
+			$("#list li").bind({
+				mouseover: function() {
+					$(this).css("background-color", "#f2f2f2;");
+				},
+				mouseout: function() {
+					$(this).css("background-color", "");
+				}
+			});
+
+			document.getElementById("progress").style.display = "none";
+	
+		} catch (ex) {
+			this.debug(ex);
+		}
+	}
+
+	function uploadedFilesizeTotal(){
+
+		t = 0;
+
+		$("#list li").each(function(){
+			fileinfo = $(this).prop("className").split(",");
+			t = parseInt(t) + parseInt(fileinfo[1]);
+		});
+		
+		$("#max_size").text(getFileSize(t));
+
+	}
+
+	function cancelUpload() {
+		self.close();
+	}
+
+	function PopupUploadFileRemove(file, file_id) {
+
+		$.ajax({ 
+			type: "post", url: "../../../../action/?Act=uploadfileremove", data : "filetype=file&filename=" + file.split(",")[0] + "&userpath=" + opener.set_editor.config.filepath, 
+			success:function(responseText){
+				opener.set_fileupload.file_size_uploaded = parseInt(opener.set_fileupload.file_size_uploaded) - parseInt(file.split(",")[1]);
+				$("#" + file_id).remove();
+				$("#up_size").text($("#list li").length);
+				uploadedFilesizeTotal();
+			}, error:function(response){alert('error\n\n' + response.responseText);}
+		});
+
+	}
+
+	function PopupUploadFileRemoveExt(file) {
+		$.ajax({ 
+			type: "post", url: "../../../../action/?Act=uploadfileremove", data : "filetype=file&filename=" + file + "&userpath=" + opener.set_editor.config.filepath, 
+			success:function(responseText){
+			}, error:function(response){alert('error\n\n' + response.responseText);}
+		});
+	}
+
+	function done() {
+
+		isUploadCheck = true;
+
+		var path = "http://" + document.location.host + "/" + opener.set_editor.config.path + opener.set_editor.config.pdspath + "/" + opener.set_editor.config.filepath;
+
+		if (typeof(execAttach) == 'undefined') { //Virtual Function
+	        return;
+	    }
+
+
+		var _mockdata = "";
+		var fileinfo = "";
+
+		$("#list li").each(function(){
+
+
+			fileinfo = $(this).prop("className").split(",");
+
+			if ($("#writeForm #strTempFiles", window.opener.document).val() != ""){
+				$("#writeForm #strTempFiles", window.opener.document).val($("#writeForm #strTempFiles", window.opener.document).val() + ",");
+			}
+
+			$("#writeForm #strTempFiles", window.opener.document).val($("#writeForm #strTempFiles", window.opener.document).val() + $(this).attr("id").split(",")[0]);
+
+			_mockdata = {
+				'attachurl': path + fileinfo[2],
+//				'filemime': 'image/gif',
+				'filename': fileinfo[2],
+				'originalurl': fileinfo[0],
+				'filesize': fileinfo[1]
+			};
+			execAttach(_mockdata);
+
+
+		});
+
+		$("#tx_attach_up_size", window.opener.document).text(getFileSize(opener.set_fileupload.file_size_uploaded));
+
+		closeWindow();
+	}
+
+
+	function initUploader(){
+		var _opener = PopupUtil.getOpener();
+		var _attacher = getAttacher('file', _opener);
+		registerAction(_attacher);
+	}
+	
+</script>
+</head>
+<body>
+<div id="wrap">
+  <h1>파일 첨부</h1>
+  <div id="attach-header" class="attach-header">
+    <div id="browse"><div id="spanButtonPlaceHolder"></div></div>
+    <p>최대 <strong id="max_top_size" class="point nospacing">3M</strong>까지 첨부하실 수 있습니다.</p>
+  </div>
+  <div id="attach-box" class="attach-box box-empty">
+    <div id="delete_all" class="imgbtn"><a title="전체삭제" href="javascript:;" class="btnlink" style="cursor:pointer;">전체삭제</a></div>
+    <div id="size">파일: <strong id="up_size">0</strong> / 업로드 용량 : <span id="max_size" class="nospacing">0MB</span><span id="group_size"></div>
+	<div class="progress" id="progress">
+		<div id="progress-bar" class="progress-bar">
+			<div><img src="http://icon.daum-img.net/editor/file/ico_warning.gif?rv=1.0.1" alt="음악 파일의 저작권 여부를 판단중"/></div>
+			<p id="tx_upload_progress_grp" class="percent">0%</p>
+		</div>
+		<p class="copy uploading-copy">파일을 업로드하는 중입니다.</p></div>
+    <div class="list" id="describe" style="display:none;">
+      <p id="empty_header">첨부하실 파일을 추가해 주세요!</p>
+      <p id="empty_desc">최대 <span id="max_list_size"></span>까지 첨부할 수 있습니다.</p>
+    </div>
+    <ul class="list" id="list" style="display:block;">
+		</ul>
+  </div>
+  <dl id="attach-alert" class="attach-alert">
+    <dt>저작권을 보호해 주세요!</dt>
+    <dd>저작권자의 허락 없이 임의로 저작물<strong class="point">(음악, 동영상, 사진, 글 등)</strong>을<br />
+      인터넷 게시판에 올릴 경우 <strong class="point">관련 법령에 의하여 처벌</strong>을 받을 수 있습니다.</dd>
+  </dl>
+  <ul id="attach-footer" class="attach-footer">
+    <li id="submit" class="imgbtn"><a href="#" onclick="done();" title="등록" class="btnlink">등록</a> </li>
+    <li id="cancel" class="imgbtn"><a href="#" onclick="cancelUpload();" title="취소" class="btnlink">취소</a></li>
+    <li id="close" class="imgbtn"><a href="#" onclick="cancelUpload();" title="닫기" class="btnlink">닫기</a></li>
+  </ul>
+</div>
+</body>
+</html>

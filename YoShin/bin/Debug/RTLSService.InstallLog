@@ -1,0 +1,83 @@
+﻿어셈블리 'D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   assemblypath = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe
+   logfile = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.InstallLog
+RTLSservice 서비스를 설치하고 있습니다...
+EventLog 소스 RTLSservice을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe'을(를) 롤백하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   assemblypath = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe
+   logfile = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.InstallLog
+이벤트 로그를 소스 RTLSservice의 이전 상태로 복원하고 있습니다.
+어셈블리 'D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   assemblypath = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe
+   logfile = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.InstallLog
+RTLSservice 서비스를 설치하고 있습니다...
+EventLog 소스 RTLSservice을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe'을(를) 롤백하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   assemblypath = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe
+   logfile = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.InstallLog
+이벤트 로그를 소스 RTLSservice의 이전 상태로 복원하고 있습니다.
+어셈블리 'D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   assemblypath = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe
+   logfile = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.InstallLog
+RTLSservice 서비스를 설치하고 있습니다...
+RTLSservice 서비스가 설치되었습니다.
+EventLog 소스 RTLSservice을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe'을(를) 커밋하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   assemblypath = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe
+   logfile = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.InstallLog
+어셈블리 'D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSservice.exe'을(를) 제거하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   assemblypath = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSservice.exe
+   logfile = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSservice.InstallLog
+EventLog 소스 RTLSservice을(를) 제거하고 있습니다.
+시스템에서 RTLSservice 서비스를 제거하고 있습니다...
+RTLSservice 서비스가 시스템에서 제거되었습니다.
+RTLSservice 서비스를 중지하려고 합니다.
+어셈블리 'D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   assemblypath = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe
+   logfile = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.InstallLog
+RTLSservice 서비스를 설치하고 있습니다...
+EventLog 소스 RTLSservice을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe'을(를) 롤백하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   assemblypath = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe
+   logfile = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.InstallLog
+이벤트 로그를 소스 RTLSservice의 이전 상태로 복원하고 있습니다.
+어셈블리 'D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   assemblypath = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe
+   logfile = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.InstallLog
+RTLSservice 서비스를 설치하고 있습니다...
+RTLSservice 서비스가 설치되었습니다.
+EventLog 소스 RTLSservice을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe'을(를) 커밋하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   assemblypath = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.exe
+   logfile = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSService.InstallLog
+어셈블리 'D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSservice.exe'을(를) 제거하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   assemblypath = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSservice.exe
+   logfile = D:\working\Arbite\Project\RTLS\RTLSCollector\RTLSCollecor\bin\Debug\RTLSservice.InstallLog
+EventLog 소스 RTLSservice을(를) 제거하고 있습니다.
+시스템에서 RTLSservice 서비스를 제거하고 있습니다...
+RTLSservice 서비스가 시스템에서 제거되었습니다.
+RTLSservice 서비스를 중지하려고 합니다.

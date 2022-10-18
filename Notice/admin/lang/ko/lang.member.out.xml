@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">탈퇴회원관리</item>
+		<item name="page_description"><![CDATA[탈퇴 신청한 회원의 목록이며, 탈퇴 신청시 서비스 이용이 불가능한 상태이며, 탈퇴방법은 기본환경설정에서 설정이 가능합니다.<br>탈퇴된 회원을 선택해서 복원이 가능하며, 탈퇴요청 회원을 삭제시 회원 정보는 영구적으로 삭제 처리됩니다.]]></item>
+	</title>
+
+	<alert>
+		<item name="confirm_delete">선택된 회원정보를 영구적으로 삭제하시겠습니까?</item>
+		<item name="cart_is_null">회원을 선택해 주세요.</item>
+		<item name="confirm_cancel">선택된 회원을 탈퇴취소 하시겠습니까?</item>
+	</alert>
+
+	<contents>
+		<item name="list_num">번호</item>
+		<item name="list_group">그룹</item>
+		<item name="list_level">레벨</item>
+		<item name="list_userid">아이디</item>
+		<item name="list_name">이름</item>
+		<item name="list_nick">닉네임</item>
+		<item name="list_regdate">가입일</item>
+		<item name="list_lastdate">최종방문일</item>
+		<item name="list_visit">방문수</item>
+		<item name="list_memo">사유</item>
+		
+		<item name="text_total">전체</item>
+		<item name="text_nodata">탈퇴한 회원이 없습니다.</item>
+		<item name="text_select">선택된 탈퇴회원</item>
+	</contents>
+
+	<options>
+		<item name="option_page_list" val="10,15,30">10개씩,15개씩,30개씩</item>
+		<item name="option_use" val="1,0">사용중,사용안함</item>
+	</options>
+
+</root>

@@ -1,0 +1,80 @@
+﻿
+<!--#include virtual="/moa_loan/db/db.asp"-->
+<!--#include virtual="/moa_loan/Inc_Files/top.asp"-->
+<HTML>
+<HEAD>
+	<title>모아론 대출서비스</title>
+	<META NAME="keywords" CONTENT="모아론,모아코퍼레이션,대출,신용대출,무보증,무담보,">
+	<META NAME="description" CONTENT="모아론 대출서비스 안내">
+	<META NAME="robots" CONTENT="ALL">
+	<META NAME="author" CONTENT="모아코퍼레이션">
+	<META NAME="content-language" CONTENT="kr">
+	<META NAME="build" CONTENT="2014.5.12">
+	<meta name='viewport' content='initial-scale=1, minimum-scale=0.3,  user-scaleable=yes' />
+	<link href='Inc_Files/Css/default.css' rel='stylesheet' type='text/css'>
+       <script language="JavaScript" type="text/JavaScript">
+
+
+  window.onload = function() { login.mid.focus();}
+
+</script>
+     
+</HEAD>
+<BODY>
+
+<!-- 메인페이지 로그인 시작 -->
+		<div style='padding:100px 0;'>
+            <form action="/moa_loan/loginok.asp" name='login' >
+			<table width='548' border='0' cellspacing='0' cellpadding='0' align='center'>
+				<tr>
+					<td style='height:309px;background:url(images/loginbg.gif);text-align:left;padding:60px 0 0 280px;'>
+						<table width='100%' border='0' cellspacing='0' cellpadding='0'>
+							<tr>
+								<td style='text-align:left;'>
+									
+									<table width='240' border='0' cellspacing='0' cellpadding='0' align='center'>
+										<tr>
+											<td style='padding:3px 0 5px 0'>&nbsp;<input type='radio' name='r_gubun'   value='3' checked>관리자 &nbsp; <input type='radio' name='r_gubun'   value='1' >금융기관 &nbsp; <input type='radio' name='r_gubun' value='2'>지사</td>
+										</tr>
+										<tr>
+											<td style='text-align:left;padding:25px 0 0 60px;'>
+												<table width='100%' cellspacing='0' cellpadding='0' border='0'>
+													<tr>
+<!--														<td style='text-align:left;'><input type='text' name="mid" onkeyup="characterCheck()" onkeydown="characterCheck()" onblur="return leave();" style='border:1px solid #888888;width:120px;color:#aaaaaa;font-size:11px;height:17px;' tabindex='1'></td>-->
+                          <td style='text-align:left;'><input type='text' name="mid" style='border:1px solid #888888;width:120px;color:#aaaaaa;font-size:11px;height:17px;' tabindex='1'></td>
+													</tr>
+													<tr>
+														<td style='text-align:left;padding:10px 0 0 0;'><input name="mpwd" type="password"  id="m_pwd2"  style='border:1px solid #888888;width:120px;color:#aaaaaa;' tabindex='2'></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td style='padding:7px 0 0 75px;'>
+                                                <input name="image" type=image src='images/btn_loginok.gif' border="0">
+                                                </td>
+										</tr>
+									</table>
+									
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+                </form>
+		</div>
+<!-- 메인페이지 로그인 끝 -->
+<!-- 카피라이트 시작 -->
+		<div style='padding:30px 0 0 0;'><img src='images/footer_line.gif' style='width:100%;height:6px;'></div>
+		<div style='padding:20px 0 0 0;'>
+			<table width='1000' border='0' cellspacing='0' cellpadding='0' align='center'>
+				<tr>
+					<td style='padding:0 25px 0 40px;'><img src='images/footer_logo.gif'></td>
+					<td style=''><img src='images/copytext.gif'></td>
+				</tr>
+			</table>
+		</div>
+<!-- 카피라이트 끝 -->
+</BODY>
+</HTML>

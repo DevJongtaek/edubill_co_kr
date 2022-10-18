@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">이미지 관리</item>
+	</title>
+
+	<alert>
+		<item name="error_upload">파일 업로드 오류가 발생되었습니다.</item>
+		<item name="select_file">삭제할 파일을 선택해 주세요.</item>
+		<item name="confirm_delete">선택된 파일을 삭제하시겠습니까?</item>
+		<item name="is_null_category">분류명을 입력해 주세요.</item>
+		<item name="exists_category">중복된 분류명 입니다.</item>
+		<item name="only_image_file">이미지 파일만 업로드가 가능합니다.</item>
+		<item name="select_file">파일을 선택해 주세요.</item>
+		<item name="success_upload">업로드가 완료되었습니다.</item>
+		<item name="success_copy">복사되었습니다.</item>
+	</alert>
+
+	<contents>
+
+		<item name="title_select">파일선택</item>
+		<item name="title_memo">파일설명</item>
+		<item name="title_category">파일분류</item>
+		<item name="title_num">번호</item>
+
+		<item name="about_upload_file">이미지 파일만 업로드가 가능합니다. (jpg, gif, bmp, png, tif)</item>
+
+	</contents>
+
+	<options>
+		<item name="option_category" val="">분류선택</item>
+		<item name="option_nouse" val="">사용안함</item>
+	</options>
+
+</root>

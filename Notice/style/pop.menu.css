@@ -1,0 +1,31 @@
+﻿@charset "utf-8";
+
+.popup_menu_area {border:2px solid #EEE; background-color:#FFF;}
+.popup_menu_area ul {border:1px solid #DDD; padding:10px; list-style:none; margin:0;}
+.popup_menu_area li {height:20px; list-style:none; margin:0; padding:0;}
+.popup_menu_area li:hover {background-color:#F7F7F7;}
+.popup_menu_area li:active {background-color:#FFF;}
+
+.popup_menu_area .icon_memo,
+.popup_menu_area .icon_friend,
+.popup_menu_area .icon_member,
+.popup_menu_area .icon_email,
+.popup_menu_area .icon_homepage,
+.popup_menu_area .icon_board, 
+.popup_menu_area .icon_vote, 
+.popup_menu_area .icon_blamed, 
+.popup_menu_area .icon_declare, 
+.popup_menu_area .icon_scrap, 
+.popup_menu_area .icon_print {background:url(../images/popup_menu/icon_pop_menu.gif); background-repeat:no-repeat; line-height:20px; height:20px; padding-left:20px;}
+
+.popup_menu_area .icon_memo {background-position:0 0;}
+.popup_menu_area .icon_friend {background-position:0 -20px;}
+.popup_menu_area .icon_member {background-position:0 -40px;}
+.popup_menu_area .icon_email {background-position:0 -60px;}
+.popup_menu_area .icon_homepage {background-position:0 -80px;}
+.popup_menu_area .icon_board {background-position:0 -100px;}
+.popup_menu_area .icon_vote {background-position:0 -120px;}
+.popup_menu_area .icon_blamed {background-position:0 -140px;}
+.popup_menu_area .icon_declare {background-position:0 -160px;}
+.popup_menu_area .icon_scrap {background-position:0 -180px;}
+.popup_menu_area .icon_print {background-position:0 -200px;}

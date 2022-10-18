@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">전체검색 환경설정</item>
+		<item name="page_description"><![CDATA[통합검색에 관련된 세부 설정을 합니다.]]></item>
+		<item name="page_sub_title">세부설정</item>
+	</title>
+
+	<alert>
+		<item name="is_null_browser_msg">브라우저 상단 메시지를 입력하세요.</item>
+		<item name="is_null_search_item">검색대상을 1가지 이상 선택하세요.</item>
+		<item name="is_null_search_board">검색에 포함될 게시판을 등록하세요.</item>
+		<item name="is_null_cut_title">제목 출력길이 제한값을 입력하세요.</item>
+		<item name="is_null_cut_content">내용 출력길이 제한값을 입력하세요.</item>
+		<item name="is_null_image_width">이미지 가로 크기를 입력하세요.</item>
+		<item name="is_null_image_height">이미지 세로 크기를 입력하세요.</item>
+		<item name="is_null_default_count">초기검색 결과개수를 입력하세요.</item>
+		<item name="is_null_count">확장검색 결과개수를 입력하세요.</item>
+
+
+		<item name="success_saved">등록되었습니다.</item>
+	</alert>
+
+	<contents>
+
+		<item name="title_browser_msg">브라우저 상단 메시지</item>
+		<item name="title_layout">레이아웃</item>
+		<item name="title_search_target">검색필드</item>
+		<item name="title_search_item">검색대상</item>
+		<item name="title_search_board">검색 게시판</item>
+
+		<item name="title_cut_title">제목 출력길이 제한</item>
+		<item name="title_cut_content">내용 출력길이 제한</item>
+		<item name="title_link_target">링크대상</item>
+		<item name="title_image_size">이미지 크기</item>
+		<item name="title_default_count">초기검색 결과개수</item>
+		<item name="title_list_count">확장검색 결과개수</item>
+
+
+		<item name="about_browser_msg">브라우저 상단에 표시될 제목을 입력합니다.</item>
+		<item name="about_layout">등록된 레이아웃을 페이지 호출시 선택한 레이아웃을 출력할 수 있습니다.</item>
+		<item name="about_search_target">초기 검색시 설정된 검색 필드로 검색을 합니다.</item>
+		<item name="about_search_item">검색대상을 선택할 수 있으며, 설정된 대상으로 검색결과가 출력됩니다.</item>
+		<item name="about_search_board">전체 게시판 또는 특정 게시판을 등록해서 사용이 가능합니다.</item>
+		<item name="about_cut_title">제목의 길이가 입력된 값 보다 클 경우 입력된 길이 만큼만 출력합니다. (0입력시 전체 출력)</item>
+		<item name="about_cut_content">내용의 길이가 입력된 값 보다 클 경우 입력된 길이 만큼만 출력합니다. (0입력시 전체 출력)</item>
+		<item name="about_link_target">검색결과의 링크 방식을 설정합니다.</item>
+		<item name="about_image_size">검색결과에 이미지 크기를 설정합니다.</item>
+		<item name="about_default_count">전체검색 첫 페이지에 출력되는 검색결과 개수를 지정합니다.</item>
+		<item name="about_list_count">검색결과를 더 볼 수 있는 페이지에 출력되는 검색결과 개수글 지정합니다.</item>
+
+		
+		<item name="text_image_width">가로</item>
+		<item name="text_image_height">세로</item>
+		<item name="text_nodata">등록된 서식이 없습니다.</item>
+
+	</contents>
+
+	<options>
+
+		<item name="option_no_use" val="">사용안함</item>
+		<item name="option_search_target" val="title_content,title,content,tag">제목+내용,제목,내용,태그</item>
+		<item name="option_search_board" val="1,0">전체 게시판,게시판 선택</item>
+		<item name="option_search_document" val="1">게시글</item>
+		<item name="option_search_comment" val="1">댓글</item>
+		<item name="option_search_image" val="1">이미지</item>
+		<item name="option_search_file" val="1">파일</item>
+		<item name="option_link_target" val="_blank,_new,_parent,_self,_top">_blank,_new,_parent,_self,_top</item>
+
+	</options>
+
+</root>

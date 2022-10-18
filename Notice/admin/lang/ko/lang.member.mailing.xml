@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title_list">메일링발송</item>
+		<item name="page_title_target">발송대상설정</item>
+		<item name="page_title_send">메일링발송</item>
+		<item name="page_title_add">메일링정보 등록/수정</item>
+		<item name="page_title_group">메일링 그룹관리</item>
+		<item name="page_title_group_add">메일링그룹 등록/수정</item>
+		<item name="page_title_group_member">메일링 그룹회원</item>
+		<item name="page_title_etc_list">기타메일정보관리</item>
+		<item name="page_title_etc_add">기타메일정보 등록/수정</item>
+
+		<item name="page_description_list"><![CDATA[발송할 메일내용을 등록해서 다양한 방식으로 회원에게 메일링을 발송할 수 있습니다.<br>메일링을 발송하시려면 먼저 메일링 정보 등록 -> 발송대상설정 -> 메일링발송 순으로 실행해야 합니다.]]></item>
+		<item name="page_description_target"><![CDATA[발송할 메일내용을 등록해서 다양한 방식으로 회원에게 메일링을 발송할 수 있습니다.<br>메일링을 발송하시려면 먼저 메일링 정보 등록 -> 발송대상설정 -> 메일링발송 순으로 실행해야 합니다.]]></item>
+		<item name="page_description_send"><![CDATA[발송할 메일내용을 등록해서 다양한 방식으로 회원에게 메일링을 발송할 수 있습니다.<br>메일링을 발송하시려면 먼저 메일링 정보 등록 -> 발송대상설정 -> 메일링발송 순으로 실행해야 합니다.]]></item>
+		<item name="page_description_add"><![CDATA[발송할 메일내용을 등록해서 다양한 방식으로 회원에게 메일링을 발송할 수 있습니다.<br>메일링을 발송하시려면 먼저 메일링 정보 등록 -> 발송대상설정 -> 메일링발송 순으로 실행해야 합니다.]]></item>
+		<item name="page_description_group"><![CDATA[등록된 회원에게 메일링 그룹을 부여해서 해당 그룹의 회원들에게만 메일링을 발송할 수 있습니다.<br>그룹의 생성 개수는 제한이 없으며, 메일링 그룹은 메일링 발송시에만 사용할 수 있는 그룹입니다.]]></item>
+		<item name="page_description_group_member">메일링 그룹에 회원을 등록하거나 삭제할 수 있습니다.</item>
+		<item name="page_description_etc"><![CDATA[사이트 회원이 아닌, 별도의 메일정보를 구축해서 메일링 발송시 발송이 가능합니다.<br>별도의 메일정보를 구축해 놓거나, 기타 고객을 관리할 수 있는 기능을 제공합니다.]]></item>
+
+		<item name="page_sub_title_1">발송대상정보</item>
+		<item name="page_sub_title_2">메일정보</item>
+		<item name="page_sub_title_3">그룹정보</item>
+		<item name="page_sub_title_4">등록된 회원목록</item>
+		<item name="page_sub_title_5">등록되지 않은 회원목록</item>
+		<item name="page_sub_title_6">세부정보</item>
+
+	</title>
+
+	<alert>
+		<item name="cart_is_null">삭제할 항목을 선택하세요.</item>
+		<item name="confirm_delete">선택된 정보를 삭제하시겠습니까?</item>
+		<item name="is_null_target">발송대상을 선택하시거나 입력해 주세요.</item>
+		<item name="confirm_new_make"><![CDATA[기존의 메일발송 대상정보가 있는 경우 삭제됩니다.<br>신규로 메일발송 대상자를 생성하시겠습니까?]]></item>
+		<item name="success_saved">등록되었습니다.</item>
+		<item name="not_exists_target">조건에 일치하는 대상자가 없습니다.</item>
+		<item name="success_send">메일링 발송이 완료되었습니다.</item>
+		<item name="is_null_send_name">발송자 이름을 입력하세요.</item>
+		<item name="is_null_send_email">발송자 메일주소를 입력하세요.</item>
+		<item name="is_null_title">제목을 입력하세요.</item>
+		<item name="is_null_content">메일내용을 입력하세요.</item>
+		<item name="success_updated">수정되었습니다.</item>
+		<item name="is_null_search_keyword">검색단어를 입력하세요.</item>
+		<item name="invalid_search_keyword">검색어는 최소 3bytes 이상 입력 하셔야 합니다.</item>
+		<item name="select_delete_member">삭제할 회원을 선택해 주세요.</item>
+		<item name="confirm_delete_member">선택한 회원을 현재 메일링 그룹에서 삭제하시겠습니까?</item>
+		<item name="select_add_member">등록할 회원을 선택해 주세요.</item>
+		<item name="confirm_add_member">선택한 회원을 현재 메일링 그룹에 등록하시겠습니까?</item>
+		<item name="is_null_name">이름을 입력하세요.</item>
+		<item name="is_null_email">메일주소를 입력하세요.</item>
+
+	</alert>
+
+	<contents>
+
+		<item name="tab_menu1">메일링발송</item>
+		<item name="tab_menu2">메일링그룹관리</item>
+		<item name="tab_menu3">기타메일정보관리</item>
+
+		<item name="list_num">번호</item>
+		<item name="list_subject">메일제목</item>
+		<item name="list_user">발송대상</item>
+		<item name="list_senddate">발송일자</item>
+		<item name="list_regdate">등록일자</item>
+		<item name="list_user_set">발송대상설정</item>
+		<item name="list_send">메일링발송</item>
+		<item name="list_modify">수정</item>
+		<item name="list_group">그룹명</item>
+		<item name="list_group_memo">그룹설명</item>
+		<item name="list_member_count">회원수</item>
+		<item name="list_member">회원</item>
+		<item name="list_level">레벨</item>
+		<item name="list_userid">아이디</item>
+		<item name="list_name">이름</item>
+		<item name="list_nick">닉네임</item>
+		<item name="list_join_date">가입일</item>
+		<item name="list_lastdate">최종방문일</item>
+		<item name="list_visit">방문수</item>
+
+		<item name="list_position">부서</item>
+		<item name="list_email">메일주소</item>
+		<item name="list_mailing">메일수신</item>
+
+
+		<item name="title_subject">메일제목</item>
+		<item name="title_group">회원그룹</item>
+		<item name="title_mailing_group">메일링 그룹</item>
+		<item name="title_userid">회원 아이디</item>
+		<item name="title_user_input">직접입력</item>
+		<item name="title_etc_mail">기타메일정보</item>
+		<item name="title_user">발송자 정보</item>
+		<item name="title_user_count">수신인원</item>
+		<item name="title_preview">미리보기</item>
+		<item name="title_part_send">분할발송</item>
+		<item name="title_send_name">발송자 이름</item>
+		<item name="title_send_email">발송자 메일주소</item>
+		<item name="title_input_mode">본문 입력모드</item>
+		<item name="title_content">메일내용</item>
+		<item name="title_group_name">그룹명</item>
+		<item name="title_group_memo">그룹설명</item>
+
+		<item name="title_name">이름</item>
+		<item name="title_email">메일주소</item>
+		<item name="title_company">회사명</item>
+		<item name="title_position">부서</item>
+		<item name="title_class">직급</item>
+		<item name="title_tel">전화번호</item>
+		<item name="title_fax">팩스번호</item>
+		<item name="title_mobile">휴대폰번호</item>
+		<item name="title_addr">주소</item>
+		<item name="title_memo">메모사항</item>
+		<item name="title_maling">메일수신</item>
+				
+		<item name="about_name">메일을 수신자의 이름을 입력하세요.</item>
+		<item name="about_email">메일을 수신할 메일주소를 입력하세요.</item>
+		<item name="about_addr">우편번호를 검색하셔서 주소를 입력하세요.</item>
+		<item name="about_memo">기타 별도로 관리할 메모 사항을 입력하세요.</item>
+		<item name="about_maling">메일 수신여부를 선택하세요.</item>
+
+		<item name="about_part_send"><![CDATA[메일수신자가 많을 경우 분할해서 메일을 발송합니다.<br>서버의 성능 또는 호스팅 업체에 따라 일괄발송가능 건수가 달라지며, 가능하면 100건 이하로 분할해서 발송하시기 바랍니다.]]></item>
+		<item name="about_group">메일링을 발송할 그룹을 선택합니다.</item>
+		<item name="about_mailing_group">메일링 발송을 위해 생성한 메일링 그룹을 선택합니다.</item>
+		<item name="about_userid">특정 회원에게 메일을 발송하려면 회원 아이디를 입력합니다. 회원아이디는 컴마(,)로 구분지어 입력합니다.</item>
+		<item name="about_user_input"><![CDATA[메일주소를 직접 입력합니다. 입력방식은 수신자이름:메일주소의 형태로 입력하며 컴마(,)로 구분지어 입력합니다.<br>예)수신자이름1:test1@test.co.kr,수신자이름2:test2@test2.co.kr]]></item>
+		<item name="about_etc_mail">회원이 아닌 기타메일정보에 등록된 메일계정에 메일을 발송합니다.</item>
+		<item name="about_input_mode">에디터로 입력시 태그가 자동적으로 변환되어 저장될 수 있습니다.</item>
+
+		<item name="about_group_name">메일링 그룹을 쉽게 구분할 수 있는 제목을 입력합니다.</item>
+		<item name="about_group_memo">그룹에 대한 설명을 간단히 입력합니다.</item>
+
+		<item name="text_total">전체</item>
+		<item name="text_nodata">등록된 정보가 없습니다.</item>
+		<item name="text_select">선택된 정보</item>
+		<item name="text_count">명</item>
+		<item name="text_send_count">통 발송 완료</item>
+
+	</contents>
+
+	<options>
+		<item name="option_page_list" val="10,15,30,50">10개씩,15개씩,30개씩,50개씩</item>
+		<item name="option_etcuser" val="1">등록된 메일정보 수신자에게 메일발송</item>
+		<item name="option_sendcount" val="0,20,50,100,300,500,700,1000,1500,2000,3000,5000">전체발송,20건씩,50건씩,100건씩,300건씩,500건씩,700건씩,1000건씩,1500건씩,2000건씩,3000건씩,5000건씩</item>
+		<item name="option_input_mode" val="1,0">에디터 입력모드,HTML태그 입력모드</item>
+		<item name="option_group" val="">그룹선택</item>
+		<item name="option_level" val="">레벨선택</item>
+		<item name="option_search" val="strNickName,strLoginID,strUserName">닉네임,아이디,이름</item>
+		<item name="option_search_etc" val="strName,strCompany,strPostion">이름,회사명,부서</item>
+		<item name="option_use" val="1,0">메일수신,수신안함</item>
+	</options>
+
+</root>

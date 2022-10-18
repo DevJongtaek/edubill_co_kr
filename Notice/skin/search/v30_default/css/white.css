@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+body,th,td {font-size:12px; font-family:dotum,sans-serif;color:#666;}
+
+a {text-decoration:none; color:#0307C3;}
+a:link:hover,
+a:active {text-decoration:underline;}
+address { font-style:normal;}
+
+.pa5 {padding:5px;}
+
+h2 {color:#000;font:bold 13px AppleGothic,gulim,sans-serif; margin:10px 0 20px 0;}
+h2 span {font-weight:normal;}
+
+.input_keyword {border:3px solid #B6B6B6; font-size:13px; font-weight:bold; padding:3px; vertical-align:middle; width:240px;}
+.noResult { display:block; margin:0 0 30px 0; color:#666; padding:0 0 10px 20px; border-bottom:1px solid #EFEFEF; line-height:160%;}
+
+.subNavigation {*zoom:1; margin:0 0 20px 0; padding:0 0 10px 0; overflow:hidden; border-bottom:1px solid #EFEFEF; }
+.subNavigation:after {content:""; display:block; clear:both;}
+.subNavigation li {position:relative; list-style:none; float:left; margin:0 -1px 0 0; padding:0 }
+.subNavigation li a {color:#666; text-decoration:none; text-decoration:none; float:left; padding:0 10px 0 0; margin-right:10px; border-right:1px solid #ddd; }
+.subNavigation li.last a {border-right:0;}
+.subNavigation li.on {margin-bottom:-1px;}
+.subNavigation li.on a {font-weight:bold;}
+
+.searchResult {margin:10px 0 0 10px; padding:0;}
+.searchResult li {width:100%; margin-bottom:15px; clear:both; overflow:hidden;list-style:none; }
+.searchResult li .thumb {display:block; float:left; margin-right:14px; padding:1px; border:1px solid #DDD;}
+.searchResult li dl { margin:5px 0 0 0; padding:0; }
+.searchResult li dl dt {padding:0; color:#818181; margin-bottom:6px;}
+.searchResult li dl dt a {color:#0307c3; text-decoration:underline;}
+.searchResult.comment li dl dt a {color:#444444; text-decoration:none; line-height:1.4;}
+.searchResult.comment li dl dt a:hover {text-decoration:underline;}
+.searchResult li dl dt .reply {color:#FD6A56; font:.9em Tahoma;}
+.searchResult li dl dt .reply em {color:#FD6A56; font:normal 10px Tahoma;}
+.searchResult li dl dt .category {color:#818181;}
+.searchResult li dl dt .category a {color:#818181; border:none; text-decoration:none;}
+.searchResult li dl dd {padding:0; margin:0; line-height:18px; color:#555555; margin-bottom:4px;}
+.searchResult li address {color:#d8d8d8; font-size:12px; margin-top:5px; }
+.searchResult li address strong {color:#3e3e3e; font-size:1em; font-weight:bold;}
+.searchResult li address img {vertical-align:middle; margin-right:2px;}
+.searchResult li address .time {color:#818181;}
+.searchResult li address .read {font:12px "돋움", Dotum, "굴림", Gulim, AppleGothic, Sans-serif; color:#818181;}
+.searchResult li address .readNum {color:#818181; font:.8em Tahoma;}
+.searchResult li address .recom {font:12px "돋움", Dotum, "굴림", Gulim, AppleGothic, Sans-serif; color:#818181;}
+.searchResult li address .recomNum {color:#818181; font:.8em Tahoma;}
+
+.searchImageResult { margin:10px 0 0 10px; padding:0; overflow:hidden; *zoom:1;}
+.searchImageResult li { width:124px; height:190px; padding:0; margin:0 20px 15px 0; list-style:none; float:left; overflow:hidden; vertical-align:top;}
+.searchImageResult li img { display:block; margin-bottom:10px; padding:1px; border:1px solid #DDD;}
+.searchImageResult li dl { margin:0; padding:0; }
+.searchImageResult li dl dt { padding:0; margin:0; color:#d8d8d8; margin-bottom:1px;}
+.searchImageResult li dl dt a { color:#1a3588; text-decoration:underline;}
+.searchImageResult li address { color:#d8d8d8; font-size:12px; margin-top:5px; }
+.searchImageResult li address strong { color:#3e3e3e; font-size:1em; font-weight:normal;}
+.searchImageResult li address img { vertical-align:middle; margin-right:2px;}
+.searchImageResult li address .recom { font:11px "돋움", Dotum, "굴림", Gulim, AppleGothic, Sans-serif; color:#818181;}
+.searchImageResult li address .recomNum { color:#fe6700; font:bold .8em Tahoma;}
+.searchImageResult li address .time { color:#818181; font:.8em Tahoma;}
+
+div.isMore { color:#666; text-align:right; margin-bottom:20px; padding-bottom:10px; border-bottom:1px solid #EFEFEF; }
+div.isMore a { color:#666; text-decoration:underline; }
+
+.button,
+.button *{ position:relative; margin:0; padding:0; display:inline-block; text-decoration:none !important; border:0; font-size:12px; font-family:dotum, Tahoma, Sans-serif; white-space:nowrap; background:url(images/white/btn_bg.gif) no-repeat; vertical-align:top; overflow:visible; color:#333;}
+.button {margin-right:4px; background-position:left 0;}
+.button *{left:4px; cursor:pointer; _cursor:hand;}
+.button,
+.button * {height:26px; line-height:26px;}
+.button * {padding:0 11px 0 7px; font-size:12px; background-position:right top;}
+.button.strong *{ font-weight:bold !important;}
+
+#pagingArea {padding:15px 0; margin:0; text-align:center;}
+#pagingArea * {margin:0; padding:0;}
+#pagingArea .prev_page {color:#666; padding:0 0 0 9px; margin-right:8px; background:url(images/white/allow_prev_page.gif) 0 3px no-repeat; cursor:pointer; cursor:hand;}
+#pagingArea .next_page {color:#666; padding:0 9px 0 0; margin-left:3px; background:url(images/white/allow_next_page.gif) 100% 3px no-repeat; cursor:pointer; cursor:hand;}
+#pagingArea .prev_page_disabled {color:#999; padding:0 0 0 9px; margin-right:8px; background:url(images/white/allow_prev_page_disabled.gif) 0 3px no-repeat;}
+#pagingArea .prev_page_disabled:hover {text-decoration:none;}
+#pagingArea .next_page_disabled {color:#999; padding:0 9px 0 0; margin-left:3px; background:url(images/white/allow_next_page_disabled.gif) 100% 3px no-repeat;}
+#pagingArea .next_page_disabled:hover {text-decoration:none;}
+#pagingArea span a {color:#666; font-size:11px; font-family:Tahoma; font-weight:bold; padding:3px 6px 2px; margin-right:5px; border:1px solid #fff; cursor:pointer; cursor:hand;}
+#pagingArea span a:hover {color:#6173e8; font-size:11px; font-family:Tahoma; font-weight:bold; border:1px solid #d7d7d7; cursor:pointer; cursor:hand;}
+#pagingArea span a.current_page {color:#6173e8; border:1px solid #d7d7d7; cursor:default;}
+#pagingArea span a.current_page:hover {color:#6173e8; cursor:default; text-decoration:none;}
+#pagingArea.base span a	{margin-right:0;}

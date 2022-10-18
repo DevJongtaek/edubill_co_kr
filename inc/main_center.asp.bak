@@ -1,0 +1,163 @@
+<!--#include virtual="/db/Noticedb.asp" -->
+<script language="javascript">
+function newwinB(){
+	window.open ('/adminpage/index.asp','CheckID','scrollbars=yes,width=800,height='+screen.availHeight+'');
+}
+
+	function noticeopenWin() 
+	{ 
+		document.all['notice'].style.display = "";
+	}
+
+	function noticecloseWin() 
+	{ 
+		document.all['notice'].style.display = "none";
+	}
+</script>
+
+<%
+	set rs = server.CreateObject("ADODB.Recordset")
+	SQL = "select idx, case  when len(title) > 15 then SUBSTRING(title, 1, 15) + '...' else title end, convert(varchar(12), nows, 111) from tb_rhdwltkgkf where uid = 'notice' "
+	SQL = SQL & " ORDER BY ref desc, re_step asc, re_level asc"
+	rs.PageSize=20
+	rs.Open sql, noticedb, 1
+%>
+
+<table width="980" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="../images/main/contents_01.gif"></td>
+  </tr>
+</table>
+<table width="980" border="0" cellspacing="0" cellpadding="0">
+<form action="/adminpage/loginok.asp" name=login onsubmit="return logincheck();">
+  <tr valign="top"> 
+      <td width="197" align="right"> 
+        <!--멤버 로그인 영역-->
+        <table width="163" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td align="left"><img src="../images/main/login_01.gif" width="97" height="14"></td>
+        </tr>
+        <tr> 
+          <td height="10"></td>
+        </tr>
+        <tr> 
+          <td> <% If session("userid") = "" Then %> 
+            <!-- 로그인 -->
+            <table width="163" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td align="left" > <input name="mid" class="input01" id="m_id2" size="15" onkeyup="characterCheck()" onkeydown="characterCheck()" onblur="return leave();"> 
+                </td>
+                <td width="58" rowspan="3" align="right"><input name="image" type=image src="../images/main/login_02.gif" width="58" height="42" border="0"></td>
+              </tr>
+              <tr> 
+                <td height="3"></td>
+              </tr>
+              <tr> 
+                <td align="left"> <input name="mpwd" type="password" class="input01" id="m_pwd2" size="15"> 
+                </td>
+              </tr>
+            </table>
+            <!-- /로그인 -->
+            <% Else %> 
+            <!-- 로그아웃 -->
+            <table width="163" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td><span style="PADDING:0 0 0 10"> 아이디 </span></td>
+                <td width="58" rowspan="3" align="right"> <A href="../join/logout.asp"><img src="../images/main/login_021.gif" width="58" height="42" border="0"></a></td>
+              </tr>
+              <tr> 
+                <td height="3"></td>
+              </tr>
+              <tr> 
+                <td><span style="PADDING:0 0 0 10"> 이름</span></td>
+              </tr>
+            </table>
+            <!-- /로그아웃 -->
+            <% End If %> 
+        <tr> </tr>
+        <!---회원가입 버튼
+        <tr> 
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="51"><a href="../join/join2.asp"><img src="../images/main/login_03.gif" width="51" height="22" border="0"></a></td>
+                <td>&nbsp;</td>
+                <td width="108"><a href="#" onClick="MM_openBrWindow('/join/id.asp','','width=420,height=280')"><img src="../images/main/login_04.gif" width="108" height="22" border="0"></a></td>
+              </tr>
+            </table></td>
+        </tr>--->
+        <tr> 
+          <td height="5"><img src="../images/main/bt_01.gif" width="163" height="39" vspace="5"></td>
+        </tr>
+      </table>
+      <!--/멤버 로그인 영역 끝-->
+    </td>
+    <td width="362" align="center"><table width="315" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+            <td align="left"><a href="../customer/customer1.asp"><img src="../images/main/new_02.gif" width="96" height="17" border="0"></a></td>
+        </tr>
+        <tr> 
+          <td height="10"></td>
+        </tr>
+        <tr> 
+          <td>
+		  <table width="315" border="0" cellspacing="0" cellpadding="0">
+              <!-- 공지 반복 시작 -->
+			  <% do until rs.eof %>
+              <tr> 
+                <td width="32" valign="middle" class="n_1"><img src="../images/main/new_01.gif" width="32" height="13"></td>
+                <td width="5" valign="middle">&nbsp;</td>
+                  <td width="200" height="20" align="left" valign="middle">
+				  <a href="../customer/customer01_01.asp?idx=^4*7@5!<%=rs("idx")%>!2@3^4"><%=rs(1)%></a></td>
+                <td width="15">&nbsp;</td>
+                <td width="65" align="right" valign="middle"><%=rs(2)%>
+            </td>
+			 </tr>
+			<%
+			rs.movenext
+			Loop
+			%>
+		</table>
+      </table></td>
+      <td align="left">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="390" height="123">
+        <param name="movie" value="../flash/main_b.swf">
+        <param name="quality" value="high">
+        <embed src="../flash/main_b.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="390" height="123"></embed></object>
+      </td>
+  </tr>
+  <tr valign="top">
+    <td height="27" align="right">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr valign="top"> 
+    <td align="right"><table width="165" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><img src="../images/main/b_02.gif" width="165" height="60"></td>
+        </tr>
+      </table></td>
+    <td align="center"><img src="../images/main/b_03.gif" height="72" border="0" usemap="#Map_cc" border=0></td>
+    <td><img src="../images/main/b_04.gif" width="387" height="72"></td>
+  </tr>
+  </form>
+</table>
+<map name="Map_cc">
+  <area shape="rect" coords="2,4,154,69" href="customer/customer05.asp" target="_self">
+  <area shape="rect" coords="157,4,311,69" href="#" onclick="javascript:newwinB()" >
+</map>
+<div id="notice" style="position:absolute; left:300px; top:100px; z-index:0; width:500;height:300;background-color:white; border:0px solid hotpink; display:none">
+   <div id="pop2">
+    <div id="popContent2">
+	<table width="500" border="0" cellspacing="1" cellpadding="0" bgcolor="#ffffff">
+	<tr>
+		<td align=Center><font color=blue size=3pt><img src="../images/main/totalcallinstall.png"  border="0" usemap="#Map_qq" border=0></font></td>
+	</tr>
+</table>
+    </div>
+   </div>
+  </div>
+  <map name="Map_qq">
+  <area shape="rect" coords="530,1,570,20" href="customer/customer05.asp" target="_self">
+  <area shape="rect" coords="85,95,490,180" href="http://180.64.114.44/totalcall.admin/setup.exe" target="_blank">
+  <area shape="rect" coords="85,240,490,325" href="http://180.64.114.44/totalcall.cti/setup.exe"  target="_blank">
+</map>

@@ -1,0 +1,56 @@
+﻿	body {margin:0; padding:0; background-color:#F3F3F3;}
+	dl, dt, dd, ul, ol, li, p {margin:0; padding:0; list-style:none;}
+	#wrap {width:620px; margin:0 auto; background-color:#F3F3F3; font-family:"돋움", dotum, sans-serif; font-size:11px; letter-spacing:-1px;}
+	img {border:none;}
+
+	.nospacing {letter-spacing:0;}
+	.separator {color:#ddd; margin:0 4px;}
+	.point {font-weight:normal; color:#a7b9ec;}
+	.imgbtn {background-repeat:no-repeat;}
+	.btnlink {text-indent:-5000px; display:block;}
+
+	h1 {margin:0; padding:0 20px; height:34px; line-height:34px; background-image:url(../images/popup/pop_header_bg.gif); font-family:'굴림', gulim, sans-serif; font-size:12px; color:#fff;}
+	h1 div {float:right;}
+
+	.attach-header {height:45px; color:#999; padding:0 17px 0 18px;}
+	.attach-header p {background:url(../images/popup/b_info.gif) 0 18px no-repeat; padding:19px 0 0 17px;}
+ 
+	#browse {width:60px; height:26px; float:right; margin:6px 0 0 0;}
+
+	.attach_box {background:#FFF; padding:15px; border:1px solid #D5D5D5; margin:10px;}
+	.attach_box .content {border:1px solid #D5D5D5; padding:10px; height:306px;}
+	.attach_box .content .image_list {width:416px; float:left;}
+	.attach_box .content .image_list ul {list-style:none; margin:-10px 0 0 0; padding:0;}
+	.attach_box .content .image_list li {float:left; margin:10px 8px 0 0; text-align:center; line-height:93px; color:#999; font-size:10px; font-family:Verdana, Geneva, sans-serif;}
+	.attach_box .content .image_list li div {border:1px solid #D5D5D5; width:94px; height:94px; margin:0 auto;}
+	.attach_box .content .image_list li div img {border:2px solid #FFF; cursor:pointer;}
+	.attach_box .content .image_list li div img.select {border:2px solid #ff826f;}
+
+	.attach_box .content .image_right {width:130px; float:left; font-size:12px;}
+	.attach_box .content .image_right .info {border-bottom:1px solid #DDDDDD; padding-bottom:10px; margin-bottom:10px;}
+	.attach_box .content .image_right .info li.title {height:24px; line-height:24px; font-weight:bold;}
+	.attach_box .content .image_right .info li.memo {height:18px; line-height:18px;}
+	.attach_box .content .image_right .info li.memo span {color:#FF6600; letter-spacing:normal;}
+	.attach_box .content .image_right .step li.title {height:24px; line-height:24px; font-weight:bold;}
+	.attach_box .content .image_right .step li.btn {height:28px; line-height:28px;}
+	.attach_box .content .image_right .step li.btn a {text-decoration:none; color:#999; font-size:11px;}
+	.attach_box .content .image_right .step .btn_prev {background:url('../images/btn/btn_move_prev.gif') no-repeat; width:24px; height:21px; vertical-align:middle;}
+	.attach_box .content .image_right .step .btn_next {background:url('../images/btn/btn_move_next.gif') no-repeat; width:24px; height:21px; vertical-align:middle;}
+	
+	.attach_box .about {clear:both; padding:14px 10px 0 10px;}
+	.attach_box .about li {height:16px; color:#666;}
+	
+	.btn_image_remove {float:right; padding-top:6px; margin-left:5px;}
+	.btn_remove {background:url('../images/icon/ko/btn_image_remove.gif') no-repeat; width:60px; height:20px;}
+
+	.progress {position:absolute; z-index:200; top:190px; left:184px; width:200px; height:46px; padding:3px 10px 10px 10px; border:1px #aaa solid; background:#fff;display:none;}
+	.progress .progress-bar div {height:11px; text-align:right; visibility:hidden;}
+	.progress p.percent {background:url(../images/popup/progress.gif) repeat-x; padding:3px 0 0; margin:0 0 8px; height:17px; font-size:11px; font-family:'돋움',dotum,verdana; color:#fff; text-align:center;}
+	.progress p.copy {font-size:11px; font-family:'돋움',dotum,verdana; color:#666; text-align:center;}
+
+	.attach_footer {padding:10px 0 10px 260px; height:25px; clear:both;}
+	.attach_footer li {float:left;}
+	.attach_footer #submit a {background-image:url(../images/popup/ko/bt_reg.gif); background-position:0 0; width:49px; height:25px; line-height:25px;}
+	.attach_footer #cancel a {background-image:url(../images/popup/ko/bt_reg.gif); background-position:100% 0; width:49px; height:25px; line-height:25px; margin-left:7px;}
+	.attach_footer #close {width:38px; height:13px; float:right; margin:6px 12px 0 0;}
+	.attach_footer #close a {background-image:url(../images/popup/ko/bt_close.gif); width:38px; height:13px;}

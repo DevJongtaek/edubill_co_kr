@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<item name="btn_login">로그인</item>
+	<item name="btn_save">저장</item>
+	<item name="btn_cancel">취소</item>
+	<item name="btn_add">추가</item>
+	<item name="btn_modify">수정</item>
+	<item name="btn_remove">삭제</item>
+	<item name="btn_category">분류관리</item>
+	<item name="btn_file_find">파일찾기</item>
+	<item name="btn_layout_add">레이아웃추가</item>
+	<item name="btn_page_add">페이지추가</item>
+	<item name="btn_search">검색</item>
+	<item name="btn_detail_search">상세검색</item>
+	<item name="btn_change">변경</item>
+	<item name="btn_point_add">포인트지급</item>
+	<item name="btn_withdraw">강제탈퇴</item>
+	<item name="btn_excel_down">엑셀다운</item>
+	<item name="btn_list">목록</item>
+	<item name="btn_post_find">우편번호검색</item>
+	<item name="btn_select">선택</item>
+	<item name="btn_move">이동</item>
+	<item name="btn_group_add">회원그룹 추가</item>
+	<item name="btn_order_reset">순서초기화</item>
+	<item name="btn_document_add">문서추가</item>
+	<item name="btn_deniedid_add">아이디 추가</item>
+	<item name="btn_level_add">레벨 추가</item>
+	<item name="btn_apply">적용</item>
+	<item name="btn_out_cancel">탈퇴취소</item>
+	<item name="btn_view">보기</item>
+	<item name="btn_mailing_add">메일링 추가</item>
+	<item name="btn_config">설정</item>
+	<item name="btn_send_mail">메일발송</item>
+	<item name="btn_mailing_send">메일링 발송</item>
+	<item name="btn_mailing_group_add">메일링 그룹추가</item>
+	<item name="btn_mailing_group_list">메일링 그룹목록</item>
+	<item name="btn_mailinfo_add">메일정보 추가</item>
+	<item name="btn_board_add">게시판 추가</item>
+	<item name="btn_select_all">전체선택</item>
+	<item name="btn_select_remove">선택삭제</item>
+	<item name="btn_pic_add">사진올리기</item>
+	<item name="btn_upload">업로드</item>
+	<item name="btn_insert">등록</item>
+	<item name="btn_field_add">추가필드 등록</item>
+	<item name="btn_prev_month">이전달</item>
+	<item name="btn_next_month">다음달</item>
+	<item name="btn_article_manager">게시글 관리</item>
+	<item name="btn_article_move">게시글 이동</item>
+	<item name="btn_trash">휴지통</item>
+	<item name="btn_close">닫기</item>
+	<item name="btn_schedule_add">일정등록</item>
+	<item name="btn_board_view">게시판 보기</item>
+	<item name="btn_staff_add">관리자 추가</item>
+	<item name="btn_board_document_add">서식추가</item>
+	<item name="btn_declared_cancel">신고취소</item>
+	<item name="btn_restore">복원</item>
+	<item name="btn_popup_add">신규 팝업창 등록</item>
+	<item name="btn_prev_page">이전</item>
+	<item name="btn_next_page">다음</item>
+	<item name="btn_send">보내기</item>
+	<item name="btn_more">더보기</item>
+	<item name="btn_source">소스보기</item>
+	<item name="btn_preview">미리보기</item>
+
+</root>

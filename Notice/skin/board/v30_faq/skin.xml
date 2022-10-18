@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<skin version="0.2">
+
+	<title lang="ko">Artyboard FAQ Skin</title>
+
+	<languages>
+		<title lang="ko" path="ko">한국어</title>
+		<title lang="en" path="en">영어</title>
+	</languages>
+
+	<description lang="ko">
+		<![CDATA[Artyboard Default Skin<br>아티보드에서 기본적으로 제공되는 스킨입니다.]]>
+	</description>
+
+	<version>0.1</version>
+	<date>2010-07-29</date>
+	<author email_address="manager@openkr.com" link="http://webarty.com">
+		<name lang="ko">김현일</name>
+	</author>
+
+	<license>GPL</license>
+
+	<colors>
+		<color name="white" src="screenshot/white.gif">
+			<title lang="ko">하얀색(기본)</title>
+		</color>
+	</colors>
+
+	<extra_vars>
+		<var name="list_category" type="select" default="list">
+			<title lang="ko">목록 카테고리</title>
+			<description lang="ko">
+				게시글 목록에 카테고리를 출력합니다.
+			</description>
+			<options value="Y">
+				<title lang="ko">출력</title>
+			</options>
+			<options value="N">
+				<title lang="ko">출력하지 않음</title>
+			</options>
+		</var>
+
+	</extra_vars>
+</skin>
+

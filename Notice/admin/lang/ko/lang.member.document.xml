@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">회원관련문서</item>
+		<item name="page_description"><![CDATA[사이트에서 회원관련 프로그램 실행시 이용되는 문서를 통합 관리하며, 문서의 내용은 DB에 저장되어 실시간 반영됩니다.<br>각 문서의 특성에 따라 DB의 저장된 사이트 및 회원정보를 특정 변수를 이용해서 출력 할 수 있습니다.]]></item>
+		<item name="page_sub_title_1">세부설정</item>
+	</title>
+
+	<alert>
+		<item name="confirm_delete">선택된 문서를 삭제하시겠습니까?</item>
+		<item name="cart_is_null">삭제할 문서를 선택해 주세요.</item>
+		<item name="least_one_document">문서는 최소 1개이상 있어야 합니다.</item>
+		<item name="select_category">문서분류를 선택해 주세요.</item>
+		<item name="is_null_title">제목을 입력해 주세요.</item>
+		<item name="is_null_content">내용을 입력해 주세요.</item>
+		<item name="success_saved">등록되었습니다.</item>
+		<item name="success_updated">수정되었습니다.</item>
+	</alert>
+
+	<contents>
+		<item name="list_num">번호</item>
+		<item name="list_category">분류</item>
+		<item name="list_subject">문서명</item>
+		<item name="list_default">기본문서</item>
+		<item name="list_modifydate">수정일</item>
+		<item name="list_regdate">등록일</item>
+		<item name="list_modify">수정</item>
+
+		<item name="title_category">문서분류</item>
+		<item name="title_subject">문서제목</item>
+		<item name="title_default">기본문서</item>
+		<item name="title_content">문서내용</item>
+
+		<item name="about_category">회원프로그램에서 사용되는 문서분류를 선택합니다. 문서분류는 수정이 되지 않습니다.</item>
+		<item name="about_subject">문서를 쉽게 구분할 수 있는 제목을 입력합니다.</item>
+		<item name="about_default">기본문서로 지정할 경우 현재 회원프로그램에서 기본문서로 사용됩니다.</item>
+		<item name="about_content">기본 HTML로 출력될 문서의 내용을 에디터에서 등록합니다.</item>
+
+		<item name="text_total">전체</item>
+		<item name="text_nodata">등록된 문서가 없습니다.</item>
+		<item name="text_select">선택된 문서</item>
+	</contents>
+
+	<options>
+		<item name="option_page_list" val="10,15,30">10개씩,15개씩,30개씩</item>
+		<item name="option_category" val=",D001,D002,D003,D004,D005">문서분류,회원가입 약관,개인정보 보호정책,회원가입 인증메일,회원가입 축하메일,아이디 분실메일</item>
+		<item name="option_add_dim" val="">확장변수선택</item>
+		<item name="option_select_dim1" val=",authnum">확장변수선택,인증변수</item>
+		<item name="option_select_dim2" val=",userid,username,usernick,userpass">확장변수선택,아이디,이름,닉네임,비밀번호</item>
+		<item name="option_default" val="1">기본문서로 지정</item>
+	</options>
+
+</root>

@@ -1,0 +1,35 @@
+﻿@charset "utf-8";
+
+/*input, select, textarea, button {font-size:100%; vertical-align:middle;}*/
+
+ul, ul li {margin:0; padding:0; list-style: none;}
+ol, ol li {margin:0; padding:0; list-style: none; }
+dl, dl dt, dl dd {margin:0; padding:0; list-style: none;}
+select {font-size:12px;}
+
+.ml5 {margin-left:5px;}
+.mr5 {margin-right:5px;}
+.mb5 {margin-bottom:5px;}
+.mt5 {margin-top:5px;}
+
+.ml10 {margin-left:10px;}
+.mr10 {margin-right:10px;}
+.mb10 {margin-bottom:10px;}
+.mt10 {margin-top:10px;}
+
+.h26 {height:26px;}
+
+#bodyWrap {padding:15px 20px; margin:0 auto;}
+legend {visibility:hidden; width:0; height:0; overflow:hidden; position:absolute; top:-10000px; font-size:0; line-height:0;}
+fieldset {border:0 none;}
+
+/*--------------------------------------------------------------------------------
+			form style class
+--------------------------------------------------------------------------------*/
+.btn_area {clear:both;padding-top:20px; text-align:center;}
+.btn_area form {display:inline;}
+
+/*--------------------------------------------------------------------------------
+			font style class
+--------------------------------------------------------------------------------*/
+em {font-style:normal;}

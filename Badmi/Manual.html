@@ -1,0 +1,408 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>바드미 클라이언트 접속오류</title>
+</head>
+<body>
+
+    <table with="100%" cellpadding ="0" cellspacing="0" border="0"  align="center">
+
+        <tr>
+            <td>
+<table width ="800px" border="0" cellpadding ="0" cellspacing="0" style="font-family: '맑은 고딕', Arial, Helvetica, sans-serif;">
+    <tr>
+        <td align="center" style="font-size: 18px; font-weight: bold; color: #0000FF; background-color:white;">바드미 클라이언트 접속이 안될 때</td>
+    </tr>
+    <tr>
+        <td>
+            <table  width ="100%" border="1" cellpadding ="5" cellspacing="1">
+                 <tr>
+                    <td style="font-size: 14px; background-color: #EBEBEB; font-weight: bold;">A. 클라이언트PC중 일부 PC만 접속이 안될경우</td>
+
+                </tr>
+                
+                  <tr>
+                    <td style="font-size: 14px"><img src="PK.png" width="600px" /></td>
+
+                </tr>
+                  <tr>
+                    <td style="font-size: 14px; color: #0000FF; font-weight: bold;"> 바드미 로그인 창에서 사업장 추가 버튼을 누르고 <br /><br />에듀빌에 로그인하는 본사 아이디와 본사 사업자 번호를 입력후 <br /><br />
+                        02) 853-5111 로 연락하여 인증번호를 입력하면 가능하게된다.
+                    </td>
+
+                </tr>
+                 <tr>
+                    <td style="font-size: 14px">&nbsp;</td>
+
+                </tr>
+            </table>
+              <table  width ="100%" border="0" cellpadding ="5" cellspacing="1">
+                
+                 
+                 <tr>
+                     <td></td>
+                     </tr>
+                     </table>
+            <table  width ="100%" border="1" cellpadding ="5" cellspacing="1">
+                
+                 
+                 <tr>
+                    <td style="font-size: 14px; background-color: #EBEBEB; font-weight: bold;">B. 모든클라이언트PC가 접속이 안될경우 </td>
+
+                </tr>
+                <tr>
+                    <td style="font-size: 14px">1. 메인PC가 켜져 있는지 확인한다(절전모드 일 경우에도 접속이 안된다.)</td>
+
+                </tr>
+               
+              
+                <tr>
+                    <td style="font-size: 14px">2. 메인PC에서  바드미 로그인이 잘되는지 확인한다.</td>
+
+                </tr>
+                 
+                <tr>
+                    <td style="font-size: 14px"> * 메인PC 는 되는데 클라이언트 PC접속이 안될 때 IP가 바뀌었을 경우가 많다.</td>
+
+                </tr>
+               
+                <tr>
+                    <td style="font-weight: bold; color: #FF0000; font-size: 14px;">&nbsp;&nbsp;&nbsp;* 메인PC – MSSQL Server 설치되어 있는 PC
+        - MSSQL 2005, MSSQL 2008, MSSQL 2012 등 </td>
+                </tr>
+             
+                  <tr>
+                    <td style="font-size: 14px"> 3. 서버 IP 확인</td>
+
+                </tr>
+              
+                  <tr>
+                    <td style="font-size: 14px">&nbsp;&nbsp; 3-1. 에듀빌(<a href="http://skmi.co.kr" target="_blank">http://skmi.co.kr</a> ) 로그인</td>
+
+                </tr>
+                 
+                  <tr>
+                    <td style="font-size: 14px">&nbsp;&nbsp; 3-2. 메뉴: 코드관리 > 본사정보수정</td>
+
+                </tr>
+             
+               
+
+
+
+
+
+
+
+                  <tr>
+                    <td style="font-size: 14px"><img src="본사정보.png" /></td>
+
+                </tr>
+                <tr>
+                    <td style="font-size: 14px">&nbsp;&nbsp; 3-3. 현재 외부IP 주소를 복사하여 서버IP부분에 입력 후 수정버튼클릭</td>
+
+                </tr>
+                 <tr>
+                    <td style="font-size: 14px">&nbsp;&nbsp; 3-4. 공유기를 사용하고 있는 경우라면 공유기 설정을 확인한다.</td>
+
+                </tr>
+    <tr>
+                    <td style="font-weight: bold; color: #FF0000; font-size: 14px;"> * 포트포워딩설정(공유기 설정)<br><br>
+                        포트포워딩이란?외부에 있는 컴퓨터가 내부에 있는 컴퓨터를 접근 할 때 공유기를 통해야 한다.<br><br>
+공유기는 방화벽과 같은 역할을 하므로 내부 컴퓨터에 접근 할 수 있도록 해당 포트를 열어주어야 한다. </br></br>즉 외부에서는 공유기에 물려있는 공인 IP만 알고 있다. 따라서 공유기의 설정을 통해 내부 PC에 접근을 할 수 있도록 해야 하는데 즉 이것을 포트포워딩이라 한다.
+
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ①	내PC의 IP와 공유기 관리페이지 접속 주소를 확인한다.</td>
+
+                </tr>
+    <tr>
+                    <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ① - ① 윈도우xp: 시작버튼클릭 -> 실행클릭 - > cmd 입력 후 엔터</td>
+        </tr>
+                <tr>
+          <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ① - ② 윈도우7: 시작버튼클릭 프로그램 및 파일검색 하는 부분에 cmd 입력 후 엔터</td>
+                    </tr>
+        
+                <tr>
+          <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ① - ③	cmd실행창에서 ipconfig입력후 엔터</td>
+                    </tr>
+         <tr>
+                    <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;① - ④ <img src="CMD.png" /></td>
+
+                </tr>
+
+         <tr>
+          <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ① - ⑤	인터넷 익스플로러를 실행하여 공유기 관리자 페이지로 접속할 주소를 입력한 후 엔터클릭</td>
+                    </tr>
+
+
+          <tr>
+                    <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="IPTIME.png" /> </br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;① - ⑥ 관리도구 클릭</td>
+
+                </tr>
+           <tr>
+                    <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="IPTIME2.png" /></br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ① - ⑦ 고급설정 -> NAT/라우터 관리-> 포트포워드설정 클릭</td>
+
+                </tr>
+
+                   <tr>
+          <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ① - ⑧	규칙이 하나도 없을 때는 위와 같이 입력하여 추가한다.</td>
+                    </tr>
+
+     <tr>
+          <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ① - ⑨	규칙이 있을 때는 현재 접속된 PC의 IP주소와 내부Ip주소가 틀릴 경우 현재Ip주소로 설정 후 수정한다.</td>
+                    </tr>
+        
+                                 
+              
+            </table>
+          
+           
+        </td>
+
+    </tr>
+     <tr>
+         <td>
+             
+
+         </td>
+
+     </tr>
+   </table>
+
+     <table  width ="800px" border="0" cellpadding ="0" cellspacing="0" >
+         <tr>
+           <td style="font-size: 14px">&nbsp;</td>
+                    </tr>
+                  
+           <tr>
+        <td align="center" style="font-size: 18px; font-weight: bold; color: #0000FF">각 공유기별로 포트포워딩 설정할 수 있는 공유기 관리자 페이지와 ID / PW</td>
+                    </tr>
+                        <tr>
+        <td>
+            <table  width ="100%" border="1" cellpadding ="3" cellspacing="1" style=" background-color:aliceblue;">
+                 <tr>
+                    <td align ="center" width="150px">
+                        공유기 제조사
+
+                    </td>
+                     <td align ="center" width="200px">설정페이지 접속주소</td>
+                     <td align ="center"width="150px"> 초기 ID/비밀번호</td>
+                     <td width="300px"> 설정메뉴 들어가기</td>
+                </tr>
+
+                 <tr>
+                    <td>
+                        iptime (아이피타임)
+
+                    </td>
+                     <td> http://192.168.0.1</td>
+                     <td> &nbsp;</td>
+                     <td>관리도구 → 고급설정→ NaT/라우터관리 → 포트포워드 설정</td>
+
+                </tr>
+                 <tr>
+                     <td>
+                       QookHub(쿡허브)<br />
+  HomeHub(홈허브)
+
+
+                    </td>
+                   
+                
+                     <td > http://172.30.1.254<br />
+  http://172.30.1.254:8899
+</td>
+                     <td>ktuser / megaap<br />
+  ktroot / nespot
+ </td>
+                       <td>고급설정 → 트래픽 관리 → 포트포워딩 설정</td>
+                </tr>
+
+
+                  <tr>
+                     <td>
+                       LGU+ (모델명 NAPL,CAPL)
+
+
+                    </td>
+                   
+                
+                     <td > http://192.168.123.2544<br />
+  http://172.30.1.254:8899
+</td>
+                     <td>admin<br />
+                         
+ </td>
+                      <td>고급설정 → NAT설정 → 포트 포워딩</td>
+
+                </tr>
+                <tr>
+                     <td>
+                       MyLGtv
+
+
+                    </td>
+                   
+                
+                   
+                     <td>http://192.168.219.1<br />
+                         
+ </td>
+                      <td > user / power<br />  admin / power
+
+</td>
+                      <td>Network 설정 → NAT설정 → 하단의 포트포워딩</td>
+
+                </tr>
+                 <tr>
+                     <td>
+                    SK브로드밴드(DVW-2000N)
+
+
+                    </td>
+                   
+                
+                   
+                     <td>http://192.168.25.1<br />
+                         
+ </td>
+                      <td > admin / admin
+
+</td>
+                      <td>방화벽 → 포트포워딩</td>
+
+                </tr>
+                 <tr>
+                     <td>
+                         Anygate (애니게이트)
+
+
+                    </td>
+                   
+                
+                   
+                     <td>  http://192.168.10.1
+                         
+ </td>
+                      <td > user / power<br />  admin / power
+
+</td>
+                      <td>전문가 설정 → 트래픽 제어 → 포트포워딩</td>
+
+                </tr>
+                 <tr>
+                     <td>
+                       Buffalo (버팔로)
+
+
+                    </td>
+                   
+                
+                   
+                     <td>  http://192.168.11.1
+ </td>
+                      <td >   root / 공백
+
+</td>
+                      <td>게임 포트 → 포트포워딩</td>
+
+                </tr>
+                 <tr>
+                     <td>
+                        D-link (디링크)
+
+
+                    </td>
+                   
+                
+                   
+                     <td> http://192.168.0.1
+ </td>
+                      <td >   admin / 공백
+
+</td>
+                      <td>고급 → 포트포워딩(없으면 가상서버)</td>
+
+                </tr>
+
+
+                 <tr>
+                     <td>
+                    Zio (지오)
+
+                    </td>
+                   
+                
+                   
+                     <td> http://192.168.10.1
+ </td>
+                      <td >  
+
+</td>
+                      <td>NAT → 포트포워딩</td>
+
+                </tr>
+
+
+             </table>
+            </tr>
+         </table>
+            </td>
+
+        </tr>
+            <tr>
+                    <td style="font-weight: bold; color: #FF0000; font-size: 15px;">* 공유기 관련 관리자 페이지 주소 및 비밀번호는 사용자가 직접 변경이 가능한 부분입니다. <br /><br />위 내용은 기본 셋팅에 대한 것이며 변경된 내용은 공유기 사용자를 통해 확인 해야 합니다. </td>
+                </tr>
+       <tr>
+           <td>
+               <table width ="100%" border="1" cellpadding ="3" cellspacing="1" style=" background-color:aliceblue;">
+
+         <tr height="20">
+                    <td style="font-size: 14px; background-color: #EBEBEB; font-weight: bold;">* 모든설정을 끝내도 되지않을경우*</td>
+                </tr>
+                   
+    </table>
+
+           </td>
+       </tr>
+        <tr>
+           <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Fire1.png" height="373" style="margin-bottom: 0px" width="594"  /></br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 - 1 제어판 -> 시스템 및 보안 > Window 방화벽 > Windows 방화벽에서 앱 허용</td>
+
+        </tr>
+        <tr>
+           <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Fire2.png" height="373" style="margin-bottom: 0px" width="594"  /></br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 - 2 설정변경 클릭후 SQL Server Windows 제거한다.
+               <br /><br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  1 - 3 다른앱허용 클릭.
+           </td>
+
+        </tr>
+
+        <tr>
+           <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Fire3.png" height="373" style="margin-bottom: 0px" width="594"  /></br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 - 4 찾아보기 클릭
+               <br /><br />
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  1 - 5 C:\Program Files\Microsoft SQL Server\MSSQL\Binn  <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 또는 C:\Program Files(x86)\Microsoft SQL Server\MSSQL\Binn 경로로 이동 
+
+           </td>
+
+        </tr>
+        <tr>
+           <td style="font-size: 14px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Fire4.png" height="373" style="margin-bottom: 0px" width="594"  /></br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 - 6 sqlservr 열기 후 추가 확인버튼누르고 다시 바드미를 실행해보세요
+           </td>
+
+        </tr>
+        </table>
+    
+       
+    <br />
+    <div align="center">COPYRIGHT @2004 EDUBILL.CO.LTD ALL RIGHTS RESERVED.</div>
+
+         
+
+</body>
+</html>

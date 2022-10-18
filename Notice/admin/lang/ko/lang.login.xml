@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<title>
+		<item name="page_title">관리자 로그인</item>
+	</title>
+
+	<alert>
+		<item name="null_user_id">아이디를 입력하세요.</item>
+		<item name="null_password">비밀번호를 입력하세요.</item>
+		<item name="userid_not_exists">일치하는 로그인 정보가 없습니다.</item>
+		<item name="invalid_user_id">승인되지 않은 회원입니다.</item>
+		<item name="stop_user_id">로그인이 금지된 회원입니다.</item>
+		<item name="secession_user_id">탈퇴처리된 회원 입니다.</item>
+		<item name="only_admin_access">관리자만 접근이 가능합니다.</item>
+	</alert>
+
+	<contents>
+
+		<item name="text_info1">회원가입시 등록하신</item>
+		<item name="text_info2">아이디, 비밀번호</item>
+		<item name="text_info3">를 입력해 주세요.</item>
+		<item name="text_userid">아이디</item>
+		<item name="text_userpwd">비밀번호</item>
+		<item name="text_save_id">아이디 기억</item>
+		<item name="text_find_id">아이디 찾기</item>
+		<item name="text_find_pwd">비밀번호 찾기</item>
+		<item name="text_join">신규회원가입</item>
+
+	</contents>
+
+</root>

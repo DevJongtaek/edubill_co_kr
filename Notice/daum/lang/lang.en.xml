@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<item name="photo">photo</item>
+	<item name="file">file</item>
+	<item name="media">media</item>
+	<item name="btn_more">button more</item>
+	<item name="editor_type">editor type</item>
+	<item name="editor">editor</item>
+	<item name="font">font</item>
+	<item name="gulim">gulim</item>
+	<item name="font_size">font size</item>
+	<item name="bold">bold</item>
+	<item name="underline">underline</item>
+	<item name="italic">italic</item>
+	<item name="strike">strike</item>
+	<item name="forecolor">forecolor</item>
+	<item name="select">select</item>
+	<item name="backcolor">backcolor</item>
+	<item name="alignleft">alignleft</item>
+	<item name="aligncenter">aligncenter</item>
+	<item name="alignright">alignright</item>
+	<item name="alignfull">alignfull</item>
+	<item name="indent">indent</item>
+	<item name="outdent">outdent</item>
+	<item name="lineheight">lineheight</item>
+	<item name="styledlist">styled list</item>
+	<item name="emoticon">emoticon</item>
+	<item name="link">link</item>
+	<item name="specialchar">specialchar</item>
+	<item name="table">table</item>
+	<item name="horizontalrule">horizontalrule</item>
+	<item name="advanced">advanced</item>
+
+	<item name="textbox">textbox</item>
+	<item name="quote">quote</item>
+	<item name="background">background</item>
+	<item name="dictionary">dictionary</item>
+	<item name="undo">undo</item>
+	<item name="redo">redo</item>
+	<item name="fullscreen">fullscreen</item>
+	<item name="file_add">file add</item>
+	<item name="file_uploading">file uploading</item>
+	<item name="delete_all">delete all</item>
+
+</root>

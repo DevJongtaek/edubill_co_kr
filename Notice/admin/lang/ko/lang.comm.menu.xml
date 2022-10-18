@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<topmenu>
+
+		<item id="A" folder="default" link="?act=defaultconfig">기본환경설정</item>
+		<item id="B" folder="layout" link="?act=layout">레아이웃/페이지</item>
+		<item id="C" folder="member" link="?act=memberlist">회원관리</item>
+		<item id="D" folder="board" link="?act=boardlist">게시판관리</item>
+		<item id="E" folder="other" link="?act=schedule">부가기능</item>
+		<item id="F" folder="stat" link="?act=statmemberjoindate">통계정보</item>
+
+	</topmenu>
+
+	<leftmenu>
+
+		<item id="A01" link="?act=defaultconfig">환경설정</item>
+		<item id="A02" link="?act=stafflist">관리자 권한설정</item>
+
+		<item id="B01" link="?act=layout">레이아웃</item>
+		<item id="B02" link="?act=page">페이지</item>
+
+		<item id="C01" link="?act=memberlist">회원 리스트</item>
+		<item id="C02" link="?act=memberconfig">기본 환경설정</item>
+		<item id="C03" link="?act=membergroup">회원그룹관리</item>
+		<item id="C04" link="?act=memberform">가입폼 설정</item>
+		<item id="C05" link="?act=memberdoc">회원관련문서</item>
+		<item id="C06" link="?act=memberdeniedid">금지아이디</item>
+		<item id="C07" link="?act=memberlevel">레벨관리</item>
+		<item id="C08" link="?act=pointconfig">포인트관리</item>
+		<item id="C09" link="?act=memberout">탈퇴회원관리</item>
+		<item id="C10" link="?act=mailingsendlist">메일링발송</item>
+		<item id="C11" link="?act=message">일괄쪽지발송</item>
+
+		<item id="D01" link="?act=boardmake">게시판 추가</item>
+		<item id="D02" link="?act=boardlist">게시판 리스트</item>
+		<item id="D03" link="?act=boardsearch">게시글 리스트</item>
+		<item id="D04" link="?act=commentsearch">댓글 리스트</item>
+		<item id="D05" link="?act=filesearch">첨부파일 리스트</item>
+		<item id="D06" link="?act=boarddeclared">신고 리스트</item>
+		<item id="D07" link="?act=boardtrash">휴지통</item>
+		<item id="D08" link="?act=boardnotice">최근 게시글 출력</item>
+		<item id="D09" link="?act=boarddocument">게시판 서식관리</item>
+		<item id="D10" link="?act=searchconfig">전체검색 환경설정</item>
+		
+		<item id="E01" link="?act=schedule">일정 관리</item>
+		<item id="E02" link="?act=popup">팝업창 관리</item>
+	
+		<item id="F01" link="?act=statmemberjoindate">기간별 가입통계</item>
+		<item id="F02" link="?act=statmemberjoinage">연령대별 통계</item>
+		<item id="F03" link="?act=statmemberjoinarea">거주지역별 통계</item>
+		<item id="F04" link="?act=statmemberjoinjob">직업별 통계</item>
+		<item id="F05" link="?act=statsite">사이트 접속통계</item>
+		<item id="F06" link="?act=statsitelog">접속로그 데이타</item>
+		<item id="F07" link="?act=statboard">게시판 데이타</item>
+		<item id="F08" link="?act=stattag">태그등록 현황</item>
+		<item id="F09" link="?act=statsearch">검색키워드 조회</item>
+
+	</leftmenu>
+
+	<minimenu>
+
+		<item link="/" target="_self">홈으로</item>
+		<item link="?act=schedule" target="_self">일정</item>
+		<item link="?act=filebox" target="window,810,600,3">이미지</item>
+		<item link="?act=logout" target="_self">로그아웃</item>
+
+	</minimenu>
+
+</root>

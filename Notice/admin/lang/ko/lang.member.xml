@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title_list">회원 리스트</item>
+		<item name="page_title_info">회원정보</item>
+		<item name="page_title_modify">회원정보수정</item>
+		<item name="page_description_1">등록된 회원의 정보를 열람 및 관리할 수 있으며, 신규 회원을 등록할 수 있습니다.</item>
+		<item name="page_description_2"><![CDATA[회원가입시 등록한 회원의 모든정보를 확인할 수 있으며, 회원의 정보를 수정할 수 있습니다.<br>회원정보는 보안상 비밀번호 및 주민등록번호는 확인할 수 없습니다.]]></item>
+		<item name="page_sub_title_1">회원입력정보</item>
+		<item name="page_sub_title_2">추가정보</item>
+	</title>
+
+	<alert>
+		<item name="null_search_keyword">검색 단어를 입력하세요.</item>
+		<item name="invalid_search_keyword">검색어는 최소 3bytes 이상 입력 하셔야 합니다.</item>
+		<item name="select_auth_sex">승인유무 또는 성별을 선택해 주세요.</item>
+		<item name="null_search_point">검색 할 포인트를 입력해 주세요.</item>
+		<item name="invalid_search_count">4개까지만 선택이 가능합니다.</item>
+		<item name="select_group_level">그룹 또는 레벨을 선택해 주세요.</item>
+		<item name="confirm_change_group1"><![CDATA[전체회원의 정보가 변경됩니다.<br>전체 회원의 그룹 또는 레벨을 변경하시겠습니까?]]></item>
+		<item name="confirm_change_group2">선택 회원의 그룹 또는 레벨을 변경하시겠습니까?</item>
+		<item name="cart_is_null">회원을 선택해 주세요.</item>
+		<item name="confirm_delete_member"><![CDATA[회원을 삭제하면 복구가 되지 않습니다.<br>선택된 회원을 삭제하시겠습니까?]]></item>
+		<item name="amin_not_delete">전체 관리자는 삭제되지 않습니다.</item>
+		<item name="confirm_out_member"><![CDATA[회원을 탈퇴시키면 사이트에서 이용이 불가능합니다.<br>탈퇴된 회원은 탈퇴회원 메뉴에서 복구가 가능합니다.<br>선택된 회원을 탈퇴시키시겠습니까?]]></item>
+		<item name="invalid_admin_out">전체 관리자는 탈퇴가 되지 않습니다.</item>
+		<item name="null_give_point">지급할 포인트를 입력해 주세요.</item>
+		<item name="null_give_point_memo">포인트 지급사유를 입력해 주세요.</item>
+		<item name="give_point_all">전체 회원에게 포인트를 지급하시겠습니까?</item>
+		<item name="give_point_memmber">선택 회원에게 포인트를 지급하시겠습니까?</item>
+		<item name="invalid_email">메일주소를 올바르게 입력해 주세요.</item>
+		<item name="exists_email">이미 등록되어 있는 메일주소 입니다.</item>
+		<item name="exists_nick_name">이미 등록되어 있는 닉네임 입니다.</item>
+		<item name="success_updated">수정되었습니다.</item>
+		<item name="confirm_delete">삭제하시겠습니까?</item>
+		<item name="null_input_addr">검색할 주소의 동(읍/면) 이름을 입력하세요.</item>
+		<item name="null_search_addr">검색결과가 없습니다.</item>
+
+	</alert>
+
+	<contents>
+
+		<item name="list_num">번호</item>
+		<item name="list_group">그룹</item>
+		<item name="list_level">레벨</item>
+		<item name="list_id">아이디</item>
+		<item name="list_name">이름</item>
+		<item name="list_nick">닉네임</item>
+		<item name="list_regdate">가입일</item>
+		<item name="list_lastdate">최종방문일</item>
+		<item name="list_visit">방문수</item>
+		<item name="list_article">게시글수</item>
+		<item name="list_comment">댓글수</item>
+		<item name="list_sex">성별</item>
+		<item name="list_birthday">생일</item>
+		<item name="list_area">지역</item>
+		<item name="list_mailing">메일수신</item>
+		<item name="list_auth">승인</item>
+		<item name="list_point">포인트</item>
+		<item name="list_stop">사용중지</item>
+		<item name="list_no_login">로그인제한</item>
+
+		<item name="title_profile">프로필 사진</item>
+		<item name="title_name_image">이미지 이름</item>
+		<item name="title_mark_image">이미지 마크</item>
+		<item name="title_group">소속그룹</item>
+		<item name="title_level">회원레벨</item>
+		<item name="title_auth">승인여부</item>
+		<item name="title_admin">관리자</item>
+		<item name="title_area">지역정보</item>
+		<item name="title_article">게시글</item>
+		<item name="title_comment">댓글</item>
+		<item name="title_point">포인트</item>
+		<item name="title_stop">사용중지</item>
+		<item name="title_no_login">로그인 제한</item>
+		<item name="title_visit">방문정보</item>
+		<item name="title_regdate">회원가입일</item>
+		<item name="title_memo">관리자 메모</item>
+		<item name="title_member_type">회원구분</item>
+
+		<item name="text_total">전체</item>
+		<item name="text_nodata">등록된 회원이 없습니다.</item>
+		<item name="text_member_count">명</item>
+		<item name="text_max">최대</item>
+		<item name="text_select_message"><![CDATA[항목을<br>선택할 수 있습니다.]]></item>
+		<item name="text_select">선택회원</item>
+		<item name="text_point">포인트 지급/차감</item>
+		<item name="text_give_memo">지급사유</item>
+		<item name="text_count">회</item>
+		<item name="text_lastdate">최종방문</item>
+		<item name="text_year">년도</item>
+		<item name="text_month">월</item>
+		<item name="text_day">일</item>
+
+		<item name="about_group">회원이 속한 그룹을 변경할 수 있습니다.</item>
+		<item name="about_level">그룹과는 달리 회원에게 레벨을 부여할 수 있습니다.</item>
+		<item name="about_auth">승인이 되지 않은 회원의 아이디는 사용할 수 없습니다.</item>
+		<item name="about_stop">아이디를 일시적으로 사용할 수 없도록 합니다.</item>
+		<item name="about_no_login">지정된 기간까지 사용자는 로그인을 할 수 없습니다.</item>
+		<item name="about_memo">회원에 대한 관리자 메모 입니다.</item>
+
+	</contents>
+
+	<options>
+		<item name="option_page_list" val="15,30,50,100">15명씩,30명씩,50명씩,100명씩</item>
+		<item name="option_sex" val="1,2,3,4">남,여,남,여</item>
+		<item name="option_mailing" val="0,1">받지않음,받음</item>
+		<item name="option_auth" val="0,1">미승인,승인</item>
+		<item name="option_search_item1" val="strNickName,strLoginID,strUserName">닉네임,아이디,이름</item>
+		<item name="option_search_item2" val="0,1,2,3">기간,승인 / 성별,포인트,생일자</item>
+		<item name="option_search_item3" val="join,visit">가입한 회원,최종방문한 회원</item>
+		<item name="option_search_item4" val=",1,2">성별구분,남,여</item>
+		<item name="option_search_item5" val="0,1,2">오늘 생일자,이번주 생일자,이달 생일자</item>
+		<item name="option_total_group" val="">전체그룹</item>
+		<item name="option_excel" val="all,mail,tel,dm">전체정보,메일주소,연락처정보,DM정보</item>
+		<item name="option_total_level" val="">전체레벨</item>
+		<item name="option_group_select" val="">그룹선택</item>
+		<item name="option_level_select" val="">레벨선택</item>
+		<item name="option_member_type" val=",D,K,C">전체회원,일반회원,학생회원,법인회원(사업자및단체)</item>
+		<item name="option_admin" val="N,S,A">일반회원,중간관리자,전체관리자</item>
+		<item name="option_birthday" val=",1,0">선택,양력,음력</item>
+		<item name="option_marry" val="0,1">미혼,기혼</item>
+		<item name="option_stop" val="0,1">사용가능,사용중지</item>
+		<item name="option_select" val="">선택</item>
+		<item name="option_mail_list" val="">직접입력</item>
+
+	</options>
+
+</root>

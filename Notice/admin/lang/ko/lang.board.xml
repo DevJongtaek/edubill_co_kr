@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title_make">게시판 추가</item>
+		<item name="page_title_list">게시판 리스트</item>
+		<item name="page_title_config_default">기본환경설정</item>
+		<item name="page_title_config_addition">추가기능설정</item>
+		<item name="page_title_config_field">추가필드</item>
+		<item name="page_title_config_category">분류설정</item>
+		<item name="page_title_config_grantinfo">권한설정</item>
+		<item name="page_title_config_point">포인트 설정</item>
+		<item name="page_title_config_skin">스킨관리</item>
+
+		<item name="page_description_make">게시판을 신규로 생성합니다.</item>
+		<item name="page_description_list"><![CDATA[게시판을 신규로 생성하거나 이미 만들어진 게시판을 관리할 수 있습니다.<br>게시판의 생성 개수는 제한이 없으며, 게시판의 설정 환경에 따라 게시판을 다르게 사용하실 수 있습니다.]]></item>
+		<item name="page_description_config_default">게시판에 대한 기본적인 환경을 설정합니다.</item>
+		<item name="page_description_config_addition">게시판 환경설정을 세부적으로 설정합니다.</item>
+		<item name="page_description_config_field"><![CDATA[게시판에서 입력되는 기본항목 이외의 추가적인 항목을 추가해서 사용할 수 있습니다.<br>게시판 별로 최대 15개의 항목까지 추가해서 사용하실 수 있으며, 항목 삭제시 게시글 정보의 추가 항목에 입력된 정보는 삭제 됩니다.]]></item>
+		<item name="page_description_config_category">게시글을 분류를 이용해서 별도로 관리할 수 있도록 분류를 설정합니다.</item>
+		<item name="page_description_config_grantinfo">게시판에 각 항목별로 권한을 부여해서 제한을 둘 수 있습니다.</item>
+		<item name="page_description_config_point">각 항목별로 포인트를 지급하거나, 차감을 할 수 있습니다.</item>
+		<item name="page_description_config_skin">게시판에 사용할 스킨에 대한 세부적인 기능을 설정합니다.</item>
+
+		<item name="page_sub_title_1">세부설정</item>
+		<item name="page_sub_title_2">목록출력 관련설정</item>
+		<item name="page_sub_title_3">본문보기 관련설정</item>
+		<item name="page_sub_title_4">댓글 관련설정</item>
+		<item name="page_sub_title_5">글쓰기 관련설정</item>
+		<item name="page_sub_title_6">파일업로드/이미지 관련설정</item>
+		<item name="page_sub_title_7">카테고리</item>
+		<item name="page_sub_title_8">게시판 관리자</item>
+		<item name="page_sub_title_9">특정사용자 권한</item>
+		<item name="page_sub_title_10">포인트 지급/차감</item>
+		<item name="page_sub_title_11">스킨 기본정보</item>
+		<item name="page_sub_title_12">스킨 세부설정</item>
+
+	</title>
+
+	<alert>
+
+		<item name="confirm_delete"><![CDATA[게시판을 삭제하시면 복구가 되지 않습니다.<br>선택된 게시판을 삭제하시겠습니까?]]></item>
+		<item name="is_null_category">분류명을 입력해 주세요.</item>
+		<item name="exists_category_name">중복된 분류명 입니다.</item>
+		<item name="is_null_board_id">게시판 아이디를 입력하세요.</item>
+		<item name="invalid_board_id">게시판 아이디는 영문과 숫자만 입력하세요.</item>
+		<item name="is_null_title">게시판 제목을 입력하세요.</item>
+		<item name="is_null_skin">스킨을 선택해 주세요.</item>
+		<item name="exists_board_id">중복된 게시판 아이디를 입력하셨습니다.</item>
+		<item name="success_maked">게시판 생성이 완료되었습니다.</item>
+		<item name="confirm_delete_field"><![CDATA[추가컬럼을 삭제하시면 게시글에 입력된 정보가 초기화 됩니다.<br>선택된 추가컬럼을 삭제하시겠습니까?]]></item>
+		<item name="cart_is_null">삭제할 항목을 선택해 주세요.</item>
+		<item name="is_null_item">항목이름을 입력하세요.</item>
+		<item name="is_null_default">기본값을 입력해야 하는 항목입니다.</item>
+		<item name="is_null_write_move_url">게시글 등록 후 이동할 URL 정보를 입력하세요.</item>
+		<item name="is_null_modify_move_url">게시글 수정 후 이동할 URL 정보를 입력하세요.</item>
+		<item name="success_saved">등록되었습니다.</item>
+		<item name="success_updated">수정되었습니다.</item>
+		<item name="success_moved">이동되었습니다.</item>
+		<item name="is_null_category_title">분류명을 입력해 주세요.</item>
+		<item name="confirm_delete_Category">선택하신 분류를 삭제하시겠습니까?</item>
+		<item name="confirm_move_Category">선택된 분류로 게시글을 이동하시겠습니까?</item>
+		<item name="is_null_move_document">선택하신 분류에는 이동할 게시글이 없습니다.</item>
+		<item name="root_name_not_modify">루트 이름은 변경할 수 없습니다.</item>
+		<item name="node_not_select">분류를 선택해 주세요.</item>
+		<item name="node_first_delete">하위 분류를 먼저 삭제하세요</item>
+		<item name="is_null_search_keyword">검색단어를 입력하세요.</item>
+		<item name="is_null_search_member">검색된 회원정보가 없습니다.</item>
+		<item name="select_not_member">등록할 회원을 선택해 주세요.</item>
+		<item name="select_not_admin">삭제할 관리자를 선택해 주세요.</item>
+		<item name="select_not_list_group">목록보기 그룹을 선택해 주세요.</item>
+		<item name="select_not_read_group">읽기 그룹을 선택해 주세요.</item>
+		<item name="select_not_write_group">쓰기 그룹을 선택해 주세요.</item>
+		<item name="select_not_comment_group">댓글쓰기 그룹을 선택해 주세요.</item>
+		<item name="select_not_upload_group">파일 업로드 그룹을 선택해 주세요.</item>
+		<item name="select_not_down_group">파일 다운로드 그룹을 선택해 주세요.</item>
+		<item name="is_null_point_memo">포인트 내역을 입력하세요.</item>
+		<item name="exists_category_id">중복된 분류명 입니다.</item>
+
+	</alert>
+
+	<contents>
+
+		<item name="tab_menu1">게시판목록</item>
+		<item name="tab_menu2">기본환경설정</item>
+		<item name="tab_menu3">추가기능설정</item>
+		<item name="tab_menu4">추가필드</item>
+		<item name="tab_menu5">분류설정</item>
+		<item name="tab_menu6">권한설정</item>
+		<item name="tab_menu7">포인트설정</item>
+		<item name="tab_menu8">스킨관리</item>
+
+		<item name="list_num">번호</item>
+		<item name="list_category">분류</item>
+		<item name="list_id">아이디</item>
+		<item name="list_name">게시판명</item>
+		<item name="list_unique">고유번호</item>
+		<item name="list_stat">게시글/댓글</item>
+		<item name="list_regdate">등록일</item>
+		<item name="list_config">설정</item>
+		<item name="list_remove">삭제</item>
+		<item name="list_filed">DB 필드명</item>
+		<item name="list_field_name">항목이름</item>
+		<item name="list_type">형식</item>
+		<item name="list_use">사용유무</item>
+		<item name="list_rquired">필수항목</item>
+		<item name="list_read_disp">본문출력</item>
+		<item name="list_search">검색항목</item>
+		<item name="list_modify">수정</item>
+
+		<item name="title_board_id">아이디</item>
+		<item name="title_subject">게시판 제목</item>
+		<item name="title_layout">레이아웃</item>
+		<item name="title_category">분류</item>
+		<item name="title_skin">스킨</item>
+		<item name="title_browser_msg">브라우저 상단</item>
+		<item name="title_use_customer">상담기능</item>
+		<item name="title_use_secret">비밀글</item>
+		<item name="title_use_trash">휴지통</item>
+		<item name="title_header_html">상단(헤더) 태그</item>
+		<item name="title_footer_html">하단(풋터) 태그</item>
+		<item name="title_disp_notice">공지사항출력</item>
+		<item name="title_order_field">정렬대상/방법</item>
+		<item name="title_list_count">목록 출력수</item>
+		<item name="title_string_cut">출력길이 제한</item>
+		<item name="title_page_count">페이지수</item>
+		<item name="title_list_field">출력항목</item>
+		<item name="title_prev_next_list">이전글/다음글</item>
+		<item name="title_read_board_list">게시글 목록</item>
+		<item name="title_use_comment">댓글사용</item>
+		<item name="title_use_comment_reply">답변기능</item>
+		<item name="title_list_comment_count">출력개수</item>
+		<item name="title_comment_editor_style">에디터 높이 / 배경색</item>
+		<item name="title_comment_editor_etc">추가기능</item>
+		<item name="title_comment_editor_img">이미지 리사이징 크기</item>
+		<item name="title_write_use_captcha">자동등록 방지</item>
+		<item name="title_write_nouse_name">관리자사칭 차단단어</item>
+		<item name="title_write_send_email">게시글 메일받기</item>
+		<item name="title_write_email_addr">메일주소</item>
+		<item name="title_document">기본서식</item>
+		<item name="title_write_move"><![CDATA[글쓰기 완료 후<br>이동페이지]]></item>
+		<item name="title_modify_move"><![CDATA[글수정 완료 후<br>이동페이지]]></item>
+
+		
+		<item name="title_write_editor_style">에디터 높이/배경색</item>
+		<item name="title_write_editor_etc">에디터 추가기능</item>
+		<item name="title_write_editor_img">이미지 리사이징 크기</item>
+		<item name="title_use_upload">파일 업로드</item>
+		<item name="title_file_size">파일 제한 크기</item>
+		<item name="title_file_total_size">문서 첨부 제한</item>
+		<item name="title_file_ext">허용 확장자</item>
+		<item name="title_use_thrum">썸네일 사용</item>
+		<item name="title_thrum_componet">썸네일 컴포넌트</item>
+		<item name="title_thrum_option">썸네일 옵션</item>
+		<item name="title_use_watermark">이미지 워터마크</item>
+		<item name="title_watermark_type">워터마크 저장구분</item>
+		<item name="title_watermark_file">워터마크 파일</item>
+		<item name="title_watermark_text">워타마크 문자열</item>
+		<item name="title_watermark_etc">워터마크 옵션</item>
+		<item name="title_field">DB 필드명</item>
+		<item name="title_field_name">항목이름</item>
+		<item name="title_field_type">형식</item>
+		<item name="title_default_value">기본값</item>
+		<item name="title_use">사용유무</item>
+		<item name="title_equired">필수항목</item>
+		<item name="title_read_disp">본문출력</item>
+		<item name="title_search">검색항목</item>
+		<item name="title_description">설명</item>
+		<item name="title_category_list">미리보기</item>
+		<item name="title_use_category">분류사용</item>
+		<item name="title_category_root">분류</item>
+		<item name="title_parent_title">상위분류</item>
+		<item name="title_category_name">분류명</item>
+		<item name="title_font_color">폰트색상</item>
+		<item name="title_category_count">분류 글 수</item>
+		<item name="title_group">접근권한</item>
+		<item name="title_document_count">게시글 수</item>
+		<item name="title_move_category">이동할 분류</item>
+		<item name="title_board_admin">관리자 정보</item>
+		<item name="title_list_level">목록보기</item>
+		<item name="title_read_level">글읽기</item>
+		<item name="title_write_level">글쓰기</item>
+		<item name="title_comment_level">댓글쓰기</item>
+		<item name="title_upload_level">파일 업로드</item>
+		<item name="title_down_level">파일 다운로드</item>
+		<item name="title_use_point">포인트 기능</item>
+		<item name="title_read_point">글읽기</item>
+		<item name="title_write_point">글쓰기</item>
+		<item name="title_comment_point">댓글쓰기</item>
+		<item name="title_upload_point">파일 업로드</item>
+		<item name="title_down_point">파일 다운로드</item>
+		<item name="title_vote_point">게시글 추천</item>
+		<item name="title_blamed_point">게시글 비추천</item>
+		<item name="title_skin_name">스킨명</item>
+		<item name="title_maker">제작자</item>
+		<item name="title_date">날짜</item>
+		<item name="title_licenSe">라이센스</item>
+		<item name="title_memo">설명</item>
+
+		<item name="about_disp_notice">게시판 목록 출력시 상단에 공지글을 출력할 수 있습니다. 첫 페이지에만 출력됩니다.</item>
+		<item name="about_list_count">한 페이지에 출력될 게시글의 개수를 지정합니다. (기본값 20개)</item>
+		<item name="about_string_cut">게시판 목록에 출력될 제목, 내용, 글쓴이의 출력길이를 지정합니다.</item>
+		<item name="about_page_count">게시판 목록 하단 페이지 이동 하는 링크의 수를 지정하실 수 있습니다. (기본 10개)</item>
+		<item name="about_list_field">게시판의 목록형식 사용시 원하는 항목을 출력할 수 있으며, 스킨에서 지원하지 않는 경우 출력되지 않을 수 있습니다.</item>
+		<item name="about_prev_next_list">게시글 본문보기시 이전글 및 다음글 출력 유무를 지정합니다.</item>
+		<item name="about_read_board_list">게시글 본문보기시 하단에 게시글 목록을 출력할 수 있습니다.</item>
+		<item name="about_use_comment_reply">댓글에 대한 단변을 등록할 수 있도록 설정이 가능합니다.</item>
+		<item name="about_list_comment_count">한페이지에 댓글의 출력 개수를 지정합니다.</item>
+		<item name="about_write_use_captcha">자동으로 게시글이 등록되는걸 방지하기 위해 글등록시 특정문자를 출력 후 동일하게 입력되면 게시글이 등록되도록 합니다.</item>
+		<item name="about_write_nouse_name"><![CDATA[관리자를 사칭할 수 있는 단어를 지정해서 해당 단어로 등록자 정보를 입력시 게시글이 등록되지 않도록 합니다.<br>입력단어는 컴마(,)로 구분지어서 입력하시기 바랍니다.]]></item>
+		<item name="about_write_send_email">게시글이 등록되면 지정된 메일주소로 자동으로 메일이 발송되도록 합니다.</item>
+		<item name="about_write_email_addr">여러개의 메일주소를 등록할 수 있으며, 메일주소는 컴마(,)로 구분지어서 입력하시기 바랍니다.</item>
+		<item name="about_document">게시글을 신규 등록시 기본으로 출력될 서식을 선택합니다.</item>
+		<item name="about_file_size">한개의 파일에 대해 업로드 제한 용량을 지정할 수 있습니다. (관리자는 제외)</item>
+		<item name="about_file_total_size">한개의 게시글에 첨부할 수 있는 최고 용량을 지정할 수 있습니다. (관리자는 제외)</item>
+		<item name="about_file_ext"><![CDATA[허용한 확장자의 파일만 첨부가 가능하며, "*.확장자"로 지정할 수 있고 ";" 으로 여러개 지정이 가능합니다. ex) *.* or *.jpg;*.gif;<br>기본적으로 시스템에 문제가 되는 파일은 업로드가 되지 않습니다.]]></item>
+		<item name="about_thrum_componet">서버에 설치된 썸네일 컴포넌트를 선택합니다. 서버에 컴포넌트가 올바르게 동작하지 않을 경우 오류가 발생합니다.</item>
+		<item name="about_use_watermark">이미지 워터마크의 기능은 DEXT UPLOAD PRO 컴포넌트가 서버에 설치 및 사용함으로 설정되어야 합니다. </item>
+		<item name="about_board_id"><![CDATA[여러개의 게시판에서 특정 게시판을 구별할 수 있는 고유 아이디값 입니다.<br>고유 아이디값은 http://주소/?bid=게시판 아이디 처럼 직접 호출할 수 있는 값입니다. (영문 및 숫자만 가능)]]></item>
+		<item name="about_subject">게시판의 제목을 입력합니다.</item>
+		<item name="about_layout">등록된 레이아웃을 게시판 호출시 선택한 레이아웃을 출력할 수 있습니다.</item>
+		<item name="about_category">분류를 통한 관리를 할 수 있도록 분류를 설정 합니다.</item>
+		<item name="about_skin">스킨에 따라 언어가 동작하지 않거나, 환경설정이 적용되지 않을 수 있습니다.</item>
+		<item name="about_browser_msg">브라우저 상단에 표시될 제목을 입력합니다.</item>
+		<item name="about_use_customer"><![CDATA[상담 기능은 관리자가 아닌 회원은 자신이 쓴 글만 보이도록 하는 기능입니다.<br>상담기능을 사용할 경우 비회원 글쓰기는 자동으로 금지됩니다.]]></item>
+		<item name="about_use_secret">게시글 및 댓글 쓰기 모드에서 비밀글 기능의 사용유무를 설정합니다.</item>
+		<item name="about_use_trash">게시글 및 댓글 삭제시 휴지통에 글 정보를 보관하여 복구가 가능하도록 합니다.</item>
+		<item name="about_header_html">게시판 상단에 표시될 내용 (HTML 태그 사용가능, 스크립트 및 인클루드 사용불가) 입니다.</item>
+		<item name="about_footer_html">게시판 하단에 표시될 내용 (HTML 태그 사용가능, 스크립트 및 인클루드 사용불가) 입니다.</item>
+		<item name="about_field">게시판 DB에서 사용될 레코드 필드명을 선택하세요.</item>
+		<item name="about_field_name">항목이름을 입력하세요. 항목이름은 게시판에서 표시될 항목의 이름입니다.</item>
+		<item name="about_field_type">추가필드의 입력형식을 설정합니다. 게시판 타입에 따라 입력형식을 자유롭게 선택이 가능합니다.</item>
+		<item name="about_default_value">,(콤마)를 기준으로 입력하세요. 단일/다중 선택 형식에서 기본값이 필요한 경우 사용됩니다.</item>
+		<item name="about_read_display">게시글 본문에 추가 필드 항목의 출력유무를 선택합니다.</item>
+		<item name="about_search">검색항목으로 지정시 게시판에서 해당 필드로 검색이 가능합니다.</item>
+		<item name="about_use_point">포인트를 지급 또는 차감하는 기능의 사용유무를 설정합니다.</item>
+		<item name="about_read_point">게시글 읽기시 포인트를 지급 또는 차감할 수 있습니다.</item>
+		<item name="about_write_point">게시글 등록시 포인트를 지급 또는 차감할 수 있습니다.</item>
+		<item name="about_comment_point">댓글 등록시 포인트를 지급 또는 차감할 수 있습니다.</item>
+		<item name="about_upload_point">파일 업로드시 포인트를 지급 또는 차감할 수 있으며, 파일 개수만큼 처리됩니다.</item>
+		<item name="about_down_point">파일 다운로드시 포인트를 지급 또는 차감할 수 있습니다.</item>
+		<item name="about_vote_point">게시글을 추천 받을경우 포인트를 지급 또는 차감할 수 있습니다.</item>
+		<item name="about_blamed_point">게시글을 비추천 받을경우 포인트를 지급 또는 차감할 수 있습니다.</item>
+
+		<item name="text_total">전체</item>
+		<item name="text_nodata">등록된 정보가 없습니다.</item>
+		<item name="text_title">제목</item>
+		<item name="text_content">내용</item>
+		<item name="text_writer">글쓴이</item>
+		<item name="text_use_previmg">이전에 등록한 이미지 사용</item>
+		<item name="text_image_width">가로</item>
+		<item name="text_image_height">세로</item>
+		<item name="text_pos_x">X 좌표</item>
+		<item name="text_pos_y">Y 좌표</item>
+		<item name="text_font_size">폰트크기</item>
+		<item name="text_height">높이</item>
+		<item name="text_bgcolor">배경색</item>
+		<item name="text_select">선택된 정보</item>
+		<item name="text_root">분류</item>
+		<item name="text_info"><![CDATA[카테고리 항목을 클릭하면 수정이 가능합니다.<br>카테고리 항목을 선택하신 후 Drag & Drop을 이용해서 순서를 실시간으로<br>변경할 수 있습니다.<br>추가버튼을 클릭하면 새로운 카테고리 항목을 추가할 수 있습니다.]]></item>
+		<item name="text_group"><![CDATA[선택하신 그룹만 현재 카테고리를 접근할 수 있도록 합니다.<br>(미 선택시 전체 허용)]]></item>
+		<item name="text_page_move">페이지 이동</item>
+		<item name="text_admin_item">최종 방문일,방문횟수,게시글,댓글</item>
+		<item name="text_point1">포인트 내역</item>
+		<item name="text_point2">지급 포인트</item>
+
+		<item name="c_new">새로만들기</item>
+		<item name="c_modify">이름변경</item>
+		<item name="c_remove">삭제하기</item>
+
+	</contents>
+
+	<options>
+		<item name="option_page_list" val="10,15,30">10개씩,15개씩,30개씩</item>
+		<item name="option_category" val="">게시판 분류</item>
+		<item name="option_nouse" val="">사용안함</item>
+		<item name="option_use" val="1,0">사용함,사용안함</item>
+		<item name="option_board_select" val="">게시판 선택</item>
+		<item name="option_display" val="1,0">출력함,출력안함</item>
+		<item name="option_order_field" val="no,update,regdate,voted_count,blamed_count,readed_count,comment_count,title">문서번호,최근 수정일,등록일,추천수,비추천수,조회수,댓글수,제목</item>
+		<item name="option_order" val="desc,asc">올림차순,내림차순</item>
+		<item name="option_list_field" val="no,category,title,regdate,last_update,nick_name,user_id,user_name,readed_count,voted_count,blamed_count,image,content">번호,분류,제목,등록일,최근 수정일,닉네임,아이디,이름,조회수,추천수,비추천수,이미지,요약글</item>
+		<item name="option_write_move" val="0,1,2">글목록,글보기,사용자 지정</item>
+		<item name="option_editor_etc1" val="1">이미지 리사이징</item>
+		<item name="option_thrum_componet" val="dext,nanumi">덱스트 업로드 PRO (http://devpia.com), 나누미넷 (http://nanumi.net)</item>
+		<item name="option_thrum_scale" val="1">원본비율유지</item>
+		<item name="option_watermark" val="1,2">이미지,텍스트</item>
+		<item name="option_field_type" val="text,url,email,tel,textarea,checkbox,select,radio,addr,date,datetime">한줄 입력칸 (text),URL 형식,이메일 형식 (email),전화번호 형식 (phone),여러줄 입력칸 (textarea),다중선택 (checkbox),단일선택 (select),라디오버튼 (radio),한국주소 (zip),일자 (년월일), 일자 (년월일시분)</item>
+		<item name="option_rquired" val="1,0">필수입력,선택입력</item>
+		<item name="option_search" val="1,0">검색항목,검색항목아님</item>
+		<item name="option_use_count" val="1">등록된 글 수 표시</item>
+		<item name="option_access" val="0,1,2">모든 사용자,로그인 사용자,특정그룹 사용자</item>
+		<item name="option_login" val="1">로그인 페이지로 이동 (게시판스킨)</item>
+		<item name="option_member_search" val="strLoginID,strNickName,strUserName">아이디,닉네임,이름</item>
+
+	</options>
+
+</root>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title_join_date">기간별 회원가입 통계</item>
+		<item name="page_title_join_age">연령대별 회원가입 통계</item>
+		<item name="page_title_join_area">거주지역별 회원가입 통계</item>
+		<item name="page_title_join_job">직업별 회원가입 통계</item>
+		<item name="page_title_site">사이트 접속통계</item>
+		<item name="page_title_site_log">접속로그 데이타</item>
+		<item name="page_title_board">게시판 데이타 통계</item>
+		<item name="page_title_tag">태그 등록현황</item>
+		<item name="page_title_search">검색 키워드 조회</item>
+
+		<item name="page_description_join_date"><![CDATA[기간별로 회원 가입현황을 확인 할 수 있으며, 검색 조건에 따라 일자별, 요일별, 시간대별로 구분지어 가입현황을 확인할 수 있습니다.]]></item>
+		<item name="page_description_join_age"><![CDATA[연령대별로 성별을 구분지어 회원 가입현황을 확인 할 수 있으며, 검색 조건에 따라 기간별, 년도별, 월별, 금일날짜로 구분지어<br>가입현황을 확인할 수 있습니다.]]></item>
+		<item name="page_description_join_area"><![CDATA[거주지역별로 회원 가입현황을 확인 할 수 있으며, 검색 조건에 따라 기간별, 년도별, 월별, 금일날짜로 구분지어 가입현황을 확인할 수 있습니다.<br>거주지역별 회원가입 통계를 사용하시려면 회원가입폼 설정에서 주소를 필수로 입력받아야 통계를 확인할 수 있습니다.]]></item>
+		<item name="page_description_join_job"><![CDATA[직업별로 회원 가입현황을 확인 할 수 있으며, 검색 조건에 따라 기간별, 년도별, 월별, 금일날짜로 구분지어 가입현황을 확인할 수 있습니다.<br>직업별 회원가입 통계를 사용하시려면 회원가입폼 설정에서 직업을 필수로 입력받아야 통계를 확인할 수 있습니다.]]></item>
+		<item name="page_description_site"><![CDATA[사이트에 접속한 통계를 확인할 수 있으며, 년도별, 월별, 일자별, 요일별, 시간대별로 구분지어 확인이 가능합니다.]]></item>
+		<item name="page_description_site_log"><![CDATA[사이트에 접속한 로그 데이타를 확인합니다.]]></item>
+		<item name="page_description_board"><![CDATA[게시판에 대한 다양한 통계를 확인 할 수 있습니다.]]></item>
+		<item name="page_description_tag"><![CDATA[게시판에 등록된 전체 태그를 확인할 수 있습니다.]]></item>
+		<item name="page_description_search"><![CDATA[게시판 검색 또는 전체 검색에서 검색단어에 대한 통계를 확인할 수 있습니다.]]></item>
+	</title>
+
+	<alert>
+	</alert>
+
+	<contents>
+
+		<item name="list_date">일자</item>
+		<item name="list_gubun">구분</item>
+		<item name="list_area">지역</item>
+		<item name="list_job">직업</item>
+		<item name="list_num">번호</item>
+		<item name="list_join_count">가입수</item>
+		<item name="list_visit_count">방문수</item>
+		<item name="list_percent">비율</item>
+		<item name="list_graph">그래프</item>
+		<item name="list_count">수치</item>
+		<item name="list_rank">순위</item>
+		<item name="list_keyword">검색단어</item>
+		<item name="list_ip">아이피</item>
+		<item name="list_path">접속경로</item>
+		<item name="list_search_date">최근 검색일</item>
+
+		<item name="text_search_type">검색구분</item>		
+		<item name="text_total">전체</item>
+		<item name="text_total_member">전체 회원수</item>
+		<item name="text_join_member_count">가입 회원수</item>
+
+		<item name="text_year">년</item>
+		<item name="text_month">월</item>
+		<item name="text_day">일</item>
+		<item name="text_hour">시</item>
+		<item name="text_day_1">일요일</item>
+		<item name="text_day_2">월요일</item>
+		<item name="text_day_3">화요일</item>
+		<item name="text_day_4">수요일</item>
+		<item name="text_day_5">목요일</item>
+		<item name="text_day_6">금요일</item>
+		<item name="text_day_7">토요일</item>
+		<item name="text_man">남</item>
+		<item name="text_woman">여</item>
+		<item name="text_member_count">회원수</item>
+		<item name="text_age">세</item>
+		<item name="text_age_1">10대이하</item>
+		<item name="text_age_2">10대</item>
+		<item name="text_age_3">20대</item>
+		<item name="text_age_4">30대</item>
+		<item name="text_age_5">40대</item>
+		<item name="text_age_6">50대</item>
+		<item name="text_age_7">60대</item>
+		<item name="text_age_8">70대이상</item>
+		<item name="text_no_tag">등록된 태그가 없습니다.</item>
+
+	</contents>
+
+	<options>
+		<item name="option_search_type" val=",1,2,3,4,5">전체,기간별,년도별,월별,금일</item>
+		<item name="option_date_type" val="1,2,3">일자별 가입통계,요일별 가입통계,시간대별 가입통계</item>
+		<item name="option_age" val="0,10,20,30,40,50,60,70">10대이하,10대,20대,30대,40대,50대,60대,60대이상</item>
+		<item name="option_log_search_type" val="1,2">전체,기간별</item>
+		<item name="option_page_list" val="10,15,30,50,100">10개씩,15개씩,30개씩,50개씩,100개씩</item>
+
+		<item name="option_board" val="">전체 게시판</item>
+		<item name="option_year" val="">년도</item>
+		<item name="option_month" val="">월</item>
+		<item name="option_day" val="">일</item>
+		<item name="option_board_date_type" val="1,2,3,4,5">년도별 통계,월별 통계, 일자별 통계,요일별 통계,시간대별 통계</item>
+		<item name="option_board_stat_type" val="1,2,3,4,5">게시글 등록수,댓글 등록수,조회수,추천수,파일다운수</item>
+		<item name="option_search_type_site" val="1,2,3,4,5">년도별,월별,일자별,요일별,시간대별</item>
+
+	</options>
+
+</root>

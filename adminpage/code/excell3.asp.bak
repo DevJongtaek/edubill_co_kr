@@ -1,0 +1,55 @@
+<%
+	'response.buffer=true
+	'response.contenttype="application/vnd.ms-excel" 
+	'Response.AddHeader "Content-Disposition","attachment;filename=Sheet1.xls"
+%>
+
+<!--#include virtual="/db/db.asp"-->
+
+<%
+	'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+	set rslist = server.CreateObject("ADODB.Recordset")
+	SQL = " select mentout from tb_adminuser where userid = 'root' "
+	rslist.Open sql, db, 1
+	mentout = replace(trim(rslist(0))," ","")
+	rslist.close
+	if mentout<>"" then
+		mentout_array = split(mentout)
+		set rslist = server.CreateObject("ADODB.Recordset")
+		SQL = " select idx from tb_company where flag='1' and tcode in ( "
+			for i=0 to ubound(mentout_array)
+				if i=0 then
+					SQL = SQL & " "& mentout_array(i) &" "
+				else
+					SQL = SQL & ", "& mentout_array(i) &" "
+				end if
+			next
+		SQL = SQL & " ) "
+		response.write sql
+		'rslist.Open sql, db, 1
+		'if not rslist.eof then
+		'	i=1
+		'	do until rslist.eof 
+		'		if i=1 then
+		'			idx_array = rslist(0)
+		'		else
+		'			idx_array = idx_array & "," & rslist(0)
+		'		end if
+		'	rslist.movenext
+		'	i=i+1
+		'	loop
+		'end if
+		'rslist.close
+	end if
+	idx_arrayint = ""
+	if idx_array<>"" then
+		'idx_array = replace(trim(idx_array)," ","")
+		'idx_array = split(idx_array)
+		'idx_arrayint = ubound(idx_array)
+	end if
+	'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+	
+%>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<item name="photo">사진</item>
+	<item name="file">파일</item>
+	<item name="media">외부컨텐츠</item>
+	<item name="btn_more">버튼 더보기</item>
+	<item name="editor_type">에디터 타입</item>
+	<item name="editor">에디터</item>
+	<item name="font">글꼴</item>
+	<item name="gulim">굴림</item>
+	<item name="font_size">글자크기</item>
+	<item name="bold">굵게</item>
+	<item name="underline">밑줄</item>
+	<item name="italic">기울임</item>
+	<item name="strike">취소선</item>
+	<item name="forecolor">글자색</item>
+	<item name="select">선택</item>
+	<item name="backcolor">글자 배경색</item>
+	<item name="alignleft">왼쪽정렬</item>
+	<item name="aligncenter">가운데정렬</item>
+	<item name="alignright">오른쪽정렬</item>
+	<item name="alignfull">양쪽정렬</item>
+	<item name="indent">들여쓰기</item>
+	<item name="outdent">내어쓰기</item>
+	<item name="lineheight">줄간격</item>
+	<item name="styledlist">리스트</item>
+	<item name="emoticon">이모티콘</item>
+	<item name="link">링크</item>
+	<item name="specialchar">특수문자</item>
+	<item name="table">표만들기</item>
+	<item name="horizontalrule">구분선</item>
+	<item name="advanced">툴바 더보기</item>
+
+	<item name="textbox">글상자</item>
+	<item name="quote">인용구</item>
+	<item name="background">배경색</item>
+	<item name="dictionary">사전</item>
+	<item name="undo">실행취소</item>
+	<item name="redo">다시실행</item>
+	<item name="fullscreen">넓게쓰기</item>
+	<item name="file_add">파일 첨부</item>
+	<item name="file_uploading">파일을 업로드하는 중입니다.</item>
+	<item name="delete_all">전체삭제</item>
+
+</root>

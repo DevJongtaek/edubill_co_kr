@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<skin version="0.2">
+
+	<title lang="ko">Artyboard Default Skin</title>
+
+	<languages>
+		<title lang="ko" path="ko">한국어</title>
+		<title lang="en" path="en">영어</title>
+	</languages>
+
+	<description lang="ko">
+		<![CDATA[Artyboard Default Skin<br>아티보드에서 기본적으로 제공되는 스킨입니다.]]>
+	</description>
+
+	<version>0.1</version>
+	<date>2010-05-04</date>
+	<author email_address="manager@openkr.com" link="http://http://webarty.com">
+		<name lang="ko">김현일</name>
+	</author>
+
+	<license>GPL</license>
+
+	<colors>
+		<color name="white" src="screenshot/white.gif">
+			<title lang="ko">하얀색(기본)</title>
+		</color>
+	</colors>
+
+	<extra_vars>
+		<var name="default_style" type="select" default="list">
+			<title lang="ko">기본 형태</title>
+			<description lang="ko">
+				목록형, 웹진형, 갤러리형의 기본 스타일을 지정할 수 있습니다.
+			</description>
+			<options value="list">
+				<title lang="ko">목록</title>
+			</options>
+			<options value="webzine">
+				<title lang="ko">웹진</title>
+			</options>
+			<options value="gallery">
+				<title lang="ko">갤러리</title>
+			</options>
+		</var>
+
+		<var name="disp_style" type="select" default="Y">
+			<title lang="ko">게시판 형태 상단 출력</title>
+			<description lang="ko">
+				게시판 형태를 선택할 수 있는 링크를 출력합니다.
+			</description>
+			<options value="Y">
+				<title lang="ko">출력</title>
+			</options>
+			<options value="N">
+				<title lang="ko">출력하지 않음</title>
+			</options>
+		</var>
+
+		<var name="display_login_info" type="select" default="N">
+			<title lang="ko">로그인 정보 출력</title>
+			<options value="Y">
+				<title lang="ko">출력</title>
+			</options>
+			<options value="N">
+				<title lang="ko">출력하지 않음</title>
+			</options>
+			<description />
+		</var>
+
+		<var name="display_setup_button" type="select" default="N">
+			<title lang="ko">설정 표시</title>
+			<options value="Y">
+				<title lang="ko">출력</title>
+			</options>
+			<options value="N">
+				<title lang="ko">출력하지 않음</title>
+			</options>
+			<description />
+		</var>
+
+		<var name="display_tag_list" type="select" default="N">
+			<title lang="ko">태그보기 버튼</title>
+			<options value="Y">
+				<title lang="ko">출력</title>
+			</options>
+			<options value="N">
+				<title lang="ko">출력하지 않음</title>
+			</options>
+			<description />
+		</var>
+
+		<var name="display_ipaddr" type="select" default="N">
+			<title lang="ko">아이피 주소</title>
+			<options value="Y">
+				<title lang="ko">출력</title>
+			</options>
+			<options value="N">
+				<title lang="ko">출력하지 않음</title>
+			</options>
+			<description />
+		</var>
+
+		<var name="disp_title" type="select" default="Y">
+			<title lang="ko">게시판 타이틀</title>
+			<options value="Y">
+				<title lang="ko">출력</title>
+			</options>
+			<options value="N">
+				<title lang="ko">출력하지 않음</title>
+			</options>
+			<description />
+		</var>
+	
+		<var name="sub_title" type="text">
+			<title lang="ko">게시판 부제목</title>
+			<description lang="ko">게시판 제목 옆에 나타날 부제목을 적어주세요.</description>
+		</var>
+
+		<var name="title_comment" type="textarea">
+			<title lang="ko">게시판 상세 설명</title>
+			<description lang="ko">게시판 제목 아래 표시될 설명을 입력하실 수 있습니다.</description>
+		</var>
+
+		<var name="duration_new" type="text" default="24">
+			<title lang="ko">new표시 시간 (hours)</title>
+			<description lang="ko">새로 등록된 게시물의 new 표시시간을 정할 수 있습니다. </description>
+		</var>
+
+	</extra_vars>
+</skin>
+

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">금지아이디 관리</item>
+		<item name="page_map">회원관리 > 금지아이디 > 금지아이디 목록</item>
+		<item name="page_description">특정 단어를 등록해서 해당 단어를 아이디로 회원 가입시 가입할 수 없도록 합니다.</item>
+		<item name="sub_title_1">세부설정</item>
+		<item name="sub_description_1">아이디 추가</item>
+	</title>
+
+	<alert>
+		<item name="is_null_id">아이디를 입력해 주세요.</item>
+		<item name="invalid_id">아이디는 영문과 숫자 _만 등록이 가능합니다.</item>
+		<item name="exists_id">이미 등록되어 있는 아이디 입니다.</item>
+		<item name="success_saved">등록되었습니다.</item>
+		<item name="cart_is_null">삭제할 아이디를 선택해 주세요.</item>
+		<item name="confirm_delete">선택된 아이디를 삭제하시겠습니까?</item>
+	</alert>
+
+	<contents>
+		<item name="list_num">번호</item>
+		<item name="list_id">아이디</item>
+		<item name="list_memo">설명</item>
+		<item name="list_regdate">등록일</item>
+
+		<item name="title_id">아이디</item>
+		<item name="title_memo">설명</item>
+
+		<item name="text_total">전체</item>
+		<item name="text_nodata">등록된 아이디가 없습니다.</item>
+		<item name="text_select">선택된 아이디</item>
+	</contents>
+
+	<options>
+		<item name="option_page_list" val="10,15,30">10개씩,15개씩,30개씩</item>
+	</options>
+</root>

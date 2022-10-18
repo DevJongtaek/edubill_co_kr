@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">가입폼 설정</item>
+		<item name="page_description"><![CDATA[회원가입시 필요한 양식을 수정해서 사용할 수 있으며, 추가항목은 10개까지 사용이 가능합니다.<br>회원가입 항목의 순서는 항목을 선택하신 후 Drag & Drop을 이용해서 순서를 실시간으로 변경할 수 있습니다.]]></item>
+		<item name="page_sub_title_1">회원가입 항목</item>
+		<item name="page_sub_description_1"><![CDATA[회원가입 항목을 선택하면 수정이 가능합니다.<br>회원가입 항목을 선택하신 후 <b>Drag & Drop</b>을 이용해서 순서를 실시간으로 변경할 수 있습니다.<br>추가버튼을 클릭하면 새로운 회원가입 항목을 추가할 수 있습니다.]]></item>
+	</title>
+
+	<alert>
+		<item name="select_move_item">이동할 항목을 선택해 주세요.</item>
+		<item name="confirm_reset">항목의 순서를 초기화 하시겠습니까?</item>
+		<item name="is_null_title">제목을 입력해 주세요.</item>
+		<item name="is_null_option">옵션값을 입력해 주세요.</item>
+		<item name="is_null_alert">alert 메시지를 입력해 주세요.</item>
+		<item name="is_null_width">출력너비를 입력해 주세요.</item>
+		<item name="success_updated">수정되었습니다.</item>
+	</alert>
+
+	<contents>
+		<item name="title_field">필드명</item>
+		<item name="title_subject">제목</item>
+		<item name="title_subject_sub">부제목</item>
+		<item name="title_type">형식</item>
+		<item name="title_option">옵션값</item>
+		<item name="title_use">사용유무</item>
+		<item name="title_rquired">필수입력</item>
+		<item name="title_alert">alert 메시지</item>
+		<item name="title_width">출력너비</item>
+		<item name="title_memo">설명</item>
+
+		<item name="about_field">필드명은 회원가입 DB의 필드명이며, 수정은 되지 않습니다.</item>
+		<item name="about_subject">회원가입시 출력되는 입력항목의 제목입니다.</item>
+		<item name="about_subject_sub">회원가입시 출력되는 입력항목의 부제목입니다.</item>
+		<item name="about_type">필드형식을 설정합니다. 항목에 따라 선택 가능한 부분이 다릅니다.</item>
+		<item name="about_option">옵션값은 한줄에 1개씩만 입력하며, 엔터로 구분지어 출력됩니다.</item>
+		<item name="about_alert">필수입력의 경우 항목이 입력되지 않았을 경우 출력되는 메시지 입니다.</item>
+
+		<item name="text_length">자</item>
+
+	</contents>
+
+	<options>
+		<item name="option_use" val="1,0">사용함,사용안함</item>
+		<item name="option_rquired" val="1,0">필수입력,선택입력</item>
+		<item name="option_field_radio" val="radio">라디오 버튼 (radio)</item>
+		<item name="option_field_text" val="text">한줄 입력칸</item>
+		<item name="option_field_birthday" val="birthday">생년월일 형식</item>
+		<item name="option_field_select" val="select">단일선택 (select)</item>
+		<item name="option_field_email" val="email">메일주소</item>
+		<item name="option_field_addr" val="addr">한국주소 (zip)</item>
+		<item name="option_field_url" val="url">URL 형식</item>
+		<item name="option_field_tel" val="tel">전화번호 형식</item>
+		<item name="option_field_userid" val="userid">아이디 형식</item>
+		<item name="option_field_date" val="date">일자 (년월일)</item>
+		<item name="option_field_marry" val="marry">결혼정보 형식</item>
+		<item name="option_field_mobile" val="mobile">휴대폰 형식</item>
+		<item name="option_field_textarea" val="textarea">여러줄 입력형</item>
+		<item name="option_field_password" val="password">비밀번호 형식</item>
+		<item name="option_field_ssn" val="ssn">주민등록번호</item>
+		<item name="option_field_sign" val="sign">개인서명 형식</item>
+		<item name="option_field_checkbox" val="checkbox">다중선택 (checkbox)</item>
+		<item name="option_field_nick" val="nick">닉네임 형식</item>
+		<item name="option_field_corpnum" val="corpnum">사업자등록번호</item>
+		<item name="option_sex" val="">남,여</item>
+		<item name="option_mailing" val="">수신,수신안함</item>
+		<item name="option_open" val="">공개,비공개</item>
+	</options>
+</root>

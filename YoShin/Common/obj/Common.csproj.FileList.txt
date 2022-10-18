@@ -1,0 +1,14 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Common.csproj.GenerateResource.Cache
+bin\Debug\Common.dll
+bin\Debug\Common.pdb
+obj\Debug\Common.dll
+obj\Debug\Common.pdb
+bin\Release\Common.dll
+bin\Release\Common.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Common.dll
+obj\Release\Common.pdb
+obj\Debug\Edubill.YoShin.Common.ExceptionHandler.frmErrDialog.resources
+obj\Release\Edubill.YoShin.Common.ExceptionHandler.frmErrDialog.resources
+obj\Release\Common.csproj.GenerateResource.Cache

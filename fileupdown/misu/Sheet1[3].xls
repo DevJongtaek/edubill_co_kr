@@ -1,0 +1,229 @@
+
+
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<style type="text/css">
+<!--
+td.accountnum
+{mso-number-format:\@}
+-->
+</STYLE>
+<body>
+
+<table border="1">
+	<tr height=28 align=center>
+		<td bgcolor="yellow" align="center" width="140"><font color="blue">체인점코드</font></td>
+		<td bgcolor="yellow" align="center" width="320"><font color="blue">체인점명</font></td>
+		<td bgcolor="yellow" align="center" width="140"><font color="blue">주문여부</font></td>
+		<td bgcolor="yellow" align="center" width="180"><font color="blue">비고</font></td>
+	</tr>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5001</td>
+		<td class='accountnum' align="left">방이시장점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5002</td>
+		<td class='accountnum' align="left">용문점</td>
+		<td class='accountnum'>3</td>
+		<td align="left">휴업(정지)</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5003</td>
+		<td class='accountnum' align="left">명지대점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5005</td>
+		<td class='accountnum' align="left">증산점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5006</td>
+		<td class='accountnum' align="left">광명시장점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5007</td>
+		<td class='accountnum' align="left">남구로점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5008</td>
+		<td class='accountnum' align="left">시흥1동점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5009</td>
+		<td class='accountnum' align="left">군자역점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5010</td>
+		<td class='accountnum' align="left">부평점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5011</td>
+		<td class='accountnum' align="left">소사점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5012</td>
+		<td class='accountnum' align="left">마두점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5013</td>
+		<td class='accountnum' align="left">시흥3동점</td>
+		<td class='accountnum'>3</td>
+		<td align="left">휴업(정지)</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5014</td>
+		<td class='accountnum' align="left">이주형</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5015</td>
+		<td class='accountnum' align="left">응암점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5016</td>
+		<td class='accountnum' align="left">성결대점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5017</td>
+		<td class='accountnum' align="left">대림2동점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5018</td>
+		<td class='accountnum' align="left">신사동점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center>
+		<td class='accountnum'>5019</td>
+		<td class='accountnum' align="left">박달시장점</td>
+		<td class='accountnum'>y</td>
+		<td align="left">주문중</td>
+	</tr>
+
+</form>
+
+
+
+	<!--tr>
+	<td colspan = "4" >주문여부 : y -> 주문중, 1 -> 미수금(정지), 2 -> 폐업(정지), 3 -> 휴업(정지), 4 -> 경고1(주문), 5 -> 경고2(주문)</td>
+	</tr-->
+</table>
+
+
+
+</body>
+</html>

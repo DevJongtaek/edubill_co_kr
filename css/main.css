@@ -1,0 +1,9 @@
+ @charset "euc-kr";
+
+/* Page Title */
+
+
+.fla1						{width:980px; height:451px; overflow:hidden ; position:relative; float:left;}
+.fla2                       {width:980px; height:85px; overflow:relative; position:absolute ; top:0px; left:0px; z-index:3;}
+
+.fla3						{width:980px; height:358px; overflow:hidden ; position:relative; float:left;}

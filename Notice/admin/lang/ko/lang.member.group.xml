@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">회원그룹관리</item>
+		<item name="page_description"><![CDATA[회원별 그룹을 만들어서 해당 그룹에 회원을 등록시켜 별도로 관리할 수 있습니다.<br>준회원 그룹 및 관리그룹은 기본그룹으로써 수정은 가능하나, 삭제가 되지 않습니다.]]></item>
+		<item name="page_sub_title_1">세부설정</item>
+	</title>
+
+	<alert>
+		<item name="confirm_delete">선택된 그룹을 삭제하시겠습니까?</item>
+		<item name="select_group">그룹을 선택해 주세요.</item>
+		<item name="select_move_group">이동할 그룹을 선택해 주세요.</item>
+		<item name="confirm_move">선택된 그룹을 이동하시겠습니까?</item>
+		<item name="exists_members"><![CDATA[그룹에 회원이 소속되어 있습니다.<br>소속회원을 다른 그룹으로 이동 후 삭제하세요.]]></item>
+		<item name="isnull_group_name">그룹명을 입력해 주세요.</item>
+		<item name="success_saved">등록되었습니다.</item>
+		<item name="success_updated">수정되었습니다.</item>
+	</alert>
+
+	<contents>
+
+		<item name="list_subject">그룹명</item>
+		<item name="list_group">기본그룹</item>
+		<item name="list_memo">그룹설명</item>
+		<item name="list_regdate">등록일</item>
+		<item name="list_modify">수정</item>
+		<item name="list_remove">삭제</item>
+		<item name="list_member">회원</item>
+
+		<item name="text_total">전체</item>
+		<item name="text_select">선택된 그룹</item>
+
+		<item name="title_subject">그룹명</item>
+		<item name="title_group">기본그룹</item>
+		<item name="title_group_level">그룹변경레벨</item>
+		<item name="title_memo">그룹설명</item>
+		<item name="title_img">그룹 이미지</item>
+
+	</contents>
+
+	<options>
+		<item name="option_move_group" val="">이동그룹선택</item>
+		<item name="option_default" val="1">회원가입시 기본그룹으로 지정</item>
+		<item name="option_level" val="">레벨선택</item>
+	</options>
+
+</root>

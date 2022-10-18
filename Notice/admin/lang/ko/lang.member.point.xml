@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title_config">기본설정</item>
+		<item name="page_title_list">회원 포인트 목록</item>
+		<item name="page_description_config"><![CDATA[포인트 기능을 사용함으로 설정해야 포인트가 지급 또는 차감되며, 누적된 포인트로 회원레벨을 자동으로 갱신 할 수 있습니다.<br>그룹에 레벨을 지정해서 해당 레벨에 도달하면 그룹을 자동으로 변경할 수 있습니다.]]></item>
+		<item name="page_description_list"><![CDATA[회원에게 지급 또는 차감된 포인트 내역을 확인 할 수 있으며, 포인트 지급 및 차감은 회원 리스트 메뉴에서 사용할 수 있습니다.<br>다양한 검색항목으로 포인트 내역을 조회할 수 있으며, 포인트 내역을 삭제시 각 회원의 포인트가 변동됩니다.]]></item>
+	</title>
+
+	<alert>
+		<item name="success_updated">수정되었습니다.</item>
+		<item name="cart_is_null">삭제할 포인트 내역을 선택하세요.</item>
+		<item name="confirm_delete">선택된 포인트 내역을 삭제하시겠습니까?</item>
+		<item name="is_null_search_keyword">검색어는 최소 3bytes 이상 입력 하셔야 합니다.</item>
+	</alert>
+
+	<contents>
+
+		<item name="tab_menu1">기본설정</item>
+		<item name="tab_menu2">회원 포인트 목록</item>
+		
+		<item name="title_point">포인트 기능</item>
+		<item name="title_level_update">레벨 자동갱신</item>
+		<item name="title_group_update">그룹 자동갱신</item>
+		<item name="title_group_level">그룹별 레벨연동</item>
+		
+		<item name="about_point"><![CDATA[포인트 기능을 사용하지 않으면, 포인트 차감 및 부여등의 포인트 기능이 모두 적용되지 않습니다.<br>게시판의 포인트 기능은 현재 설정과 상관없이 게시판별로 포인트 사용유무를 기준으로 적용됩니다.]]></item>
+		<item name="about_level_update">레벨별로 설정된 포인트에 도달하면 레벨이 자동으로 변경되도록 설정합니다.</item>
+		<item name="about_group_update">그룹별로 설정된 레벨에 도달하면 그룹이 자동으로 변경되도록 설정합니다.</item>
+		<item name="about_group_level"><![CDATA[해당 그룹으로 변경되기 위한 그룹별 레벨을 지정합니다.<br>동일한 레벨 지정시 나중에 만들어진 그룹을 기준으로 변경되며, 레벨을 지정하지 않는 경우 해당 그룹은 변경에서 제외됩니다.]]></item>
+
+		<item name="list_num">번호</item>
+		<item name="list_id">아이디</item>
+		<item name="list_name">이름</item>
+		<item name="list_nick">닉네임</item>
+		<item name="list_memo">내역</item>
+		<item name="list_point">포인트</item>
+		<item name="list_regdate">등록일자</item>
+		
+		<item name="text_total">전체</item>
+		<item name="text_nodata">등록된 포인트내역이 없습니다.</item>
+		<item name="text_select">선택된 포인트 내역</item>
+
+	</contents>
+
+	<options>
+		<item name="option_use" val="1,0">사용함,사용안함</item>
+		<item name="option_nouse" val="0,1,2">사용안함 (관리자가 변경),현재 포인트를 기준으로 레벨 자동업다운, 현재레벨 이상으로만 포인트에따라 자동 레벨업</item>
+		<item name="option_update" val="1,0">자동갱신,갱신안됨</item>
+		<item name="option_page_list" val="10,15,30,50">10개씩,15개씩,30개씩,50개씩</item>
+		<item name="option_year" val="">년도</item>
+		<item name="option_month" val="">월</item>
+		<item name="option_day" val="">일</item>
+		<item name="option_category" val=",1,0">전체,지급내역,사용내역</item>
+		<item name="option_search" val="1,2,3">닉네임,아이디,이름</item>
+
+	</options>
+
+</root>

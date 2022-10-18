@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">기본 환경설정</item>
+		<item name="page_description">회원 프로그램에 필요한 기본 환경설정을 관리합니다.</item>
+		<item name="page_sub_title_1">공통설정</item>
+		<item name="page_sub_title_2">회원가입 설정</item>
+		<item name="page_sub_title_3">로그인 설정</item>
+		<item name="page_sub_title_4">실명인증 설정</item>
+	</title>
+
+	<alert>
+		<item name="null_admin_name">관리자 이름을 입력하세요.</item>
+		<item name="null_admin_email">관리자 메일주소를 입력하세요.</item>
+		<item name="select_skin_color">스킨의 색상을 선택하세요.</item>
+		<item name="null_level_icon_folder">레벨 아이콘 폴더를 선택하세요.</item>
+		<item name="null_join_page">회원가입 후 이동할 페이지를 입력하세요.</item>
+		<item name="null_join_script">회원가입 후 실행될 스크립트를 입력하세요.</item>
+		<item name="null_modify_page">회원정보 수정 후 이동할 페이지를 입력하세요.</item>
+		<item name="null_modify_script">회원정보 수정 후 실행될 스크립트를 입력하세요.</item>
+		<item name="null_out_page">회원탈퇴 후 이동할 페이지를 입력하세요.</item>
+		<item name="null_out_script">회원탈퇴 후 실행될 스크립트를 입력하세요.</item>
+		<item name="success_saved">정상적으로 처리되었습니다.</item>
+		<item name="null_ssn_use1"><![CDATA[실명인증 서비스를 사용하시려면 가입폼 설정 메뉴에서<br>주민등록번호를 사용함 및 필수입력으로 설정하세요.]]></item>
+		<item name="null_service_id">서비스 아이디를 입력하세요.</item>
+		<item name="null_ssn_use2">어린이 및 학생회원 또는 법인회원의 가입허용시 주민등록번호를 사용함 및 필수입력으로 설정하세요.</item>
+		<item name="null_join_point">회원가입시 지급할 포인트의 내역을 입력하세요.</item>
+		<item name="null_login_point">로그인시 지급할 포인트의 내역을 입력하세요.</item>
+		<item name="null_login_page">로그인 후 이동할 페이지를 입력하세요.</item>
+		<item name="null_login_script">로그인 후 실행될 스크립트를 입력하세요.</item>
+		<item name="null_logout_page">로그아웃 후 이동할 페이지를 입력하세요.</item>
+		<item name="null_logout_script">로그아웃 후 실행될 스크립트를 입력하세요.</item>
+	</alert>
+
+	<contents>
+		<item name="title_browser_msg">브라우저 상단 메시지</item>
+		<item name="title_admin_name">관리자 이름</item>
+		<item name="title_admin_email">관리자 메일주소</item>
+		<item name="title_layout">레이아웃</item>
+		<item name="title_skin">스킨</item>
+		<item name="title_use_join">회원 가입 허가</item>
+		<item name="title_auth">회원 가입 승인</item>
+		<item name="title_disp_agree">회원약관 페이지</item>
+		<item name="title_use_join_member">가입자 구분</item>
+		<item name="title_join_certified">가입인증</item>
+		<item name="title_kind_certified">인증방법</item>
+		<item name="title_default_group">기본그룹</item>
+		<item name="title_default_level">기본레벨</item>
+		<item name="title_join_point">회원가입 포인트</item>
+		<item name="title_join_email">가입환영 메일</item>
+		<item name="title_disp_level_icon">레벨 아이콘</item>
+		<item name="title_use_profile">프로필 사진</item>
+		<item name="title_use_name_img">이름 이미지</item>
+		<item name="title_use_mark_img">마크 이미지</item>
+		<item name="title_join_url"><![CDATA[회원가입 후<br>이동할 페이지]]></item>
+		<item name="title_modify_page"><![CDATA[회원정보 수정 후<br>이동할 페이지]]></item>
+		<item name="title_out_type">회원탈퇴 방법</item>
+		<item name="title_out_url"><![CDATA[회원탈퇴 후<br>이동할 페이지]]></item>
+		<item name="title_out_memo">회원탈퇴 사유</item>
+		<item name="title_find_account">계정찾기 방법</item>
+		<item name="title_login_point">로그인 포인트</item>
+		<item name="title_login_url"><![CDATA[로그인 후<br>이동할 페이지]]></item>
+		<item name="title_logout_url"><![CDATA[로그아웃 후<br>이동할 페이지]]></item>
+		<item name="title_name_check">실명인증 서비스</item>
+		<item name="title_name_company">서비스 업체</item>
+		<item name="title_name_id">서비스 아이디</item>
+		<item name="title_name_pwd">서비스 비밀번호</item>
+		<item name="title_join_age">제한 가입연령</item>
+
+		<item name="about_browser_msg">브라우저 상단에 표시될 제목을 입력하며, 입력정보가 없는 경우 각 프로그램의 제목 또는 기타 정보가 출력됩니다.</item>
+		<item name="about_admin_name">인증 메일이나 기타 사이트에서 회원에게 메일 발송시 사용될 관리자의 이름을 입력하세요.</item>
+		<item name="about_admin_email">관리자의 메일주소를 입력하세요.</item>
+		<item name="about_layout">등록된 레이아웃을 회원가입 호출시 선택한 레이아웃을 출력할 수 있습니다.</item>
+		<item name="about_use_join">회원가입을 일시적으로 중지하거나, 가입을 받을 수 있습니다.</item>
+		<item name="about_auth">회원가입시 자동으로 승인을 하거나 관리자가 확인 후 승인을 할 수 있도록 설정합니다.</item>
+		<item name="about_disp_agree"><![CDATA[회원가입시 회원약관 및 개인정보 보호정책을 회원이 확인 후 회원가입이 진행되는 페이지의 출력유무를 설정합니다.<br>회원약관 페이지를 출력안함으로 설정시 가입자 구분은 일반회원으로 등록되며, 약관이 없는 경우 사이트 운영시 재재를 받을 수 있습니다.]]></item>
+		<item name="about_use_join_member"><![CDATA[14세 미만의 개인 또는 법인 (사업자 및 단체) 회원의 가입 여부를 설정합니다.<br>14세 미만의 개인 또는 법인 회원의 가입을 기능을 사용하시려면 회원가입 항목에서 주민등록번호 입력폼을 사용해야 하며,<br>필수 입력으로 설정하셔야 합니다.]]></item>
+		<item name="about_join_certified"><![CDATA[회원가입시 인증을 받아야만 가입을 할 수 있도록 설정합니다.]]></item>
+		<item name="about_join_email_check"><![CDATA[메일인증을 사용하면 회원 가입시 등록한 메일주소로 인증정보가 발송되며, 발송된 인증정보를 입력해야 회원가입이 됩니다.<br>인증메일의 내용수정은 좌측 회원관련문서 메뉴에서 설정이 가능합니다.]]></item>
+		<item name="about_default_group">회원가입시 초기 그룹을 지정합니다.</item>
+		<item name="about_default_level">회원가입시 초기 레벨을 지정합니다.</item>
+		<item name="about_join_point">회원가입시 지급할 포인트를 입력하세요.</item>
+		<item name="about_join_email"><![CDATA[회원가입시 등록된 가입환영 메일을 자동으로 발송할 수 있습니다.<br>메일의 내용수정은 좌측 회원관련문서 메뉴에서 설정이 가능합니다.]]></item>
+		<item name="about_disp_level_icon">게시판에 회원의 레벨을 나타내는 아이콘을 출력할 수 있습니다.</item>
+		<item name="about_use_profile">회원의 프로필 이미지 기능을 설정합니다.</item>
+		<item name="about_use_name_img">회원의 이름을 글자 대신 이미지로 사용할 수 있는 기능을 설정합니다.</item>
+		<item name="about_use_mark_img">회원의 이름앞에 이미지를 달수 있는 기능을 설정합니다.</item>
+		<item name="about_join_url">회원가입 후 이동할 페이지 URL 정보 또는 자바스크립트 정보를 입력하세요.</item>
+		<item name="about_modify_page">회원정보 수정 후 이동할 페이지 URL 정보 또는 자바스크립트 정보를 입력하세요.</item>
+		<item name="about_out_type">회원탈퇴시 회원정보에 대한 처리 방법을 선택합니다.</item>
+		<item name="about_out_url">회원탈퇴 후 이동할 페이지 URL 정보 또는 자바스크립트 정보를 입력하세요.</item>
+		<item name="about_out_memo">회원탈퇴시 탈퇴 사유를 선택하는 항목을 입력하세요. 한줄에 하나의 항목이 출력됩니다.</item>
+		<item name="about_find_account">아이디 및 비밀번호 찾기 결과에 대한 실행방법을 설정합니다.</item>
+		<item name="about_login_point">로그인시 지급되는 포인트를 입력합니다. 로그인 포인트는 1일 1회만 지급됩니다.</item>
+		<item name="about_login_url">로그인 후 이동할 페이지 URL 정보 또는 자바스크립트 정보를 입력하세요.</item>
+		<item name="about_logout_url">로그아웃 후 이동할 페이지 URL 정보 또는 자바스크립트 정보를 입력하세요.</item>
+		<item name="about_name_check"><![CDATA[외부업체에서 제공하는 실명인증 서비스를 사용할 수 있습니다.<br>실명인증 서비스를 사용하시려면 회원가입 항목에서 주민등록번호 입력폼을 사용해야 하며,<br>필수 입력으로 설정하셔야 합니다.]]></item>
+		<item name="about_name_company">실명서비스 업체를 선택하세요.</item>
+		<item name="about_name_id">실명서비스 업체에서 제공하는 아이디를 입력하세요.</item>
+		<item name="about_name_pwd">실명서비스 업체를서 제공하는 비밀번호를 입력하세요. 업체에 따라 비밀번호가 필요하지 않을 수 있습니다.</item>
+		<item name="about_join_age">회원가입 최소 연령을 입력하세요.</item>
+
+		<item name="text_width_size">가로 사이즈 제한</item>
+		<item name="text_height_size">세로 사이즈 제한</item>
+		<item name="text_move_page">이동 페이지</item>
+		<item name="text_disp_msg">출력 메시지</item>
+		<item name="text_point1">포인트 내역</item>
+		<item name="text_point2">지급 포인트</item>
+
+	</contents>
+
+	<options>
+		<item name="option_nouse" val="">사용안함</item>
+		<item name="option_join" val="1,0">가입가능,가입불가</item>
+		<item name="option_auth" val="1,0">가입시 승인,관리자 확인 후 승인</item>
+		<item name="option_join_kids" val="1">어린이 및 학생회원(만 14세 미만 개인)</item>
+		<item name="option_join_corp" val="1">법인회원(사업자 및 기타 단체)</item>
+		<item name="option_level_icon" val="">아이콘 폴더선택</item>
+		<item name="option_use" val="1,0">사용함,사용안함</item>
+		<item name="option_disp" val="1,0">출력함,출력안함</item>
+		<item name="option_check_email" val="1">메일인증</item>
+		<item name="option_check_sms" val="1">휴대폰인증</item>
+		<item name="option_act" val="0,1,2">페이지 이동,스트립트 실행,스킨적용</item>
+		<item name="option_act_login" val="0,1,2">페이지 이동,스트립트 실행,이전페이지</item>
+		<item name="option_disp_type" val="0,1,2">직접출력,메일로 발송,직접출력+메일발송</item>
+		<item name="option_member_data" val="0,1">데이터유지 후 관리자 삭제,탈퇴즉시 모든데이터 삭제</item>
+		<item name="option_name_check" val="1">한국신용정보 실명인증 (http://www.idcheck.co.kr)</item>
+	</options>
+
+</root>

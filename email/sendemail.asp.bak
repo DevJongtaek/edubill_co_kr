@@ -1,0 +1,11 @@
+<%
+set myMail = server.createobject("CDONTS.NewMail")
+myMail.Subject="Sending email with CDO"
+myMail.From="mymail@mydomain.com"
+myMail.To="lemondoly@gmail.com"
+myMail.body = "aaaaaaaaaaa"
+myMail.Send
+set myMail=Nothing
+
+response.write "send"
+%>

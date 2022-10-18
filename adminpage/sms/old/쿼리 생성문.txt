@@ -1,0 +1,42 @@
+1)인증창
+check.html, check_exe.asp
+2)보내기창
+send_msg.asp, send_exe.asp, send_ok.asp
+3)개인추가 창
+addusr.asp, addusr_exe.asp
+4)로그 아웃
+logout.asp
+5)그룹 추가창
+group.asp, group_exe.asp
+
+[테이블]
+주소록 기능 중 그룹관련 테이블
+CREATE TABLE em_addr_group ( 
+PK int identity(1,1), 
+userId varchar(20) DEFAULT '' NOT NULL, 
+groupName varchar(16) DEFAULT '' NOT NULL, 
+PRIMARY KEY (PK), constraint uniID_NAME UNIQUE (userId,groupName) 
+)  
+
+그룹의 구성원관련 테이블
+CREATE TABLE em_addr_group_person ( 
+groupPK int DEFAULT '0' NOT NULL, 
+personPK int DEFAULT '0' NOT NULL,
+constraint uniPKPK UNIQUE (groupPK,personPK) 
+)   
+
+개인관련 테이블
+CREATE TABLE em_addr_person ( 
+PK int identity(1,1), 
+userId varchar(20) DEFAULT '' NOT NULL, 
+personName varchar(16) DEFAULT '' NOT NULL, 
+phone varchar(15) DEFAULT '' NOT NULL, 
+PRIMARY KEY (PK), 
+constraint uniPID_PNAME UNIQUE (userId,personName) 
+)
+
+인증관련 테이블
+CREATE TABLE em_b2c_client ( 
+userId varchar(20) NULL, 
+passwd varchar(20) NULL, 
+callback varchar(20) NULL ) 

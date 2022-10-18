@@ -1,0 +1,342 @@
+﻿using System;
+using System.Data;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.Text;
+using System.Data.SqlClient;
+using System.Xml.Linq;
+
+// 참고: 여기서 인터페이스 이름 "IService"를 변경하는 경우 Web.config에서 "IService"에 대한 참조도 업데이트해야 합니다.
+[ServiceKnownType(typeof(DBNull))]
+[ServiceContract]
+public interface IService
+{
+    // 작업: 여기에 서비스 작업을 추가합니다.
+    [OperationContract]
+    User GetUserInformation(User value);
+
+    [OperationContract]
+    DataTable GetUsers(Request value);
+
+    [OperationContract]
+    DataTable GetBonsa(Request value);
+
+    [OperationContract]
+    DataTable GetProducts(Request value);
+
+    [OperationContract]
+    DataTable GetDCenterProducts(string brandCode, string dcenterCode);
+
+    [OperationContract]
+    DataTable GetJisaInformation(Request value);
+
+    [OperationContract]
+    DataTable GetBrandInformation(Request value);
+
+    [OperationContract]
+    DataTable GetCompanies(Request value);
+
+    [OperationContract]
+    DataTable GetGoobneCompanies(Request value);
+
+    [OperationContract]
+    DataTable GetVirtualAccounts(Request value);
+
+    [OperationContract]
+    DataSet GetOrders(Request value);
+
+    [OperationContract]
+    DataSet GetDCenterOrders(Request value, string dCenterCode);
+
+    [OperationContract]
+    ServerInfomation ServerInfomation(ServerInfomation value);
+
+    [OperationContract]
+    CertInfo CertStep1(CertInfo value);
+
+    [OperationContract]
+    CertInfo CertStep2(CertInfo value);
+
+    [OperationContract]
+    bool UpdateMisuErrString(ClientMisu[] value, out string errString);
+
+    [OperationContract]
+    bool UpdateMisu(ClientMisu[] value);
+
+    [OperationContract]
+    void SetServerName(ServerInfomation value);
+
+    [OperationContract]
+    PatchList[] GetPatchList(float value);
+
+    [OperationContract]
+    bool Test();
+
+    [OperationContract]
+    bool ETax(ETAX[] value, out string errString);
+
+    [OperationContract]
+    Result UpdateAcnt(Acnt[] value);
+
+    [OperationContract]
+    DataTable CheckVirtualAcnt(string value);
+
+    [OperationContract]
+    DataTable GetDCenters(Request value);
+
+    [OperationContract]
+    string GoobneIP();
+
+    [OperationContract]
+    DataSet GetTimeOrders(Request value);
+
+    [OperationContract]
+    DataSet GetTimeDCenterOrders(Request value, string dCenterCode);
+
+    [OperationContract]
+    DataSet CompanyGetTimeOrders(Request value);
+
+    [OperationContract]
+    DataSet CompanyGetTimeDCenterOrders(Request value, string dCenterCode);
+
+    [OperationContract]
+    DataTable GetFileCodeCompanies(Request value);
+
+    [OperationContract]
+    DataTable GetFileCodeGoobneCompanies(Request value);
+
+    [OperationContract]
+    bool UpdateMisuFileCode(ClientMisu[] value);
+
+    [OperationContract]
+    DataTable GetFileCodeUsers(Request value);
+
+    [OperationContract]
+    DataTable GetFileCodeJisaInformation(Request value);
+    
+    [OperationContract]
+    DataTable GetFileCodeBrandInformation(Request value);
+
+    [OperationContract]
+    DataTable GetFileCodeProducts(Request value);
+
+	[OperationContract]
+    DataTable GetFileCodeVirtualAccounts(Request value);
+
+    [OperationContract]
+	bool SendSMS(string phoneNo, string message);
+	
+    [OperationContract]
+    bool ETaxGoobne(ETAX[] value, out string errString);
+
+	[OperationContract]
+    bool ETaxIntegration(ETAX[] value, out string errString);
+
+	[OperationContract]
+	ETAX[] ETaxIntegrationReturn(ETAX[] value, out string errString, bool check);
+}
+
+// 아래 샘플에 나타낸 것처럼 데이터 계약을 사용하여 복합 형식을 서비스 작업에 추가합니다.
+[DataContract]
+public class ETAX
+{
+    [DataMember]
+    public string IDX { get; set; }
+    [DataMember]
+    public string DATE { get; set; }
+    [DataMember]
+    public string CUSTOMERID { get; set; }
+    [DataMember]
+    public string DUTY_TYPE { get; set; }
+    [DataMember]
+    public string MCLIENTNO { get; set; }
+    [DataMember]
+    public string MSANGHO { get; set; }
+    [DataMember]
+    public string MCEONM { get; set; }
+    [DataMember]
+    public string MUPTEA { get; set; }
+    [DataMember]
+    public string MUPJONG { get; set; }
+    [DataMember]
+    public string MADDR { get; set; }
+    [DataMember]
+    public string WDATE { get; set; }
+    [DataMember]
+    public string TRANSDATE { get; set; }
+    [DataMember]
+    public string RECEIPT { get; set; }
+    [DataMember]
+    public string ITMMM { get; set; }
+    [DataMember]
+    public string ITMDD { get; set; }
+    [DataMember]
+    public string CLIENTNO { get; set; }
+    [DataMember]
+    public string SANGHO { get; set; }
+    [DataMember]
+    public string CEONM { get; set; }
+    [DataMember]
+    public string UPTEA { get; set; }
+    [DataMember]
+    public string UPJONG { get; set; }
+    [DataMember]
+    public string ADDR { get; set; }
+    [DataMember]
+    public string COST { get; set; }
+    [DataMember]
+    public string VAT { get; set; }
+    [DataMember]
+    public string EMAIL { get; set; }
+    [DataMember]
+    public string ITMNM { get; set; }
+    [DataMember]
+    public string ITMNET { get; set; }
+    [DataMember]
+    public string TITLE { get; set; }
+    [DataMember]
+    public string CLIENTCODE { get; set; }
+	[DataMember]
+    public string DUTYNUM { get; set; }
+}
+[DataContract]
+public class Request
+{
+    private User requestUser;
+    [DataMember]
+    public User RequestUser
+    {
+        get { return requestUser; }
+        set { requestUser = value; }
+    }
+
+    [DataMember]
+    public string DateStart { get; set; }
+    [DataMember]
+    public string DateEnd { get; set; }
+}
+[DataContract]
+public class RequestGoobne
+{
+    [DataMember]
+    public string ProductCode { get; set; }
+    [DataMember]
+    public string DateStart { get; set; }
+    [DataMember]
+    public string DateEnd { get; set; }
+}
+[DataContract]
+public class User
+{
+    [DataMember]
+    public string Name { get; set; }
+    [DataMember]
+    public string CompanyCode { get; set; }
+    [DataMember]
+    public string CompanyIdx { get; set; }
+    [DataMember]
+    public string CPCode { get; set; }
+    [DataMember]
+    public string CompanyName { get; set; }
+}
+[DataContract]
+public class ServerInfomation
+{
+    private User serverInfomationUser;
+    [DataMember]
+    public User ServerInfomationUser
+    {
+        get { return serverInfomationUser; }
+        set { serverInfomationUser = value; }
+    }
+    [DataMember]
+    public string ServerName { get; set; }
+    [DataMember]
+    public bool IsServer { get; set; }
+}
+[DataContract]
+public class CertInfo
+{
+    [DataMember]
+    public string CorpNo { get; set; }
+    [DataMember]
+    public string AdminID { get; set; }
+    [DataMember]
+    public string CertNo { get; set; }
+    [DataMember]
+    public string UserName { get; set; }
+    [DataMember]
+    public string UserLocation { get; set; }
+    [DataMember]
+    public object Seq { get; set; }
+}
+[DataContract]
+public class ClientMisu
+{
+    [DataMember]
+    public string tcode { get; set; }
+    [DataMember]
+    public string bidxsub { get; set; }
+    [DataMember]
+    public decimal mi_money { get; set; }
+    [DataMember]
+    public decimal ye_money { get; set; }
+}
+[DataContract]
+public class PatchList
+{
+    [DataMember]
+    public float Version { get; set; }
+    [DataMember]
+    public string PatchFile { get; set; }
+    [DataMember]
+    public bool isExcute { get; set; }
+}
+[DataContract]
+public class Acnt
+{
+    [DataMember]
+    public string idx { get; set; }
+    [DataMember]
+    public string tcode { get; set; }
+    [DataMember]
+    public string chancode { get; set; }
+    [DataMember]
+    public string SlipDate { get; set; }
+    [DataMember]
+    public string Collect_Method { get; set; }
+    [DataMember]
+    public string Send_Bank { get; set; }
+    [DataMember]
+    public string Input_Bank { get; set; }
+    [DataMember]
+    public decimal Input_Amt { get; set; }
+    [DataMember]
+    public decimal Misu_Amt { get; set; }
+    [DataMember]
+    public string Check_Account { get; set; }
+}
+[DataContract]
+public class Result
+{
+    [DataMember]
+    public int SuccessCount { get; set; }
+    [DataMember]
+    public int FailedCount { get; set; }
+    [DataMember]
+    public string Comment { get; set; }
+}
+[DataContract]
+public class VAcnt
+{
+    [DataMember]
+    public string CPCode { get; set; }
+    [DataMember]
+    public string Client_Code { get; set; }
+    [DataMember]
+    public string Trade_Date { get; set; }
+    [DataMember]
+    public string Trade_Time { get; set; }
+}

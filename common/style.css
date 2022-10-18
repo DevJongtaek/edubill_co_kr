@@ -1,0 +1,76 @@
+body,p,br,table,tr,td,input,select,textarea
+{
+	font-family : Dotum;
+	font-size   : 9pt;
+	line-height : 150%;
+        color : #545454; /*67695b*/
+	
+	scrollbar-face-color:#F7F7F7;
+	scrollbar-shadow-color:#cccccc;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #FFFFFF;
+	scrollbar-darkshadow-color: #FFFFFF;
+	scrollbar-track-color: #FFFFFF;
+	scrollbar-arrow-color: #cccccc;
+}
+img
+{
+	border : 0;
+}
+.Blink
+{
+	cursor : pointer;
+	text-decoration : underline;
+	color : blue;
+}
+
+/*링크 박스 안뜨게..*/
+a {selector-dummy: expression(this.hideFocus=true);} 
+a:link { color:#8b8b8b; font-family : Verdana,Verdana; text-decoration: none;}
+a:visited { color:#8b8b8b; font-family : Verdana,Verdana; text-decoration: none;}
+a:hover { color: #2a9861; font-family : Verdana,Verdana; text-decoration: none; }
+a:active { color: #2a9861; font-family : Verdana,Verdana; text-decoration: none;}
+
+/* 일반 링크포커스 감추기 */
+a {selector-dummy: expression(this.hideFocus=true);}
+
+/* 이미지맵 링크포커스 감추기 */
+a,img {selector-dummy: expression(this.hideFocus=true);}
+
+.loca {color: #666666; font-size: 9px;}
+
+.order_form {color: #666666; padding: 0 0 0 6px; border: 1px solid #cccccc;background-color:#f9f9f9;}
+.order_sj {color: #666666; padding: 0 0 0 15px;font-weight: bold;}
+
+.line_01 {height: 1px; background-image:url('../images/line_01.gif'); background-repeat:repeat-x;}
+
+.maintop {background:url(../images/maintop.jpg) no-repeat fixed  scroll center top};
+
+.orange {font-family:Verdana; font-size:9pt; color:#FF9900}
+.orange1 {font-family:Verdana; font-size:9pt; color:#F8931F}
+.black {font-family:Verdana; font-size:9pt; color:#000000}
+.blue {font-family:Verdana; font-size:9pt; color:#66A9D4}
+.white {font-family:Verdana; font-size:9pt; color:#FFFFFF}
+.white2 {font-family:Verdana; font-size:9pt; color:#FFFFFF; font-weight: bold;}
+.red {font-family:Verdana; font-size:9pt; color:#C93B3B}
+.green {font-family:Verdana; font-size:9pt; color:#97B525}
+.green1 {font-family:Verdana; font-size:9pt; color:#5FBCA5}
+.green2 {font-family:Verdana; font-size:9pt; color:#36A187}
+.brown {font-family:Verdana; font-size:9pt; color:#A67F5D}
+.black2 {font-family:Verdana; font-size:9pt; color:#000000; font-weight: bold;}
+.black3 {font-family:Verdana; font-size:9pt; color:#000000}
+.gray {font-family:Verdana; font-size:9pt; color:#818181}
+.ppink {font-family:Verdana; font-size:9pt; color:#903543; font-weight: bold;}
+.left_blue {font-family:Verdana; font-size:9pt; color:#0469b1; font-weight: bold;}
+.left_blue2 {font-family:Verdana; font-size:9pt; color:#318bac; font-weight: bold;}
+.left_oran {font-family:Verdana; font-size:9pt; color:#fe8d05; font-weight: bold;}
+.form_bro {font-family:Verdana; font-size:9pt; color:#e28104; font-weight: bold;}
+.form_flower {font-family:Verdana; font-size:9pt; color:#a3ac37; font-weight: bold;}
+.form_green {font-family:Verdana; font-size:9pt; color:#01a974; font-weight: bold;}
+.form_gray {font-family:Verdana; font-size:9pt; color:#777777; font-weight: bold;}
+.form_farm {font-family:Verdana; font-size:9pt; color:#658b69; font-weight: bold;}
+.left_oran {font-family:Verdana; font-size:9pt; color:#fe8d05; font-weight: bold;}
+.green_s {font-family:Verdana; font-size:8pt; color:#5FBCA5}
+.small {font-family:Verdana; font-size:8pt; color:#9A9A9A}
+.small_b {font-family:Verdana; font-size:8pt; color:#404040}
+.gray {font-family:Verdana; font-size:9pt; color:#97958D}

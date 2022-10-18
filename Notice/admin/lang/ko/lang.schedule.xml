@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">일정관리</item>
+		<item name="page_description"><![CDATA[관리자는 일정을 등록해서 사용할 수 있습니다.]]></item>
+	</title>
+
+	<alert>
+		<item name="invalid_date">기간을 올바르게 선택해 주세요.</item>
+		<item name="is_null_time">시간을 선택해 주세요.</item>
+		<item name="is_null_title">제목을 입력하세요.</item>
+		<item name="is_null_content">내용을 입력하세요.</item>
+		<item name="success_saved">등록되었습니다.</item>
+		<item name="success_updated">수정되었습니다.</item>
+		<item name="success_deleted">삭제되었습니다.</item>
+		<item name="confirm_delete">삭제하시겠습니까?</item>
+	</alert>
+
+	<contents>
+
+		<item name="list_sun">일</item>
+		<item name="list_mon">월</item>
+		<item name="list_tue">화</item>
+		<item name="list_wed">수</item>
+		<item name="list_thu">목</item>
+		<item name="list_fri">금</item>
+		<item name="list_sat">토</item>
+
+		<item name="text_prev_month">이전달</item>
+		<item name="text_next_month">다음달</item>
+		<item name="text_year">년</item>
+		<item name="text_month">월</item>
+		<item name="text_hour">시</item>
+		<item name="text_minute">분</item>
+		<item name="text_schedule_input">일정 입력</item>
+		<item name="text_date">기간</item>
+		<item name="text_title">제목</item>
+		<item name="text_content">내용</item>
+		<item name="text_repeat">종료일까지 반복등록</item>
+
+	</contents>
+
+	<options>
+	</options>
+
+</root>

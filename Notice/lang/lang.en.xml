@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<item name="cmd_prev">Prev.</item>
+	<item name="cmd_next">Next</item>
+	<item name="cmd_cancel">Cancel</item>
+	<item name="cmd_confirm">Confirm</item>
+	<item name="cmd_close">Close</item>
+	<item name="cmd_find_post">Search address</item>
+	<item name="cmd_select">Select</item>
+	<item name="cmd_exists">Reconfirm</item>
+	<item name="cmd_first_page">Fist Page</item>
+	<item name="cmd_last_page">Last Page</item>
+	<item name="cmd_prev_page">Previous Page</item>
+	<item name="cmd_next_page">Next Page</item>
+	<item name="cmd_login">Login</item>
+	<item name="cmd_logout">Logout</item>
+	<item name="cmd_sign_up">Sign up</item>
+	<item name="cmd_member_modify">Modify my profile</item>
+	<item name="cmd_delete">Delete</item>
+	<item name="cmd_modify">Modify</item>
+	<item name="cmd_message_box">Message Box</item>
+	<item name="cmd_message_send">Message Send</item>
+	<item name="cmd_send">Send</item>
+	<item name="cmd_move">Move</item>
+	<item name="cmd_keep">Keep</item>
+	<item name="cmd_mail">Send Mail</item>
+	<item name="cmd_archive">Save</item>
+	<item name="cmd_message_reply">Reply</item>
+	<item name="cmd_comment">Comment</item>
+	<item name="cmd_message">Notice</item>
+	<item name="cmd_secret">Secret</item>
+	<item name="cmd_comment_add">write</item>
+	<item name="cmd_attach_file">Attach</item>
+	<item name="cmd_comment_popup">This is...</item>
+	<item name="cmd_setup">Setting</item>
+	<item name="cmd_select_all">Select all</item>
+	<item name="cmd_manage">Admin postings</item>
+	<item name="cmd_write">Write</item>
+	<item name="cmd_list">List</item>
+	<item name="cmd_new_list">Updated list</item>
+	<item name="cmd_search">Search</item>
+	<item name="cmd_research">Re Search</item>
+	<item name="cmd_back">Back</item>
+	<item name="cmd_posts_popup">This is...</item>
+	<item name="cmd_notice">Notice</item>
+	<item name="cmd_allow_comment">Allow comment</item>
+	<item name="cmd_allow_scrap">Allow scrap</item>
+	<item name="cmd_regist">Confirm</item>
+	<item name="cmd_list_style">Bulletin type</item>
+	<item name="cmd_webzine_style">Webzine type</item>
+	<item name="cmd_gallery_style">Gallery type</item>
+	<item name="cmd_my_posts">My postings</item>
+	<item name="cmd_default_member">individual</item>
+	<item name="cmd_minor_member">student</item>
+	<item name="cmd_corporate_member">Corporate</item>
+	<item name="cmd_join_cancel">Cancel join</item>
+	<item name="cmd_next_step">Next step</item>
+	<item name="cmd_certification_number">Authorization code </item>
+	<item name="cmd_certification">Confirm</item>
+	<item name="cmd_certification_cancel">Cancel</item>
+	<item name="cmd_main_page">Main page</item>
+	<item name="cmd_user_id_save">Save ID</item>
+	<item name="cmd_secret_connect">security Access</item>
+	<item name="cmd_find_id">Find ID</item>
+	<item name="cmd_find_password">Find password</item>
+	<item name="cmd_reply">Reply</item>
+	<item name="cmd_friend_add">Add Friend</item>
+	<item name="cmd_friend_delete">Remove Friend</item>
+	<item name="cmd_group_manager">Group Management</item>
+	<item name="cmd_group_move">Group Move</item>
+
+	<item name="login">Login</item>
+	<item name="logout">Logout</item>
+	<item name="user_id">User ID</item>
+	<item name="password">Password</item>
+	<item name="user_name">User name</item>
+	<item name="email">Email</item>
+	<item name="posts">Posts</item>
+	<item name="comments">Comments</item>
+	<item name="point">Point</item>
+	<item name="title">Title</item>
+	<item name="content">Content</item>
+	<item name="date">Date</item>
+	<item name="sender">Sender</item>
+	<item name="receiver">Receiver</item>
+	<item name="send_date">Send date</item>
+	<item name="receive_date">Receive date</item>
+	<item name="option">Option</item>
+	<item name="num">No.</item>
+	<item name="category">Category</item>
+	<item name="nick_name">Nick name</item>
+	<item name="notice">Notice</item>
+	<item name="tag">Tag</item>
+	<item name="year">Year</item>
+	<item name="month">Month</item>
+	<item name="day">Day</item>
+	<item name="hour">Hour</item>
+	<item name="minute">Minute</item>
+	<item name="total_article">Postings</item>
+	<item name="total">Total</item>
+	<item name="regdate">Date</item>
+	<item name="registration_date">Date</item>
+	<item name="last_update">Last update</item>
+	<item name="comment">Comment</item>
+	<item name="readed_count">Hits</item>
+	<item name="voted_count">Like</item>
+	<item name="blamed_count">Dislike</item>
+	<item name="comment_count">Comment</item>
+	<item name="down_count">Download</item>
+	<item name="writer">Writer</item>
+	<item name="homepage">Homapage</item>
+	<item name="message">Notice</item>
+	<item name="count">Count</item>
+	<item name="ip">IP</item>
+	<item name="prev_posts">Prev. Post</item>
+	<item name="next_posts">Next Post</item>
+	<item name="select">Select</item>
+	<item name="write_option">Setting</item>
+	<item name="captcha">Signal Protected</item>
+	<item name="captcha_change">Change Image</item>
+	<item name="captcha_input">Type the letters from the image</item>
+	<item name="posts_delete">Delete</item>
+	<item name="comment_delete">Comment delete</item>
+	<item name="service_agreement">Service agreement</item>
+	<item name="personal_information">Personal information</item>
+	<item name="real_name"><![CDATA[Name <span>(Korean/English)</span>]]></item>
+	<item name="mail_authentication">Email authenticarion</item>
+	<item name="mail_address">Mail address</item>
+	<item name="verification_number">Authorization code </item>
+	<item name="agreement">Agreement</item>
+	<item name="Identification">Identification</item>
+	<item name="authentication">Member authentication</item>
+	<item name="basic_information">Required information</item>
+	<item name="signup_complete">Signup complete</item>
+	<item name="social_security_number">Identification number</item>
+	<item name="manage_profile">Manage Profile</item>
+	<item name="photo_image">Photo</item>
+	<item name="name_image">Name image</item>
+	<item name="mark_image">Mark image</item>
+	<item name="find_id">Find ID</item>
+	<item name="find_password">Find Password</item>
+	<item name="find_id_result">Check</item>
+	<item name="temporary_password">Temporary password issue</item>
+	<item name="modify_password">Change password</item>
+	<item name="current_password">Current password</item>
+	<item name="new_password">New password</item>
+	<item name="confirm_password">Confirm password</item>
+	<item name="profile">Profile</item>
+	<item name="member_group">Group</item>
+	<item name="activity_information">Activity information</item>
+	<item name="last_login">Last login</item>
+	<item name="join_date">Join date</item>
+	<item name="member_leave">Witdraw membership</item>
+	<item name="user_input">others</item>
+	<item name="message_send">Send message</item>
+	<item name="message_list">Message list</item>
+	<item name="message_receive_list">Messages</item>
+	<item name="message_send_list">Sent messages</item>
+	<item name="message_save_list">Saved messages</item>
+	<item name="friend">Friends</item>
+	<item name="scrap">Scrap</item>
+	<item name="my_document">My postings</item>
+	<item name="group">Group</item>
+	<item name="memo">Memo</item>
+	<item name="group_name">Group Name</item>
+	<item name="friend_group">Friend Group</item>
+	<item name="members">Members</item>
+
+	<item name="search_field">Search Field</item>
+	<item name="search_keyword">Search Keyword</item>
+
+	<item name="attached_file">Attached File</item>
+	<item name="attached_image">Attached Image</item>
+	<item name="secret_document">Secret Document</item>
+
+	<item name="kr_zip_messgae1">Search Korea Addr</item>
+	<item name="kr_zip_messgae2">Input Addr More</item>
+
+	<item name="confirm_posts_delete">Do you want to delete this article?</item>
+	<item name="confirm_comment_delete">Do you want to delete this comment?</item>
+	<item name="password_input">Password input</item>
+	<item name="secret_posts">Private post.</item>
+
+	<item name="msg_not_signup">Join membership service is temporarily not avaible.</item>
+	<item name="msg_not_access_page">Access denied.</item>
+	<item name="msg_session_error">Use after log in.</item>
+	<item name="msg_passwords_not_match">Your password is not available.</item>
+	<item name="msg_not_membership">Member information is not available.</item>
+	<item name="msg_same_ssn">You already joined the membership.</item>
+	<item name="msg_success_auth">Authentification has been successfully completed.</item>
+	<item name="msg_fail_ssn">Authentification failed.</item>
+	<item name="msg_impossible_ssn ">Authentification was denided.</item>
+	<item name="msg_not_message">Messages are rejected to be recieved.</item>
+	<item name="msg_invalid_request">Access this page is invalid.</item>
+	<item name="msg_not_permitted">Not permmitted to access</item>
+	<item name="msg_not_permitted_read">No permmitted to view this page.</item>
+	<item name="msg_not_founded">It has not been found.</item>
+	<item name="msg_declared_document">This posting has been reported</item>
+	<item name="msg_secret_document">Private posts are only accessable to writer and admin.</item>
+	<item name="msg_disallow_by_point">No sufficient points</item>
+	<item name="msg_not_permitted_remove">Not permmitted to delete.</item>
+	<item name="msg_not_find_file">It has not been found.</item>
+
+	<item name="option_user_input" val="">others</item>
+	<item name="option_pagelist" val="10,20,30,50">10 posts,20 posts,30 posts,50 posts</item>
+	<item name="option_category" val="">category</item>
+	<item name="option_use" val="1,0">Use, No use</item>
+	<item name="option_select" val="">select</item>
+	<item name="option_select_group" val="">select group</item>
+	<item name="option_lunar_gregorian" val="1,0">Solar Calender,Lunar Calender</item>
+	<item name="option_married" val="0,1">Single,married</item>
+
+</root>

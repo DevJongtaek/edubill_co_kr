@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">게시글 관리</item>
+	</title>
+
+	<alert>
+		<item name="select_not_board">게시판을 선택해 주세요.</item>
+		<item name="confirm_move">게시글을 이동하시겠습니까?</item>
+		<item name="success_moved">이동 되었습니다.</item>
+		<item name="confirm_delete">게시글을 삭제하시겠습니까?</item>
+		<item name="confirm_trash">게시글을 휴지통으로 이동하시겠습니까?</item>
+	</alert>
+
+	<contents>
+
+		<item name="title_board">게시판 선택</item>
+		<item name="title_category">분류 선택</item>
+		<item name="title_memo">쪽지 보내기</item>
+
+	</contents>
+
+	<options>
+		<item name="option_board_select" val="">게시판 선택</item>
+		<item name="option_category_select" val="">분류선택</item>
+		<item name="option_page_list" val="10,15,30">10개씩,15개씩,30개씩</item>
+		<item name="option_category" val="">게시판 분류</item>
+	</options>
+
+</root>

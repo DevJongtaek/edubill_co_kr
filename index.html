@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>edubill</title>  
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<style type="text/css">
+	* {margin:0; padding:0; box-sizing:border-box;}
+	ul, li {list-style:none;}
+	a {text-decoration:none;}
+	address {font-style:normal;}
+	h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+	img {border:0; vertical-align:top;}
+	table {border-collapse:collapse; border-spacing:0;}
+	body, div {padding: 0;margin: 0; }
+
+	/* 공통 */
+	#wrap {position:relative; min-width:1024px;}
+	body { font-family:'Noto Sans KR', sans-serif; font-size:14px; color:#222; letter-spacing:-0.04em; }
+
+	/* 헤더 */
+	header { background:#e1e1e1; width:100%;}
+	header > div::after { content:""; display: block; clear: both; }
+	header .top { width:100%; margin:0 auto; background:url('img/mv_bg.png')center top no-repeat; height:380px;}
+	header .logo { padding-top:25px; padding-left:25px;}
+	header .main-visual {width:1024px; margin:0 auto;}
+	header .visual {padding-top:65px;}
+	header .visual h2 {font-size:30px; font-weight:600; text-align:center; color:#fff; text-shadow:0px 0px 15px rgba(0,0,0,0.3);}
+	header .visual h5 {font-size:18px; font-weight:400; text-align:center; color:#fff; margin-top:15px; text-shadow:0px 0px 15px rgba(0,0,0,0.3);}
+	header .visual .img_txt {position:relative; width:102px; top:10px; left:650px;}
+
+	/* 아이콘 컨텐츠 */
+	.content {width:1024px; margin:0 auto; overflow:hidden; padding:38px 0;}
+	.content h4{font-size:20px; font-weight:500; text-align:center; color:#eb0000; margin-bottom:38px;}
+	.content ul {width:88%; overflow:hidden; margin:0 auto; text-align:center;}
+	.content a:link {color:#212121;}
+	.content a:visited {color:#212121;}
+	.content a:hover {color:#2c4789;}
+	.content ul li {float:left; text-align:center; width:20%;}
+	.content ul li img {display:inline-block; margin-bottom:12px;}
+	.content ul li span {display:inline-block; width:100%; font-size:18px; font-weight:500; line-height:1.2em;}
+
+	/* footer */
+	footer { border-top:1px solid #ddd; padding:38px 0;}
+	footer a { color:#212121; }
+	footer > div::after { content: ""; display: block; clear: both; }
+	footer .fot-content { width:1024px; margin:0 auto; }
+	.fot-content p { font-size:13px; color:#555; text-align:center; }
+	.fot-content img {margin-bottom:5px;}
+	</style>
+</head>
+<body>
+    <div id="wrap">
+		<header>
+			<div class="top">
+				<div class="main-visual">
+					<h1 class="logo"><a href="#"><img src="img/logo.png" alt="edubill"></a></h1>
+					<div class="visual">
+						<h2>“프랜차이즈 수·발주 통합관리 솔루션을 제공 합니다.”</h2>
+						<p class="img_txt"><img src="img/img_txt.png" alt="바드미"></p>
+						<h5>정보시스템 개발/컨설팅, 시스템통합, 시스템관리, 정보보호 등<br>IT SOLUTION을 제공 합니다.</h5>
+					</div>
+				</div>
+			</div>
+		</header>       
+        
+		<div class="content">
+			<h4>아래 해당 아이콘을 클릭해 주십시오.</h4>
+			<ul>
+				<a href="http://edubill.webiz.kr" target="_blank"><li><img src="img/icon_010.png"><span>홈페이지<br>바로가기</span></li></a>
+				<a href="http://220.73.136.50:8080/adminpage/index.asp" target="_blank"><li><img src="img/icon_020.png"><span>물류주문<br>(체인점)</span></li></a>
+				<a href="http://220.73.136.50:8080/main/main.asp" target="_blank"><li><img src="img/icon_030.png"><span>통합관리<br>(체인본사)</span></li></a>
+				<a href="http://220.73.136.46/badmi_20/badmi20/badmi20.htm" target="_blank"><li><img src="img/icon_040.png"><span>바드미<br>프로그램설치</span></li></a>
+				<a href="http://ezh.kr/edubill" target="_blank"><li><img src="img/icon_050.png"><span>원격접속<br>바로가기</span></li></a>
+			</ul>
+		</div>        
+        
+        <footer>
+            <div class="inner">              
+                <div class="fot-content">
+					<p><img src="img/logo_footer.png" alt="edubill"></p>
+                    <p>서울시 금천구 벚꽃로 254, 809-1호(가산동, 월드메르디앙1차)<br>전화번호 : 02-853-5111  |  팩스번호 : 02-853-5112  | e-메일 : edubill365@naver.com<br>Copyright ⓒ 2003-2022 Edubill. All Rights Reserved.</p>
+                </div>               
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

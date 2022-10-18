@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<item>ko</item>
+	<item>en</item>
+	<item>zh-CN</item>
+	<item>jp</item>
+	<title>한국어</title>
+	<title>English</title>
+	<title>中文(中国)</title>
+	<title>日本語</title>
+</root>

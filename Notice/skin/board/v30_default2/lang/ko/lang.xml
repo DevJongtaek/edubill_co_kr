@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<item name="write_user">작성자</item>
+	<item name="first_page">첫페이지</item>
+	<item name="prev_page">이전페이지</item>
+	<item name="next_page">다음페이지</item>
+	<item name="last_page">마지막페이지</item>
+
+</root>

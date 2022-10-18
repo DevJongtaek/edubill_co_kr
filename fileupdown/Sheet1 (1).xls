@@ -1,0 +1,786 @@
+
+
+<html>
+<head>
+<title>edubill.co.kr</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<link rel="stylesheet" href="http://edubill.co.kr/css/dog.css" type="text/css">
+<style type="text/css">
+<!--
+td.accountnum
+{mso-number-format:\@}
+-->
+</STYLE>
+</head>
+
+<body leftmargin="0" topmargin="0" onLoad="MM_preloadImages('admin/menu01_1.gif','admin/menu02_1.gif','admin/menu03_1.gif','admin/menu04_1.gif','admin/menu05_1.gif')">
+
+<table border=1>
+	<tr height=28 align=center>
+		<td>상품코드</td>
+		<td>상품명</td>
+		<td>규격</td>
+		<td>단가</td>
+		<td>구분</td>
+		<td>비고</td>
+		<td>파일생성코드</td>
+		<td>서브매뉴</td>
+		<td>상품사진명</td>
+	</tr>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>1008</td>
+		<td>이온물엿</td>
+		<td>9KG</td>
+		<td>10000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>1013</td>
+		<td>한만두</td>
+		<td>3봉/1박스</td>
+		<td>14000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>1021</td>
+		<td>핫바베큐소스</td>
+		<td>2kg(box*6ea)</td>
+		<td>9000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>1053</td>
+		<td>미림(말통)</td>
+		<td>통</td>
+		<td>59000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>1060</td>
+		<td>칡냉면(축제)</td>
+		<td>박스</td>
+		<td>32000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>1061</td>
+		<td>육수벌크(축제)</td>
+		<td>box</td>
+		<td>10000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>1062</td>
+		<td>냉면양념장(축제)</td>
+		<td>6ea/box</td>
+		<td>9000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>1064</td>
+		<td>참기름(축제)</td>
+		<td>병</td>
+		<td>10000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>1312</td>
+		<td>하이퐁</td>
+		<td>13.10kg</td>
+		<td>13500</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>1501</td>
+		<td>올리고당(5kg)</td>
+		<td>5kg</td>
+		<td>11000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>1504</td>
+		<td>생강가루</td>
+		<td>400g</td>
+		<td>6500</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>1507</td>
+		<td>부라보(애경)</td>
+		<td>통</td>
+		<td>12500</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>2003</td>
+		<td>빙초산</td>
+		<td>ea</td>
+		<td>4000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>2004</td>
+		<td>순창식초</td>
+		<td>ea</td>
+		<td>7500</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>2006</td>
+		<td>환만식초</td>
+		<td>봉</td>
+		<td>14500</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3001</td>
+		<td>김치용고추가루(수입산)</td>
+		<td>1kg</td>
+		<td>9500</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3006</td>
+		<td>깨</td>
+		<td>ea</td>
+		<td>8000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3008</td>
+		<td>뉴슈가</td>
+		<td>ea</td>
+		<td>7140</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3014</td>
+		<td>김가루</td>
+		<td>ea</td>
+		<td>12900</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3029</td>
+		<td>식용유</td>
+		<td>18L</td>
+		<td>30000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3031</td>
+		<td>오복지</td>
+		<td>봉(box*5ea)</td>
+		<td>8000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3033</td>
+		<td>맥아물엿</td>
+		<td>9kg</td>
+		<td>10000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3036</td>
+		<td>청양고추가루(수입산)</td>
+		<td>kg</td>
+		<td>10000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3046</td>
+		<td>고추맛기름(새댁표)</td>
+		<td>1.5L*8</td>
+		<td>9000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3057</td>
+		<td>고운고추가루 청양(중국산)</td>
+		<td>1kg</td>
+		<td>10000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3095</td>
+		<td>절단쭈꾸미(베트남)</td>
+		<td>1box(600g*12)</td>
+		<td>55000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3104</td>
+		<td>산고추</td>
+		<td>4kg*5ea</td>
+		<td>11000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3105</td>
+		<td>알찬고추장</td>
+		<td>14kg</td>
+		<td>33000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3106</td>
+		<td>식초(일회용)</td>
+		<td>200ea(6g)</td>
+		<td>6000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3107</td>
+		<td>겨자(일회용)</td>
+		<td>200ea(3g)</td>
+		<td>7000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3110</td>
+		<td>바르는석쇠소스</td>
+		<td>10kg</td>
+		<td>47000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>3116</td>
+		<td>올리고당(25kg)</td>
+		<td>25kg</td>
+		<td>30000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>4002</td>
+		<td>소금천일염</td>
+		<td>1포/30kg</td>
+		<td>16000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>4003</td>
+		<td>꽃소금</td>
+		<td>1포/15kg</td>
+		<td>8800</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>4004</td>
+		<td>맛소금</td>
+		<td>1봉</td>
+		<td>4300</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>4008</td>
+		<td>쇠고기다시다</td>
+		<td>2kg</td>
+		<td>20000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>4011</td>
+		<td>후리카케</td>
+		<td>.</td>
+		<td>7000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>4012</td>
+		<td>화미후추가루</td>
+		<td>봉</td>
+		<td>3200</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>4013</td>
+		<td>백설탕</td>
+		<td>1포대/15kg</td>
+		<td>18000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>5003</td>
+		<td>이바구촌쌈장</td>
+		<td>말통</td>
+		<td>21000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>5008</td>
+		<td>몽고진간장</td>
+		<td>1통</td>
+		<td>18000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>6009</td>
+		<td>락스</td>
+		<td>통</td>
+		<td>6000</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>8246</td>
+		<td>키친타올(화미)</td>
+		<td>박스</td>
+		<td>29200</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+	<tr height=22 bgcolor=#FFFFFF align=center align=center onMouseOver="this.style.background='#F7F7FF'" onMouseOut="this.style.background='#FFFFFF'">
+		<td class='accountnum'>8267</td>
+		<td>우동다시(청수,1.8L*8개)</td>
+		<td>1.8L</td>
+		<td>5500</td>
+		<td>과세</td>
+		<td></td>
+		<td class='accountnum'></td>
+
+		<td>공통상품</td>
+		<td></td>
+	</tr>
+
+</form>
+
+
+
+</table>
+
+
+
+</body>
+</html>

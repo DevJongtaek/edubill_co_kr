@@ -1,0 +1,381 @@
+
+
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<style type="text/css">
+<!--
+td.accountnum
+{mso-number-format:\@}
+-->
+</STYLE>
+<body>
+
+<table border=1>
+	<tr>
+		<td>점코드</td>
+
+		<td><font color=blue>체인점코드</td>
+		<td><font color=blue>체인점명</td>
+		<td><font color=blue>대표자</td>
+		<td><font color=blue>사업자등록번호</td>
+		<td><font color=blue>우편번호</td>
+		<td><font color=blue>주소1</td>
+		<td><font color=blue>주소2</td>
+		<td><font color=blue>업태</td>
+		<td><font color=blue>업종</td>
+		<td><font color=blue>전화번호</td>
+		<td><font color=blue>핸드폰번호</td>
+		<td><font color=blue>호차</td>
+		<td><font color=blue>파일생성코드</td>
+
+		<td>관할지사</td>
+		<td>주문여부</td>
+
+		<td>비밀번호</td>
+		<td>가상계좌은행</td>
+		<td>가상계좌번호</td>
+		<td>E-mail</td>
+        <td>가상계좌은행2</td>
+		<td>가상계좌번호2</td>
+        <td>가상계좌은행3</td>
+		<td>가상계좌번호3</td>
+        <td>가상계좌은행4</td>
+		<td>가상계좌번호4</td>
+	</tr>
+
+
+
+	<tr>
+		<td class='accountnum'>91111002</td>
+		<td class='accountnum'>1002</td>
+		<td>맵짱구로점</td>
+		<td>임지은</td>
+		<td>454-14-00112</td>
+		<td>152-846</td>
+		<td>서울특별시 구로구 구로중앙로 28 </td>
+		<td>35-5 1층(구로동)</td>
+
+		<td>음식점업</td>
+		<td>한식</td>
+		<td>02-6439-2001</td>
+		<td>010-6311-5114</td>
+		<td class='accountnum'>2</td>
+		<td class='accountnum'></td>
+		<td>본점_지사</td>
+		<td><font color=red>미수금(정지)</font></td>
+
+		<td>12</td>
+		<td></td>
+		<td class='accountnum'></td>
+		<td></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+	</tr>
+
+
+
+	<tr>
+		<td class='accountnum'>91111004</td>
+		<td class='accountnum'>1004</td>
+		<td>치칵치칵앤맵짱능곡점</td>
+		<td>구혜지</td>
+		<td>111-35-98086</td>
+		<td>429-240</td>
+		<td>경기도 시흥시 승지로60번길 28 </td>
+		<td>101,102호(능곡동)</td>
+
+		<td>음식점업</td>
+		<td>기타음식</td>
+		<td>000-0000-0000</td>
+		<td>010-5354-7867</td>
+		<td class='accountnum'>2</td>
+		<td class='accountnum'></td>
+		<td>본점_지사</td>
+		<td><font color=black>주문중</font></td>
+
+		<td>04</td>
+		<td></td>
+		<td class='accountnum'></td>
+		<td></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+	</tr>
+
+
+
+	<tr>
+		<td class='accountnum'>91111005</td>
+		<td class='accountnum'>1005</td>
+		<td>맵짱죽전점</td>
+		<td>이광길</td>
+		<td>853-74-00050</td>
+		<td>448-803</td>
+		<td>경기도 용인시 수지구 정든로 12 </td>
+		<td>101호(진미상가)</td>
+
+		<td>음식점업</td>
+		<td>분식</td>
+		<td>031-889-1253</td>
+		<td>010-4371-8988</td>
+		<td class='accountnum'>1</td>
+		<td class='accountnum'></td>
+		<td>본점_지사</td>
+		<td><font color=black>주문중</font></td>
+
+		<td>05</td>
+		<td></td>
+		<td class='accountnum'></td>
+		<td></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+	</tr>
+
+
+
+	<tr>
+		<td class='accountnum'>91111006</td>
+		<td class='accountnum'>1006</td>
+		<td>맵짱아주대점</td>
+		<td>김경미</td>
+		<td>142-41-00059</td>
+		<td>442-816</td>
+		<td>경기도 수원시 팔달구 중부대로223번길 99 </td>
+		<td>1층(우만동)</td>
+
+		<td>음식점업</td>
+		<td>분식</td>
+		<td>031-215-2253</td>
+		<td>010-3663-5716</td>
+		<td class='accountnum'>1</td>
+		<td class='accountnum'></td>
+		<td>본점_지사</td>
+		<td><font color=black>주문중</font></td>
+
+		<td>06</td>
+		<td></td>
+		<td class='accountnum'></td>
+		<td></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+	</tr>
+
+
+
+	<tr>
+		<td class='accountnum'>91111010</td>
+		<td class='accountnum'>1010</td>
+		<td>맵짱정왕점</td>
+		<td>최금순</td>
+		<td>509-09-71325</td>
+		<td>429-863</td>
+		<td>경기도 시흥시 정왕신길로229번길 24 </td>
+		<td>102호</td>
+
+		<td>음식</td>
+		<td>일반음식</td>
+		<td>031-319-3393</td>
+		<td>010-6275-4438</td>
+		<td class='accountnum'>2</td>
+		<td class='accountnum'></td>
+		<td>본점_지사</td>
+		<td><font color=black>주문중</font></td>
+
+		<td>10</td>
+		<td></td>
+		<td class='accountnum'></td>
+		<td></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+	</tr>
+
+
+
+	<tr>
+		<td class='accountnum'>91111012</td>
+		<td class='accountnum'>1012</td>
+		<td>맵짱 암사점</td>
+		<td>안현민</td>
+		<td>416-28-07105</td>
+		<td>134-858</td>
+		<td>서울특별시 강동구 고덕로 102 </td>
+		<td>1층</td>
+
+		<td>음식업</td>
+		<td>기타음식</td>
+		<td>02-442-1254</td>
+		<td>010-8246-2588</td>
+		<td class='accountnum'>1</td>
+		<td class='accountnum'></td>
+		<td>본점_지사</td>
+		<td><font color=black>주문중</font></td>
+
+		<td>12</td>
+		<td></td>
+		<td class='accountnum'></td>
+		<td>npa5711@naver.com</td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+	</tr>
+
+
+
+	<tr>
+		<td class='accountnum'>91111013</td>
+		<td class='accountnum'>1013</td>
+		<td>맵짱하남점</td>
+		<td>박수호</td>
+		<td>778-06-00221</td>
+		<td>465-030</td>
+		<td>경기도 하남시 신장동  </td>
+		<td>427-61</td>
+
+		<td>음식</td>
+		<td>일반음식</td>
+		<td>031-792-1254</td>
+		<td>010-8898-1376</td>
+		<td class='accountnum'>1</td>
+		<td class='accountnum'></td>
+		<td>본점_지사</td>
+		<td><font color=black>주문중</font></td>
+
+		<td>13</td>
+		<td></td>
+		<td class='accountnum'></td>
+		<td></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+	</tr>
+
+
+
+	<tr>
+		<td class='accountnum'>91111015</td>
+		<td class='accountnum'>1015</td>
+		<td>맵짱구리점</td>
+		<td>유준석</td>
+		<td>123-38-64241</td>
+		<td>471-816</td>
+		<td>경기도 구리시 원수택로 33 </td>
+		<td>1층 (수택동,중간)</td>
+
+		<td>음식점업</td>
+		<td>분식</td>
+		<td>031-551-0182</td>
+		<td>010-8681-5789</td>
+		<td class='accountnum'>1</td>
+		<td class='accountnum'></td>
+		<td>본점_지사</td>
+		<td><font color=black>주문중</font></td>
+
+		<td>15</td>
+		<td></td>
+		<td class='accountnum'></td>
+		<td></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+	</tr>
+
+
+
+	<tr>
+		<td class='accountnum'>91111016</td>
+		<td class='accountnum'>1016</td>
+		<td>맵짱호매실점</td>
+		<td>강현주</td>
+		<td>697-40-00095</td>
+		<td>441-884</td>
+		<td>경기도 수원시 권선구 호매실동  </td>
+		<td>395-1 1층</td>
+
+		<td>음식점업</td>
+		<td>분식</td>
+		<td>031-278-0423</td>
+		<td>010-2801-0456</td>
+		<td class='accountnum'>1</td>
+		<td class='accountnum'></td>
+		<td>본점_지사</td>
+		<td><font color=black>주문중</font></td>
+
+		<td>16</td>
+		<td></td>
+		<td class='accountnum'></td>
+		<td></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+	</tr>
+
+
+
+	<tr>
+		<td class='accountnum'>91111017</td>
+		<td class='accountnum'>1017</td>
+		<td>맵짱가산점</td>
+		<td>임지은</td>
+		<td>712-12-00203</td>
+		<td>153-010</td>
+		<td>서울특별시 금천구 독산동  </td>
+		<td>336-1 </td>
+
+		<td>음식점업</td>
+		<td>분식</td>
+		<td>02-863-1254</td>
+		<td>010-6311-5114</td>
+		<td class='accountnum'>2</td>
+		<td class='accountnum'></td>
+		<td>본점_지사</td>
+		<td><font color=red>미수금(정지)</font></td>
+
+		<td>17</td>
+		<td></td>
+		<td class='accountnum'></td>
+		<td></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+        <td></td>
+		<td class='accountnum'></td>
+	</tr>
+
+
+
+</table>
+
+</body>
+</html>

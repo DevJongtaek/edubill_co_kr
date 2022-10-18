@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">레이아웃</item>
+		<item name="page_description"><![CDATA[레이아웃은 아티보드를 이용해서 사이트 구성시 기본 디자인며, 여러개의 레이아웃을 관리할 수 있습니다.<br>아티보드에서 제공되는 게시판, 회원관리 등의 프로그램 실행시 기본 화면 페이지 구성을 손쉽게 출력하도록 합니다.]]></item>
+		<item name="page_sub_title_1">세부설정</item>
+	</title>
+
+	<alert>
+		<item name="cart_is_null">삭제할 레이아웃을 선택해 주세요.</item>
+		<item name="confirm_delete">선택된 레이아웃을 삭제하시겠습니까?</item>
+		<item name="null_title">제목을 입력해 주세요.</item>
+		<item name="success_saved">등록되었습니다.</item>
+		<item name="success_updated">수정되었습니다.</item>
+	</alert>
+
+	<contents>
+
+		<item name="list_num">번호</item>
+		<item name="list_title">레이아웃명</item>
+		<item name="list_use">사용</item>
+		<item name="list_regdate">등록일</item>
+		<item name="list_modify">수정</item>
+
+		<item name="title_subject">제목</item>
+		<item name="title_header_code">헤더 코드</item>
+		<item name="title_browser_msg">브라우저 상단 메시지</item>
+		<item name="title_align_width">정렬 및 너비</item>
+		<item name="title_margin">여백</item>
+		<item name="title_background">배경색/배경 이미지</item>
+		<item name="title_user_style">스타일 (CSS)</item>
+		<item name="title_header_file">상단(헤더) 파일</item>
+		<item name="title_header_html">상단(헤더) 태그</item>
+		<item name="title_footer_file">하단(풋터) 파일</item>
+		<item name="title_footer_html">하단(풋터) 태그</item>
+		<item name="title_layout_use">사용유무</item>
+
+		<item name="about_subject">레이아웃을 쉽게 부분할 수 있는 제목을 입력합니다.</item>
+		<item name="about_header_code">웹 문서의 head 태그 사이에 들어가는 코드를 사용자가 등록할 수 있으며, script, css, 메타태그등을 사용하실 수 있습니다.</item>
+		<item name="about_browser_msg">브라우저 상단에 표시될 제목을 입력하며, 입력정보가 없는 경우 각 프로그램의 제목 또는 기타 정보가 출력됩니다.</item>
+		<item name="about_align_width">레이아웃의 정렬 방식 및 너비정보를 입력합니다. 너비정보는 % 및 px(픽셀)로 설정 가능합니다.</item>
+		<item name="about_margin">레이아웃의 여백정보를 입력합니다. 여백의 단위는 픽셀(px) 입니다.</item>
+		<item name="about_background">레이아웃에서 사용되는 배경색 또는 배경 이미지 입니다.</item>
+		<item name="about_user_style">사용자가 스타일 (CSS)를 별도로 등록해서 사용할 수 있으며, 스타일 (CSS) 내용만 입력하세요.</item>
+		<item name="about_header_file"><![CDATA[레이아웃의 상단에서 실행되는 파일입니다. (사용자가 별도로 제작한 파일)<br>상단(헤더) 파일의 경로는 아티보드 설치 경로를 기준으로 시작되며 필요시 ../등을 사용할 수 있습니다.<br>헤더 파일(태그), 풋터 파일 (태그) 실행순서 (상단파일 -> 상단태그 -> 아티보드 프로그램 -> 하단파일 -> 하단태그)]]></item>
+		<item name="about_header_html">레이아웃 상단에 표시될 내용 (HTML 태그 사용가능, 스크립트 및 인클루드 사용불가) 입니다.</item>
+		<item name="about_footer_file"><![CDATA[레이아웃의 하단에서 실행되는 파일입니다. (사용자가 별도로 제작한 파일)<br>하단(풋터) 파일의 경로는 아티보드 설치 경로를 기준으로 시작되며 필요시 ../등을 사용할 수 있습니다.]]></item>
+		<item name="about_footer_html">레이아웃 하단에 표시될 내용 (HTML 태그 사용가능, 스크립트 및 인클루드 사용불가) 입니다.</item>
+		<item name="about_layout_use">사용하지 않음으로 설정시 현재의 레이아웃이 등록되어도 실행되지 않습니다.</item>
+
+		<item name="text_total">전체</item>
+		<item name="text_nodata">등록된 레이아웃이 없습니다.</item>
+		<item name="text_select">선택된 레이아웃</item>
+		<item name="text_top">상단</item>
+		<item name="text_right">우측</item>
+		<item name="text_bottom">하단</item>
+		<item name="text_left">좌측</item>
+		<item name="text_background">배경색 선택</item>
+		<item name="text_use_previmg">이전에 등록한 이미지 사용</item>
+
+	</contents>
+
+	<options>
+		<item name="option_page_list" val="10,15,30">10개씩,15개씩,30개씩</item>
+		<item name="option_use" val="1,0">사용중,사용안함</item>
+		<item name="option_align" val="left,center">좌측정렬,가운데정렬</item>
+		<item name="option_background" val="0,1,2">사용안함,배경색,배경이미지</item>
+		<item name="option_backimg_repeat" val="n,a,x,y">반복없음,전체반목,가로반복,세로반복</item>
+		<item name="option_layout_use" val="1,0">사용함,사용안함</item>
+	</options>
+</root>

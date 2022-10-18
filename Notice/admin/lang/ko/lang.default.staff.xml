@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">관리자 권한설정</item>
+		<item name="page_description">관리자를 등록해서 사이트에 관리되는 메뉴를 나눠서 관리할 수 있습니다.</item>
+		<item name="page_sub_title_1">세부설정</item>
+	</title>
+
+	<alert>
+		<item name="cart_is_null">삭제할 관리자를 선택해 주세요.</item>
+		<item name="confirm_delete">선택된 관리자를 삭제하시겠습니까?</item>
+		<item name="no_keyword">검색단어를 입력해 주세요.</item>
+		<item name="no_member">검색된 회원이 없습니다.</item>
+		<item name="select_member">관리자로 등록할 회원을 검색 후 선택하세요.</item>
+		<item name="select_menu">관리할 메뉴를 1개이상 선택하세요.</item>
+		<item name="success_saved">정상적으로 처리되었습니다.</item>
+	</alert>
+
+	<contents>
+
+		<item name="list_num">번호</item>
+		<item name="list_user_id">아이디</item>
+		<item name="list_user_name">이름</item>
+		<item name="list_menu_count">관리항목</item>
+		<item name="list_sign_date">최근로그인</item>
+		<item name="list_end_date">최종관리일</item>
+		<item name="list_authority">권한</item>
+		<item name="list_remove">삭제</item>
+
+		<item name="title_member_search">회원검색</item>
+		<item name="title_staff_info">관리자 정보</item>
+
+		<item name="about_member_search">이미 관리자로 등록된 회원은 검색이 되지 않으며, 관리자는 1명씩 등록할 수 있습니다.</item>
+
+		<item name="text_total">전체</item>
+		<item name="text_nodata">등록된 관리자가 없습니다.</item>
+		<item name="text_select">선택된 관리자</item>
+
+	</contents>
+
+	<options>
+		<item name="option_page_list" val="10,15,30">10개씩,15개씩,30개씩</item>
+		<item name="option_member_search" val="strLoginID,strNickName,strUserName">아이디,닉네임,이름</item>
+	</options>
+</root>

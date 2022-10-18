@@ -1,0 +1,76 @@
+﻿@charset "utf-8";
+
+/* input button */
+.btn_ok {background: url("../images/btn/ko/btn_ok.gif") no-repeat; width: 45px; height: 25px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; cursor: hand;}
+.btn_layout_add {background: url("../images/btn/ko/btn_layout_add.gif") no-repeat; width: 96px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_save {background: url("../images/btn/ko/btn_save.gif") no-repeat; width: 45px; height: 25px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer;}
+.btn_cancel {background: url("../images/btn/ko/btn_cancel.gif") no-repeat; width: 45px; height: 25px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer;}
+.btn_cancel2 {background: url("../images/btn/ko/btn_cancel2.gif") no-repeat; width: 33px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer;}
+.btn_cancel3 {background: url("../images/btn/ko/btn_cancel3.gif") no-repeat; width: 39px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer;}
+.btn_page_Add {background: url("../images/btn/ko/btn_page_add.gif") no-repeat; width: 85px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_cate_config {background: url("../images/btn/ko/btn_cafe_config.gif") no-repeat; width: 61px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_file_find {background: url("../images/btn/ko/btn_file_find.gif") no-repeat; width: 61px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_add2 {background: url("../images/btn/ko/btn_add.gif") no-repeat; width: 33px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_delete2 {background: url("../images/btn/ko/btn_delete.gif") no-repeat; width: 33px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_member_group_add {background: url("../images/btn/ko/btn_member_group_add.gif") no-repeat; width: 96px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_search {background: url("../images/btn/ko/btn_search.gif") no-repeat; width: 39px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_search2 {background: url("../images/btn/ko/btn_search2.gif") no-repeat; width: 33px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_search_detail_on {background: url("../images/btn/ko/btn_search_detail_on.gif") no-repeat; width: 66px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_search_detail_off {background: url("../images/btn/ko/btn_search_detail_off.gif") no-repeat; width: 66px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_select_delete2 {background: url("../images/btn/ko/btn_select_delete2.gif") no-repeat; width: 55px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_group_change {background: url("../images/btn/ko/btn_group_change.gif") no-repeat; width: 55px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_withdraw {background: url("../images/btn/ko/btn_withdraw.gif") no-repeat; width: 55px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_excel_down {background: url("../images/btn/ko/btn_excel_down.gif") no-repeat; width: 56px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_document_add {background: url("../images/btn/ko/btn_document_add.gif") no-repeat; width: 70px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_login {background: url("../images/btn/ko/btn_login.gif") no-repeat; width: 48px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_img_upload {background: url("../images/btn/ko/btn_img_upload.gif") no-repeat; width: 86px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_select_all {background: url("../images/btn/ko/btn_select_all.gif") no-repeat; width: 73px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_select_delete {background: url("../images/btn/ko/btn_select_delete.gif") no-repeat; width: 57px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_order_reset {background: url("../images/btn/ko/btn_order_reset.gif") no-repeat; width: 67px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_move {background: url("../images/btn/ko/btn_move.gif") no-repeat; width: 33px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_deniedid_add {background: url("../images/btn/ko/btn_deniedid_add.gif") no-repeat; width: 85px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_modify2 {background: url("../images/btn/ko/btn_modify.gif") no-repeat; width: 33px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_modify3 {background: url("../images/btn/ko/btn_modify2.gif") no-repeat; width: 45px; height: 25px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer;}
+.btn_apply {background: url("../images/btn/ko/btn_apply.gif") no-repeat; width: 33px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_level_add {background: url("../images/btn/ko/btn_level_add.gif") no-repeat; width: 73px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_point_add {background: url("../images/btn/ko/btn_point_add.gif") no-repeat; width: 71px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_point_add2 {background: url("../images/btn/ko/btn_point_add2.gif") no-repeat; width: 76px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_change {background: url("../images/btn/ko/btn_change.gif") no-repeat; width: 33px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_list {background: url("../images/btn/ko/btn_list.gif") no-repeat; width: 45px; height: 25px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer;}
+.btn_select {background: url("../images/btn/ko/btn_select.gif") no-repeat; width: 33px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_post_find {background: url("../images/btn/ko/btn_post_find.gif") no-repeat; width: 78px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_out_cancel {background: url("../images/btn/ko/btn_out_cancel.gif") no-repeat; width: 56px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_mailing_add {background: url("../images/btn/ko/btn_mailing_add.gif") no-repeat; width: 85px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_mailing_group_add {background: url("../images/btn/ko/btn_mailing_group_add.gif") no-repeat; width: 107px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_mailing_group_list {background: url("../images/btn/ko/btn_mailing_group_list.gif") no-repeat; width: 101px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_mailinfo_add {background: url("../images/btn/ko/btn_mailinfo_add.gif") no-repeat; width: 96px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_send_mailing {background: url("../images/btn/ko/btn_send_mailing.gif") no-repeat; width: 88px; height: 25px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer;}
+.btn_board_add {background: url("../images/btn/ko/btn_board_add.gif") no-repeat; width: 85px; height: 21px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+.btn_admin_add {background: url("../images/btn/ko/btn_admin_add.gif") no-repeat; width: 71px; height: 20px; text-indent:-1000em; overflow:hidden; border: 0; margin: 0; padding: 0; cursor: pointer; float:left;}
+
+/* img button */
+/*
+.btn_layer_ok {background: url("../images/btn/ko/btn_ok.gif") no-repeat; width: 45px; height: 25px;}
+.btn_layer_cancel {background: url("../images/btn/ko/btn_cancel.gif") no-repeat; width: 45px; height: 25px;}
+*/
+
+.btn_msg_ok {margin:7px 4px 0 0; background:url("../images/btn/ko/btn_ok.gif") no-repeat; width:45px; height:25px; cursor:pointer; cursor:hand; border:none;}
+.btn_msg_cancel {margin-top:7px; background:url("../images/btn/ko/btn_cancel.gif") no-repeat; width:45px; height:25px; cursor:pointer; cursor:hand; border:none;}
+
+
+.btn_modify {background: url("../images/btn/ko/btn_modify.gif") no-repeat; width: 33px; height: 20px;}
+.btn_delete {background: url("../images/btn/ko/btn_delete.gif") no-repeat; width: 33px; height: 20px;}
+.btn_add {background: url("../images/btn/ko/btn_add.gif") no-repeat; width: 33px; height: 20px;}
+.btn_view {background: url("../images/btn/ko/btn_view.gif") no-repeat; width: 33px; height: 20px;}
+.btn_send_mail {background: url("../images/btn/ko/btn_send_mail.gif") no-repeat; width: 56px; height: 20px;}
+.btn_set {background: url("../images/btn/ko/btn_set.gif") no-repeat; width: 33px; height: 20px;}
+
+
+
+
+/* button */
+
+
+
+
+

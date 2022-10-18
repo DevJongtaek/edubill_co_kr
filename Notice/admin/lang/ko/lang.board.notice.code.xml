@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title">최근 게시글 출력</item>
+		<item name="page_description">최근 게시글을 웹사이트 메인 페이지등에서 출력 및 활용을 할 수 있도록 샘플 소스를 제공합니다.</item>
+		<item name="page_sub_title_1">세부정보</item>
+	</title>
+
+	<alert>
+		<item name="is_null_disp_type">출력구분을 선택하세요.</item>
+		<item name="is_null_board">게시판을 선택하세요.</item>
+		<item name="is_null_list_count">출력개수를 입력하세요.</item>
+		<item name="is_null_design_style">디자인 스타일을 선택하세요.</item>
+	</alert>
+
+	<contents>
+
+		<item name="title_data_type">출력구분</item>
+		<item name="title_board_select">게시판 선택</item>
+		<item name="title_list_count">출력개수</item>
+		<item name="title_text_cut">글자수 제한</item>
+		<item name="title_thrum">썸네일</item>
+		<item name="title_design_style">디자인 스타일</item>
+
+		<item name="about_data_type">최신글로 출력할 항목을 선택하세요.</item>
+		<item name="about_board_select">여러개의 게시판에서 최신글 출력이 가능합니다.</item>
+		<item name="about_list_count">최신글을 출력할 개수를 지정합니다.</item>
+		<item name="about_cut_title">제목 및 내용의 길이가 입력된 값 보다 클 경우 입력된 길이 만큼만 출력합니다. (0입력시 전체 출력)</item>
+		<item name="about_thrum">이미지 출력시 썸네일의 사용유무를 선택합니다.</item>
+		<item name="about_design_style">디자인 스타일은 샘플로 제공되는 소스이며, 사용자가 수정해서 사용할 수 있습니다.</item>
+		
+		<item name="text_title">제목</item>
+		<item name="text_content">내용</item>
+
+	</contents>
+
+	<options>
+
+		<item name="option_data_type" val=",document,gallery,comment">선택하세요,게시글,갤러리,댓글</item>
+		<item name="option_thrum" val="1,0">썸네일 이미지, 일반 이미지</item>
+		<item name="option_design_style" val="">선택하세요.</item>
+
+	</options>
+
+</root>

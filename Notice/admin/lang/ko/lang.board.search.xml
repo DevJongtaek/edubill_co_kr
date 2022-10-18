@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<title>
+		<item name="page_title_board">게시글 리스트</item>
+		<item name="page_title_comment">댓글 리스트</item>
+		<item name="page_title_file">첨부파일 리스트</item>
+		<item name="page_title_declared">신고 리스트</item>
+		<item name="page_title_trash">휴지통</item>
+
+		<item name="page_description_board"><![CDATA[게시판의 등록된 게시글을 검색하거나 관리할 수 있습니다.]]></item>
+		<item name="page_description_comment"><![CDATA[게시판의 등록된 댓글을 검색하거나 관리할 수 있습니다.]]></item>
+		<item name="page_description_file"><![CDATA[게시판의 등록된 첨부파일을 검색하거나 관리할 수 있습니다.]]></item>
+		<item name="page_description_declared"><![CDATA[등록된 게시글 및 댓글을 회원이 신고한 내역입니다.]]></item>
+		<item name="page_description_trash"><![CDATA[휴지통에 담긴 게시글을 복원 또는 삭제할 수 있으며, 휴지통에 있는 게시글을 삭제시 영구적으로 삭제처리 됩니다.]]></item>
+
+	</title>
+
+	<alert>
+
+		<item name="select_not_document">게시글을 선택하세요.</item>
+		<item name="select_not_comment">댓글을 선택하세요.</item>
+		<item name="confirm_delete_comment">선택된 댓글을 삭제하시겠습니까?</item>
+		<item name="success_comment_delete">개의 댓글이 삭제되었습니다.</item>
+		<item name="select_not_file">파일을 선택하세요.</item>
+		<item name="confirm_delete_file">선택된 파일을 삭제하시겠습니까?</item>
+		<item name="confirm_cancel_board_declared">선택된 게시글의 신고내역을 취소하시겠습니까?</item>
+		<item name="confirm_cancel_comment_declared">선택된 댓글의 신고내역을 취소하시겠습니까?</item>
+		<item name="confirm_delete_completely">선택한 게시글을 완전히 삭제하시겠습니까?</item>
+		<item name="confirm_board_restore">선택한 게시글을 복원하시겠습니까?</item>
+
+	</alert>
+
+	<contents>
+
+		<item name="list_num">번호</item>
+		<item name="list_title">제목</item>
+		<item name="list_nick">닉네임</item>
+		<item name="list_read">조회</item>
+		<item name="list_vote">추천</item>
+		<item name="list_regdate">등록일</item>
+		<item name="list_ip">아이피</item>
+		<item name="list_comment">댓글</item>
+		<item name="list_board">게시판</item>
+		<item name="list_filename">첨부파일</item>
+		<item name="list_filesize">파일크기</item>
+		<item name="list_down">다운로드</item>
+		<item name="list_type">구분</item>
+		<item name="list_link">링크</item>
+		<item name="list_user">신고자</item>
+		<item name="list_trash_date">삭제일</item>
+
+		<item name="text_total">전체</item>
+		<item name="text_nodata">등록된 정보가 없습니다.</item>
+		<item name="text_select">선택된 정보</item>
+		<item name="text_board">게시글</item>
+		<item name="text_comment">댓글</item>
+
+	</contents>
+
+	<options>
+
+		<item name="option_search_field_board" val=",strTitle,strContent,strUserID,intMemberSrl,strUserName,strNickName,strEmail,strHomepage,strTag,intRead,intVote,intBlamed,intComment,strIpAddr">검색대상,제목,내용,아이디,회원번호,사용자이름,닉네임,이메일,홈페이지,태그,조회수 (이상),추천수 (이상),비추천수 (이상),댓글수 (이상),IP주소</item>
+		<item name="option_page_list" val="10,15,30">10개씩,15개씩,30개씩</item>
+		<item name="option_board" val="">전체 게시판</item>
+		<item name="option_stattype" val="1,2,3,4,5">게시글 등록수,댓글 등록수,조회수,추천수,파일다운수</item>
+		<item name="option_date" val="1,2">전체기간,선택기간</item>
+
+		<item name="option_search_field_comment" val=",strContent,strUserID,intMemberSrl,strUserName,strNickName,strEmail,strHomepage,strIpAddr">검색대상,내용,아이디,회원번호,사용자이름,닉네임,이메일,홈페이지,IP주소</item>
+
+		<item name="option_search_field_file" val=",strFilename,intSize,intDown">검색대상,파일이름,파일크기 (MB 이상),다운로드 횟수 (이상)</item>
+
+
+	</options>
+
+
+
+</root>

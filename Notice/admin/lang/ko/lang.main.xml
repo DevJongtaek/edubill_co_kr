@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+	<title>
+		<item name="page_title">관리자 메인</item>
+	</title>
+
+	<alert>
+		<item name="null_user_id">아이디를 입력하세요.</item>
+		<item name="null_password">비밀번호를 입력하세요.</item>
+		<item name="userid_not_exists">일치하는 로그인 정보가 없습니다.</item>
+		<item name="invalid_user_id">승인되지 않은 회원입니다.</item>
+		<item name="stop_user_id">로그인이 금지된 회원입니다.</item>
+		<item name="secession_user_id">탈퇴처리된 회원 입니다.</item>
+		<item name="only_admin_access">관리자만 접근이 가능합니다.</item>
+	</alert>
+
+	<contents>
+
+		<item name="title_new_posts">최근 게시글</item>
+		<item name="title_new_comments">최근 댓글</item>
+		<item name="title_declared_posts">신고 게시글</item>
+		<item name="title_declared_comments">신고 댓글</item>
+		<item name="title_schedule">스케줄 관리</item>
+		<item name="title_new_members">신규 가입회원</item>
+		<item name="title_members_stat">회원가입 현황</item>
+		<item name="title_site_stat">사이트 접속 현황</item>
+
+		<item name="text_posts">게시글</item>
+		<item name="text_comment">댓글</item>
+		<item name="text_last_connect">최종접속</item>
+		<item name="text_webarty_notice">웹아티 공지사항</item>
+		<item name="text_join">회원가입</item>
+		<item name="text_login">로그인</item>
+		<item name="text_config">환경정보</item>
+		<item name="text_version">현재 버전</item>
+		<item name="text_default_domain">기본도메인</item>
+		<item name="text_install_path">설치경로</item>
+		<item name="text_last_update">최근업데이트</item>
+		<item name="text_pds_path">자료실 경로</item>
+		<item name="text_upload_componet">업로드 컴포넌트</item>
+		<item name="text_site_state">사이트 현황</item>
+		<item name="text_state_type">현황구분</item>
+		<item name="text_yesterday">어제</item>
+		<item name="text_today">오늘</item>
+		<item name="text_total">전체</item>
+		<item name="text_no_posts">등록된 글이 없습니다.</item>
+		<item name="text_no_schedules">등록된 일정이 없습니다.</item>
+		<item name="text_no_members">등록된 회원이 없습니다.</item>
+
+	</contents>
+
+	<options>
+		<item name="option_componet" val="dext,abc,tabs">Dext Upload Pro (http://devpia.com),Abc Upload (http://websupergoo.com),Tabs Upload (http://tabslab.com)</item>
+	</options>
+
+</root>

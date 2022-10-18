@@ -1,0 +1,84 @@
+/****************************************
+* »ç¿ëÆäÀÌÁö : ½ºÅ¸ÀÏ ½ÃÆ®
+* ÀÛ¼ºÀÚ : ÃÖ ¹Ì Èñ
+* ÀÛ¼ºÀÏ : 2012.03.02
+* ÃÖÁ¾ ¼öÁ¤ÀÏ : 2012.03.02
+****************************************/
+
+@charset "euc-kr";
+* {margin:0; padding: 0;}
+* html {height:1px;}
+html {margin:0px; padding:0px; height:100%;	width:100%;}
+body {margin:0px; padding:0px; overflow-x:hidden;}
+div, ul, li, dl, dt, dd, ol, p, h1, h2, h3, h4, h5, h6, form, {margin:0px; padding:0px; overflow-x:hidden; }
+ul,ol,li{list-style:none; margin:0px;}
+img {border:none; vertical-align:top;}
+div {width:100%; margin:0px auto;}
+table {border:0;margin:0 auto;}
+th	{font-family:µ¸¿ò; font-size:10pt; color:#000000; font-weight:bold; line-height:25px;}
+td {font-family:µ¸¿ò; font-size:9pt; color:#000000;line-height:18px;}
+
+/*Link*/
+a:link  {color:333333; text-decoration:none}
+a:active  {color:333333; text-decoration:none}
+a:visited  {color:333333; text-decoration:none}
+a:hover  {color:9e0b0f; text-decoration:none}
+
+/* ·¹ÀÌ¾Æ¿ô */
+#warp		{width:100%; margin:0;}
+
+.noborder_input {border:none;}
+.input_default {border:1px solid #dddddd;padding:2px;}
+
+/* ÀÏ¹ÝÆùÆ® */
+.black11	{font-family:µ¸¿ò; font-size:11px; color:#000000; line-height:14px; letter-spacing:-1px;}
+.black11B	{font-family:µ¸¿ò; font-size:11px; color:#000000; font-weight:bold; line-height:14px; letter-spacing:-1px;}
+.black12	{font-family:µ¸¿ò; font-size:12px; color:#000000; line-height:16px; letter-spacing:-1px;}
+.black12B	{font-family:µ¸¿ò; font-size:12px; color:#000000; font-weight:bold; line-height:14px; letter-spacing:-1px;}
+.black14B	{font-family:µ¸¿ò; font-size:14px; color:#000000; font-weight:bold; line-height:16px; letter-spacing:-1px;}
+.black20B	{font-family:µ¸¿ò; font-size:20px; color:#000000; font-weight:bold; line-height:26px; letter-spacing:-1px;}
+
+.dgray12	{font-family:µ¸¿ò; font-size:12px; color:#444444; line-height:14px; letter-spacing:-1px;}
+.dgray12B	{font-family:µ¸¿ò; font-size:12px; color:#444444; font-weight:bold; line-height:14px; letter-spacing:-1px;}
+
+.gray9		{font-family:µ¸¿ò; font-size:9px; color:#888888; line-height:10px;}
+.gray11		{font-family:µ¸¿ò; font-size:11px; color:#888888; line-height:14px; letter-spacing:-1px;}
+.gray11B	{font-family:µ¸¿ò; font-size:11px; color:#888888; font-weight:bold; line-height:14px; letter-spacing:-1px;}
+.gray12		{font-family:µ¸¿ò; font-size:12px; color:#888888; line-height:14px; letter-spacing:-1px;}
+.gray12B	{font-family:µ¸¿ò; font-size:12px; color:#888888; font-weight:bold; line-height:14px; letter-spacing:-1px;}
+.gray14		{font-family:µ¸¿ò; font-size:14px; color:#888888; line-height:18px; letter-spacing:-1px;}
+.gray14B	{font-family:µ¸¿ò; font-size:14px; color:#888888; font-weight:bold; line-height:18px; letter-spacing:-1px;}
+
+.mainmenu	{font-family:µ¸¿ò; font-size:12px; color:#888888;  line-height:14px; letter-spacing:-1px;}
+.mainmenu a:link {font-family:µ¸¿ò; font-size:12px; color:#888888; line-height:14px; letter-spacing:-1px;}
+.mainmenu a:active {font-family:µ¸¿ò; font-size:12px; color:#888888; line-height:14px; letter-spacing:-1px;}
+.mainmenu a:visited {font-family:µ¸¿ò; font-size:12px; color:#888888; line-height:14px; letter-spacing:-1px;}
+.mainmenu a:hover {font-family:µ¸¿ò; font-size:12px; color:#003c7a; line-height:14px; letter-spacing:-1px;}
+
+
+.wgray11		{font-family:µ¸¿ò; font-size:11px; color:#aaaaaa; line-height:14px; letter-spacing:-1px;}
+.wgray11B	{font-family:µ¸¿ò; font-size:11px; color:#aaaaaa; font-weight:bold; line-height:14px; letter-spacing:-1px;}
+.wgray12		{font-family:µ¸¿ò; font-size:12px; color:#aaaaaa; line-height:14px; letter-spacing:-1px;}
+.wgray12B	{font-family:µ¸¿ò; font-size:12px; color:#aaaaaa; font-weight:bold; line-height:14px; letter-spacing:-1px;}
+
+
+.white9		{font-family:µ¸¿ò; font-size:9px; color:#ffffff; line-height:10px; letter-spacing:-1px;}
+.white11	{font-family:µ¸¿ò; font-size:11px; color:#ffffff; line-height:16px; letter-spacing:-1px;}
+.white12	{font-family:µ¸¿ò; font-size:12px; color:#ffffff; line-height:16px; letter-spacing:-1px;}
+.white12B	{font-family:µ¸¿ò; font-size:12px; color:#ffffff; font-weight:bold; line-height:16px; letter-spacing:-1px;}
+.white14B	{font-family:µ¸¿ò; font-size:14px; color:#ffffff; font-weight:bold; line-height:18px; letter-spacing:-1px;}
+.white20B	{font-family:µ¸¿ò; font-size:20px; color:#ffffff; font-weight:bold; line-height:26px;}
+
+.wine12		{font-family:µ¸¿ò; font-size:12px; color:#7d0000; line-height:14px; letter-spacing:-1px;}
+.wine12B	{font-family:µ¸¿ò; font-size:12px; color:#7d0000; font-weight:bold; line-height:14px;}
+.wine14B	{font-family:µ¸¿ò; font-size:14px; color:#7d0000; font-weight:bold; line-height:16px;}
+
+.red12		{font-family:µ¸¿ò; font-size:12px; color:red; line-height:14px; letter-spacing:-1px;}; letter-spacing:-1px;}
+.red12B		{font-family:µ¸¿ò; font-size:12px; color:red; font-weight:bold;  line-height:14px; letter-spacing:-1px;}
+.red14B		{font-family:µ¸¿ò; font-size:14px; color:red; font-weight:bold;  line-height:16px; letter-spacing:-1px;}
+
+.navy12B	{font-family:µ¸¿ò; font-size:12px; color:navy; font-weight:bold;  line-height:24px; letter-spacing:-1px;}
+.navy16B	{font-family:µ¸¿ò; font-size:16px; color:navy; font-weight:bold;  line-height:22px; letter-spacing:-1px;}
+
+.pink12B	{font-family:µ¸¿ò; font-size:12px; color:#ed1491; font-weight:bold;  line-height:14px;}
+.brown12B	{font-family:µ¸¿ò; font-size:12px; color:#993300; font-weight:bold;  line-height:14px;}

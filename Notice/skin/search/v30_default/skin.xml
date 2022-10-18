@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<skin>
+	<title lang="ko">전체검색 기본스킨</title>
+	<languages>
+		<title lang="ko" path="ko">한국어</title>
+	</languages>
+	<maker email="manager@openkr.com" link="http://www.webarty.com" date="2009. 9. 8">
+		<name lang="ko">(주)오픈코리아</name>
+	</maker>
+	<colors>
+		<color name="white" src="screenshot/white.gif">
+			<title lang="ko">기본</title>
+		</color>
+	</colors>
+</skin>

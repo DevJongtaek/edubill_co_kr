@@ -1,0 +1,56 @@
+﻿@charset "utf-8";
+
+html {overflow: scroll;	overflow-x: auto; margin: 0 auto; height:100%;}
+body {margin:0;padding:0; color:#606060; font-family:돋움,굴림; font-size: 12px; background-color:#dde0e5; line-height: 1.2;}
+img {border:0;}
+p {margin:0;}
+label {cursor:pointer;}
+
+a, a:link {
+	color: #777777;
+	text-decoration:none;
+} 
+a:visited {
+	color: #777777;
+	text-decoration:none;
+}
+a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+a:active {
+	color:#f00;
+	text-decoration:none;
+} 
+
+.wrap {background:url('../images/main_bg.jpg') repeat-x;}
+.logo {float: left; margin: 0; padding-left:20px;}
+.content_wrap {width:838px; margin:0 auto; padding-top:100px;}
+.content {background:url('../images/install_bg.jpg') no-repeat; padding:16px 15px 0 15px; height:626px; width:808px;}
+
+.content h2 {margin: 0;}
+.content h3 {margin: 0; padding:15px;}
+.content .text {width:735px; height:360px; color: #7d7d7d; font-size: 12px; padding:20px; margin-left:15px; border:1px #dfdfdf solid; overflow-y:scroll;}
+.content .text .strong {font-weight:bold; font-size:1.1em;}
+.content .text .red {color:red; font-weight:bold;}
+.content .text .content_img {text-align:center; padding-top:80px;}
+
+.table_db {border-collapse: collapse; border-top:1px #dedede solid; width:100%;}
+.table_db th {background-color:#eeeeee; color:#505267; padding: 6px 15px; border-right:1px #dedede solid; border-bottom:1px #dedede solid; text-align:left;}
+.table_db td {padding: 6px 15px; border-bottom:1px #dedede solid;}
+.table_db .input_text {width:180px; border:1px #d2d2d2 solid;}
+.table_db .input_radio {vertical-align:-1px; padding-right:5px;}
+.table_db .ex {font-size:0.9em; color:#999; font-weight:normal; padding-left:5px;}
+.table_db p {padding-top:5px;}
+.table_db select {font-size:12px;}
+
+.btn_wrap {padding-top:20px;}
+.btn_wrap ul {margin:0 auto; width:120px; padding:0;}
+.btn_wrap ul li {list-style:none; padding-left:8px; float:left;}
+.btn_install {float:left; text-indent:-1000em; background:url('../images/btn_install.jpg') no-repeat; width:116px; height:56px;}
+.btn_cancel {float:left; text-indent:-1000em; background:url('../images/btn_cancel.jpg') no-repeat; width:116px; height:56px;}
+.btn_admin {float:left; text-indent:-1000em; background:url('../images/btn_admin.jpg') no-repeat; width:176px; height:56px;}
+.btn_next {float:left; text-indent:-1000em; background:url('../images/btn_next.jpg') no-repeat; width:116px; height:56px;}
+.btn_license {float:left; text-indent:-1000em; background:url('../images/btn_license.jpg') no-repeat; width:219px; height:56px;}
+
+.copyright {text-align:right;}
